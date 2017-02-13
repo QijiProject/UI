@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+	<title>新葡京官网,新葡京线上娱乐-老品牌值得信赖!欢迎您的光临！</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/css.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/help.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.marquee.min.js"></script>
+	
+	<script>
+		$(function(){
+			$('.marquee').marquee({
+				duration: 10000,
+				pauseOnHover: true
+			});
+			
+			$(".float-box").click(function () {
+			    $(this).toggleClass("active");
+			});
+
+			colorful(); // calling color switching function
+		});
+		
+		/* top nav red-yellow color switching */
+		var i = 0;
+		function getColor() {
+		    i++;
+		    switch (i) {
+		        case 1: return "red";
+		        case 2: return "#FF0";
+
+		        default: return "black";
+		    }
+		}
+		function colorful() {
+		    var o = document.getElementById('textGlitter')
+		    o.style.color = getColor();
+		    if (i == 2) i = 0;
+		    setTimeout('colorful()', 300);
+		}
+        /* END: top nav red-yellow color switching */
+	</script>
+</head>
+
+<body>
+	<!-- right floating customer services -->
+    <div id="sideChatRight" class="float-box float-box-right">
+        <img src="images/online_services.png" alt="Online services" title="Online services" />
+    </div>
+	<!-- right floating customer services -->
+
+	<!-- header -->
+	<div class="header">
+		<div class="header-content">
+            <div class="logo pr fl">
+                <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="107" width="580">
+                    <param value="images/header_logo.swf" name="movie" />
+                    <param value="transparent" name="wmode" />
+                    <param value="high" name="quality" />
+                    <embed play="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="images/header_logo.swf" height="107" width="580" />
+                </object>
+                <a href="index.html" title="" class="home-link"></a>
+            </div>
+				
+			<!-- top right menu -->
+			<div class="top-header fr">
+				<div class="top-menu pr">
+					<a href="register.html">立即开户</a>
+					&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="agency.html">代理加盟</a>
+					&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="http://ag.xpj3399.cc/" target="_blank">代理登入</a>
+					&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="#">设为首页</a>
+					&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="#">加入收藏</a>
+				</div>
+
+                <div class="login-wrap m-t-20">
+                    <!-- 登陆前 -->
+                    <div class="login-menu">
+                        <input type="text" id="uid" name="uid" placeholder="会员账号" />
+                        <input type="password" id="jpwd" name="jpwd" placeholder="密码" />
+                        <a href="javascript:void(0);" id="gologin" class="log-btn">登录</a>
+                        <a href="#" class="reg-btn">注册</a>
+                        <a href="#" class="forgot-password" title="忘记密码？">忘记密码？</a>
+                    </div>
+                    <!-- END: 登陆前 -->                            
+                    <!-- 登陆后 -->
+                    <div class="logined-nav hide">
+                        <span class="username">欢迎！</span>
+                        <a href="#" class="message">未读消息（<em id="_umessage" class="cMain">0</em>）</a>
+                        <br />
+                        <a href="#" class="user-center">账户中心<i></i></a>
+                        <span>账户余额：<em class="cMain">0.00</em></span>
+                        <span class="money-operate">
+                            <a href="/wallet/transfer" class="transfer-href">转账</a>
+                            <a href="/wallet/deposit" class="deposit-href">存款</a>
+                            <a href="/wallet/withdraw" class="withdraw-href">取款</a>
+                        </span>
+                        <a class="logged-out" href="/home/logout">安全退出</a>
+                    </div>
+                    <!-- END: 登陆后 -->
+                </div>
+			</div>
+			<!-- end: top right menu -->
+            <div class="clear"></div>
+		</div>
+
+		<!-- main menu -->
+		<ul class="nav" id="menu">
+			<li class="cur selected"><div class="card-sign bloom-sign"></div><a href="index.html">首页</a></li>
+			<li><div class="card-sign heart-sign"></div><a href="sports-news.html">体育赛事</a></li>
+			<li><div class="card-sign spade-sign"></div><a href="chat-online.html">真人视讯</a></li>
+			<li><div class="card-sign diamond-sign"></div><a href="sports-games.html">电子游艺</a></li>
+			<li><div class="card-sign bloom-sign"></div><a href="lotto.html">彩票游戏</a></li>
+			<li class="top-nav-6"><div class="card-sign spade-sign"></div><a href="promotion.html">优惠活动</a></li>
+			<li class="top-nav-7"><div class="card-sign diamond-sign"></div><a id="textGlitter" href="http://vip.xpj1188.cc/" target="_blank">神秘彩金</a></li>
+			<li>
+				<div class="card-sign diamond-sign"></div>
+				<a href="#" onclick="$('.mod-mobile-popup').show();">手机下注</a>
+				<div class="mod-mobile-popup">
+					<div class="popup-bg"></div>
+					<div class="popup-wrapper">
+						<div class="popup">
+							<div class="popup-title">
+								WAP手机版隆重上线-手机APP版近期上线！
+							</div>
+							<div class="popup-content">
+								<img src="images/android_download.png" />
+								<br /><br />
+								<img src="images/qr_code.png" width="137" height="126" />
+								<span class="qr-desc">安卓版/IOS 扫码下载</span>
+								<div class="mlink-box m-t-20">
+									手机触屏版全新上线<br />http://m.3399.cc/
+								</div>
+							</div>
+							<div class="popup-close" onclick="$('.mod-mobile-popup').hide();">
+								<input type="button" value="X" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<!-- end: main menu -->
+	</div>
+	<!-- end: header -->
+	
+	<!-- header banner -->
+	<div class="header-banner"></div>
+	<!-- end: header banner -->
+	
+	<!-- notification -->
+    <div class="notification">
+        <div class="notification-holder">
+            <img src="images/volume_icon.jpg" class="p-r-5" />
+            <span class="p-r-10">最新公告</span>
+
+            <div class="marquee">
+                温馨提示：晋级彩金、月好运金、已全部派送完成请查收，下期好运金2017年03月2号派送、晋级礼金03月4号派送，请广大会员留意查看，如有疑问请联系24小时在线客服咨询 感谢您对新葡京娱乐城的支持与陪伴！祝您游戏愉快，谢谢！        温馨提示：尊敬的会员您好！美东时间2017年02月03 日返水优惠额度已发放至您的会员账号，请注意额度变化，祝您游戏愉快，盈利多多！【新葡京娱乐城】官方网址：www.pj3399.com 敬上！公司入款不定期更换请注意核对新账号！
+            </div>
+                
+            <a href="register.html"><img src="images/register_gift.jpg" /></a>
+        </div>
+    </div>
+    <!-- end: notifcation -->
+	
+	<!-- content area -->
+	<div class="content-area">
+		<div class="cen-content">
+			<div class="ctable multi-col">
+				<div class="ccell cname p-r-40">
+					<!-- side menu -->
+					<div class="side-menu">
+						<img src="images/side_menu_top.png" />
+						<a href="about.html">关于我们</a>
+						<a href="contact.html">联系我们</a>
+						<a href="deposit.html">存款帮助</a>
+						<a href="withdrawal.html">取款帮助</a>
+						<a href="faq.html">常见问题</a>
+						<a href="privacy-policy.html">隐私政策</a>
+						<a href="terms-and-conditions.html">博彩责任</a>
+						<a href="agency.html">代理合作</a>
+						<img src="images/side_menu_bottom.png" />
+					</div>
+					<!-- end: side menu -->
+				</div>
+				<div class="ccell ccontent">
+					<p class="white-title">常见问题</p>
+					<div class="ctable info-table">
+						<div class="crow">
+							<div class="ccell">Q1: 如何加入新葡京娱乐场？</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">A1: 您可以直接点选 "立即加入"，确实填写数据后，可立即登记成为新葡京娱乐场会员。</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">Q2: 我可以直接在网络上存款吗？</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">A2: 可以，新葡京娱乐场提供多种在线存款选择，详情请参照 "存款须知"。</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">Q3: 我在那里可以找到游戏的规则？</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">A3: 在未登入前，您可以在游戏的最外层看到"游戏规则"选项,清楚告诉您游戏的玩法、规则及派彩方式.在游戏窗口中,也有"规则"选项,让您在享受游戏乐趣的同时,可以弹跳窗口随时提醒您游戏规则。 </div>
+						</div>
+						<div class="crow">
+							<div class="ccell">Q4: 我可以只试玩而不下注吗？</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">A4: 我们诚挚邀请您免费注册会员帐号，登陆后即可浏览所有游戏！</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">Q5: 你们的游戏会用多少副牌？</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">A5: 在百家乐我们会用8副牌，其他游戏则会根据其性质有所调整。</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">Q6: 您们何时会洗牌?</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">A6: 所有纸牌游戏，当红的洗牌记号出现或游戏因线路问题中断时便会进行重新洗牌。</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">Q7: 我的注码的限制是多少？</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">A7: 从最低注单 10(视讯)~100(球类) 元人民币以上即可投注， 您的注码会根据您的存款有所不同，以及您挑选的游戏不同而有所区别。</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">Q8: 如果忘记密码怎么办？</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">A8: 你可点击首页忘记密码功能，填写你当初留下的邮箱，即可取回你当初设定的密码。当你无法收取邮件时，你也可以联系24小时在线客服人员咨询协助取回你的账号密码。</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">Q9: 当你注册时出现，姓名已注册。</div>
+						</div>
+						<div class="crow">
+							<div class="ccell">A9: 你可透过24小时在线客服人员协助处理。</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end: content area -->
+	
+	<!-- footer -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="services-wrapper">
+                <div class="services-details">
+                    <span class="title">产品服务</span>
+                    <span>全球最好 最丰富的在线博彩项目</span>
+                </div>
+                <div class="services-details">
+                    <span class="title">银行服务</span>
+                    <span>24小时在线存取款 5分钟到帐</span>
+                </div>
+                <div class="services-details">
+                    <span class="title">荣誉保证</span>
+                    <span>政府颁发营业执照 信誉有保障</span>
+                </div>
+                <div class="services-details">
+                    <span class="title">客服团队</span>
+                    <span>7x24小时全程贴心服务</span>
+                </div>
+            </div>
+
+            <div class="footer-menu m-t-30">
+                <a href="about.html">关于我们</a><span>|</span>
+                <a href="withdrawal.html">取款帮助</a><span>|</span>
+                <a href="deposit.html">存款帮助</a><span>|</span>
+                <a href="contact.html">联系我们</a><span>|</span>
+                <a href="agency.html">代理加盟</a><span>|</span>
+                <a href="faq.html">帮助中心</a><span>|</span>
+                <a href="http://www.3399.cc/" target="_blank">线路检测</a>
+            </div>
+        </div>
+    </div>
+	<!-- end: footer -->
+	
+	<!-- credentials -->
+	<div class="credentials">
+		<span>版权所有 &copy; 新葡京娱乐城 Reserved</span>
+	</div>
+	<!-- end: credentials -->
+</body>
+</html>
+

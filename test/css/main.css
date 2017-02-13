@@ -1,0 +1,107 @@
+/* CSS Document */
+body{background:#282828; font-family:"微软雅黑"; }
+a{color:#fff;}
+a:hover,a:active{color:#fff;}
+
+/* common */
+.ctable { display:table; width:100%; }
+.crow { display:table-row; }
+.ccell { display:table-cell; vertical-align:top; }
+.ctable.multi-col .cname { white-space:nowrap; width:auto; }
+.ctable.multi-col .ccontent { width:100%; }
+.align-middle { vertical-align:middle; }
+.p-l-10 { padding-left:10px; }
+.p-r-5 { padding-right:5px; }
+.p-r-10 { padding-right:10px; }
+.p-r-40 { padding-right:40px; }
+.p-lr-10 { padding-left:10px; padding-right:10px; }
+.para-indent { text-indent:24px; }
+ol.with-list { list-style-type:decimal; margin-left:16px; line-height:29px; text-align:justify; }
+ol.with-list.la { list-style-type:lower-alpha; }
+ol.with-list > li { list-style-type:inherit; padding-left:1px; }
+.required { color:#f00; font-size:8pt; }
+/* end common */
+
+.top-menu { font-family:"微软雅黑"; }
+.header-content, .nav, .games-details, .footer-content, .credentials, .cen-content { width:1066px; margin:0 auto; }
+
+/* header */
+.header { box-sizing:border-box; background-image:url('../images/header_spirits.png'); height: 172px; background-repeat: no-repeat; }
+.header .top-header { width:420px; }
+.header .top-menu { background-image:url('../images/language_icon.png'); background-repeat: no-repeat; background-position:365px 2px; color:#fff; text-align:right; padding-right:65px; }
+.header .header-content { padding: 8px 0; width:1066px; }
+.header .home-link { position:absolute; top:0; left:0; width:100%; height:107px; }
+
+.login-wrap { text-align:right; }
+.login-wrap input[type="text"], .login-wrap input[type="password"] { border: 1px solid #575757; color: #bebebe; background: transparent; font-size: 9pt; box-sizing: border-box; padding: 0px 6px; height: auto; width:101px; }
+.login-wrap .log-btn, .login-wrap .reg-btn { background-image:url('../images/pink_button_bg.jpg'); color:#fff; border:none; padding: 3px 9px; cursor:pointer; }
+.login-wrap a, .login-wrap span { color:#bebebe; font-family:"微软雅黑"; }
+.login-wrap > .logined-nav > a, .login-wrap > .logined-nav > span { padding-right:5px; }
+
+.card-sign { width:14px; height:14px; position:absolute; left:12px; top:10px; }
+.card-sign.diamond-sign { background-image:url('../images/nav_bj_4.png'); }
+.card-sign.bloom-sign { background-image:url('../images/nav_bj_1.png'); }
+.card-sign.heart-sign { background-image:url('../images/nav_bj_2.png'); }
+.card-sign.spade-sign { background-image:url('../images/nav_bj_3.png'); }
+
+.header .nav { padding:7px 0; min-width:1066px; }
+.header .nav li { display:inline-block; margin-right:3px; position:relative; width: 126px; cursor:pointer; }
+.header .nav li:hover, .nav li.selected { background-image:url('../images/nav_bj.png'); }
+.header .nav li.top-nav-6 > a { color:#FF56B2; }
+/*.header .nav li.top-nav-7 > a { color:#FF56B2; -webkit-animation: demo 600ms infinite ease-in-out; -moz-animation: demo 600ms infinite ease-in-out; -o-animation: demo 600ms infinite ease-in-out; animation: demo 600ms infinite ease-in-out; }*/
+.header .nav li a { font-weight:bold; font-size:11pt; display:block; width:100%; padding: 5px 15px 5px 36px; box-sizing:border-box; }
+
+@-webkit-keyframes demo {
+    0% {
+        color: Yellow;
+    }
+    50% {
+        color: Red;
+    }
+    100% {
+        color: Yellow;
+    }
+}
+/* end header */
+
+/* notice section */
+.notification { border-bottom:2px solid #AA809E; color:#fff; }
+.notification .notification-holder { max-width:992px; margin:0 auto; box-sizing: border-box; }
+.notification .notification-holder > span { float:left; display:inline-block; margin-top:11px; font-weight:bold; }
+.notification .notification-holder > img { float:left; margin-top:13px; } 
+.notification .marquee { float:left; width:772px; overflow:hidden; margin-top:11px; }
+/* end notice section */
+
+/* home animated SWF banner */
+/* end home animated SWF banner */
+
+/* footer */
+.footer { background-color:#131313; color:#fff; }
+.footer .services-wrapper { text-align:center; }
+.footer .services-wrapper > div { color:#fff; display:inline-block; background-image:url('../images/footer_sprite.png'); width:242px; height:63px; padding:5px 10px 5px 53px; box-sizing: border-box; }
+.footer .services-wrapper > div:nth-of-type(2) { background-position: 0 -74px; }
+.footer .services-wrapper > div:nth-of-type(3) { background-position: 0 -147px; }
+.footer .services-wrapper > div:nth-of-type(4) { background-position: 0 -221px; }
+.footer .services-wrapper > div:not(:last-of-type) { margin-right:10px; }
+.footer .services-wrapper span { font-size:9pt; text-align:left; display:block; }
+.footer .services-wrapper span.title { font-size:12pt; margin-bottom:3px; font-weight:bold; }
+.footer .footer-content { padding:20px 25px; }
+.footer .footer-menu { padding:0 30px; }
+.footer .footer-menu { display:inline-block; color:#9b9b9b; }
+.footer .footer-menu a { padding: 0 6px 0 3px; color:#9b9b9b; }
+/* end footer */
+
+/* credential */
+.credentials { text-align:center; color:#9b9b9b; font-size:9pt; padding:20px; }
+/* end credential */
+
+/* right floating customer services */
+.float-box { position: fixed; top: 30%; z-index:1000; }
+.float-box.float-box-right { right: -122px; }
+.float-box.float-box-right.active { right:0; }
+/* end: right floating customer services */
+
+/* header banner */
+.header-banner { background: url(../images/header_banner.png) center no-repeat; height:213px; }
+/* end: header banner */
+

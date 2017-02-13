@@ -1,0 +1,7 @@
+/* CSS Document */
+
+/* agency menu */
+ul.agency-menu > li { background-color:#1c1c1c; float:left; padding:6px 43px; }
+ul.agency-menu > li.selected { background-image:url('../images/agency_menu_selected.jpg'); }
+ul.agency-menu > li a { color:#fff; font-size:10.5pt;font-weight:bold; }
+/* end: agency menu */
