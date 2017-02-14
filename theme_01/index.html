@@ -6,6 +6,7 @@
 	<title>新葡京官网,新葡京线上娱乐-老品牌值得信赖!欢迎您的光临！</title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="css/base.css" />
 	<link rel="stylesheet" type="text/css" href="css/css.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
@@ -25,6 +26,13 @@
 			});
 
 			colorful(); // calling color switching function
+
+		    /* resize flash */
+			$(window).resize(function () {
+			    updateFlashSize();
+			});
+			updateFlashSize()
+		    /* END: resize flash */
 		});
 
 		/* top nav red-yellow color switching */
@@ -39,12 +47,31 @@
 		    }
 		}
 		function colorful() {
-		    var o = document.getElementById('textGlitter')
-		    o.style.color = getColor();
+		    $(".color-switch").css("color", getColor());
 		    if (i == 2) i = 0;
 		    setTimeout('colorful()', 300);
 		}
         /* END: top nav red-yellow color switching */
+
+        /* resize flash */
+		function updateFlashSize() {
+		    if ($(window).width() < 1050) {
+		        $(".home-banner object").css("height", "350px");
+		    }
+		    else if ($(window).width() < 1200) {
+		        $(".home-banner object").css("height", "400px");
+		    }
+		    else if ($(window).width() < 1300) {
+		        $(".home-banner object").css("height", "450px");
+		    }
+		    else if ($(window).width() < 1425) {
+		        $(".home-banner object").css("height", "500px");
+		    }
+		    else {
+		        $(".home-banner object").css("height", "550px");
+		    }
+		}
+        /* END: resize flash */
 	</script>
 </head>
 
@@ -57,13 +84,21 @@
 
 	<!-- header -->
 	<div class="header">
-		<div class="header-content">
+		<div class="header-content clearfix">
             <div class="logo pr fl">
-                <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="107" width="580">
-                    <param value="images/header_logo.swf" name="movie" />
-                    <param value="transparent" name="wmode" />
-                    <param value="high" name="quality" />
-                    <embed play="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="images/header_logo.swf" height="107" width="580" />
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="580" height="107" onmousedown="location.href='index.html'">
+                    <param name="movie" value="images/header_logo.swf" />
+                    <param name="wmode" value="transparent" />
+                    <!--[if !IE]>-->
+                    <object type="application/x-shockwave-flash" data="images/header_logo.swf" width="580" height="107">
+                        <param name="wmode" value="transparent" />
+                        <!--<![endif]-->
+                        <a href="http://www.adobe.com/go/getflashplayer">
+                            <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                        </a>
+                        <!--[if !IE]>-->
+                    </object>
+                    <!--<![endif]-->
                 </object>
                 <a href="index.html" title="" class="home-link"></a>
             </div>
@@ -85,9 +120,9 @@
                 <div class="login-wrap m-t-20">
                     <!-- 登陆前 -->
                     <div class="login-menu">
-                        <input type="text" id="uid" name="uid" placeholder="会员账号" />
+                        <input type="text" id="uid" name="uid" placeholder="账号" />
                         <input type="password" id="jpwd" name="jpwd" placeholder="密码" />
-                        <a href="javascript:void(0);" id="gologin" class="log-btn">登录</a>
+                        <a href="javascript:void(0);" id="gologin" class="log-btn" onclick="$(this).attr('class', 'log-btn-disabled');">登录</a>
                         <a href="#" class="reg-btn">注册</a>
                         <a href="#" class="forgot-password" title="忘记密码？">忘记密码？</a>
                     </div>
@@ -96,35 +131,35 @@
                     <div class="logined-nav hide">
                         <span class="username">欢迎！</span>
                         <a href="#" class="message">未读消息（<em id="_umessage" class="cMain">0</em>）</a>
-                        <br />
-                        <a href="#" class="user-center">账户中心<i></i></a>
                         <span>账户余额：<em class="cMain">0.00</em></span>
-                        <span class="money-operate">
-                            <a href="/wallet/transfer" class="transfer-href">转账</a>
-                            <a href="/wallet/deposit" class="deposit-href">存款</a>
-                            <a href="/wallet/withdraw" class="withdraw-href">取款</a>
-                        </span>
-                        <a class="logged-out" href="/home/logout">安全退出</a>
+
+                        <div class="account-centre">
+                            <a href="#" class="user-center m-l-10">账户中心<i></i></a>|
+                            <span class="money-operate">
+                                <a href="/wallet/transfer" class="transfer-href">转账</a>|
+                                <a href="/wallet/deposit" class="deposit-href">存款</a>|
+                                <a href="/wallet/withdraw" class="withdraw-href">取款</a>|
+                            </span>
+                            <a class="logged-out" href="/home/logout">安全退出</a>
+                        </div>
+
                     </div>
                     <!-- END: 登陆后 -->
                 </div>
 			</div>
 			<!-- end: top right menu -->
-            <div class="clear"></div>
 		</div>
 
 		<!-- main menu -->
-		<ul class="nav" id="menu">
-			<li class="cur selected"><div class="card-sign bloom-sign"></div><a href="index.html">首页</a></li>
-			<li><div class="card-sign heart-sign"></div><a href="sports-news.html">体育赛事</a></li>
-			<li><div class="card-sign spade-sign"></div><a href="chat-online.html">真人视讯</a></li>
-			<li><div class="card-sign diamond-sign"></div><a href="sports-games.html">电子游艺</a></li>
-			<li><div class="card-sign bloom-sign"></div><a href="lotto.html">彩票游戏</a></li>
-			<li class="top-nav-6"><div class="card-sign spade-sign"></div><a href="promotion.html">优惠活动</a></li>
-			<li class="top-nav-7"><div class="card-sign diamond-sign"></div><a id="textGlitter" href="http://vip.xpj1188.cc/" target="_blank">神秘彩金</a></li>
-			<li>
-				<div class="card-sign diamond-sign"></div>
-				<a href="#" onclick="$('.mod-mobile-popup').show();">手机下注</a>
+		<ul class="nav clearfix" id="menu">
+			<li class="nav-home cur"><a href="index.html"><i></i>首页</a></li>
+			<li class="nav-sports"><a href="sports-news.html"><i></i>体育赛事</a></li>
+			<li class="nav-live"><a href="chat-online.html"><i></i>真人视讯</a></li>
+			<li class="nav-games"><a href="sports-games.html"><i></i>电子游艺</a></li>
+			<li class="nav-lottery"><a href="lotto.html"><i></i>彩票游戏</a></li>
+			<li class="nav-promotions"><a href="promotion.html"><i></i>优惠活动</a></li>
+			<li class="nav-mobile">
+				<a href="#" onclick="$('.mod-mobile-popup').show();"><i></i>手机下注</a>
 				<div class="mod-mobile-popup">
 					<div class="popup-bg"></div>
 					<div class="popup-wrapper">
@@ -154,111 +189,88 @@
 	<!-- end: header -->
 
     <!-- notification -->
-    <div class="notification">
-        <div class="notification-holder">
-            <img src="images/volume_icon.jpg" class="p-r-5" />
-            <span class="p-r-10">最新公告</span>
-
+    <div class="notice">
+        <div class="layout">
+            <i class="p-r-10">最新公告</i>
             <div class="marquee">
                 温馨提示：晋级彩金、月好运金、已全部派送完成请查收，下期好运金2017年03月2号派送、晋级礼金03月4号派送，请广大会员留意查看，如有疑问请联系24小时在线客服咨询 感谢您对新葡京娱乐城的支持与陪伴！祝您游戏愉快，谢谢！        温馨提示：尊敬的会员您好！美东时间2017年02月03 日返水优惠额度已发放至您的会员账号，请注意额度变化，祝您游戏愉快，盈利多多！【新葡京娱乐城】官方网址：www.pj3399.com 敬上！公司入款不定期更换请注意核对新账号！
             </div>
-                
-            <a href="register.html"><img src="images/register_gift.jpg" /></a>
+            <a href="register.html"></a>
         </div>
     </div>
     <!-- end: notifcation -->
 
-    <!-- home animated SWF banner -->
-    <div class="home-banner">
-        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="550">
-            <param name="movie" value="https://www.pj3399.com/images/20151130.swf" />
-            <param name="quality" value="high" />
-            <param name="wmode" value="transparent" />
-            <param name="swfversion" value="8.0.35.0" />
-            <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
-            <param name="expressinstall" value="/cl/tpl/xpjab/Scripts/expressInstall.swf" />
-            <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
-            <!--[if !IE]>-->
-            <object type="application/x-shockwave-flash" data="https://www.pj3399.com/images/20151130.swf" width="100%" height="550">
-                <!--<![endif]-->
-                <param name="quality" value="high" />
-                <param name="wmode" value="transparent" />
-                <param name="swfversion" value="8.0.35.0" />
-                <param name="Min" value="1366" />
-                <param name="expressinstall" value="/cl/tpl/xpjab/Scripts/expressInstall.swf" />
-                <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
-                <div>
-                    <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
-                    <p><a href="https://www.adobe.com/go/getflashplayer"><img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
-                </div>
-                <!--[if !IE]>-->
-            </object>
-            <!--<![endif]-->
-        </object>
-    </div>
-    <!-- end: home animated SWF banner -->
+    <!-- content -->
+    <div class="content">
+        <!-- mod-home -->
+        <div class="mod-home">
+            <!-- home animated SWF banner -->
+            <div class="home-banner">
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+                    <param name="movie" value="images/home_banner.swf" />
+                    <param name="wmode" value="transparent" />
+                    <!--[if !IE]>-->
+                    <object type="application/x-shockwave-flash" data="images/home_banner.swf">
+                        <param name="wmode" value="transparent" />
+                        <!--<![endif]-->
+                        <a href="http://www.adobe.com/go/getflashplayer">
+                            <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                        </a>
+                        <!--[if !IE]>-->
+                    </object>
+                    <!--<![endif]-->
+                </object>
 
-    <!-- mod-home -->
-    <div class="mod-home">
-        <!-- games details -->
-        <div class="games-details">
-            <a href="chat-online.html">
-                <img src="images/games_pic_1.png" />
-            </a>
-            <a href="betting.html">
-                <img src="images/games_pic_2.png" />
-            </a>
-            <a href="sports-games.html">
-                <img src="images/games_pic_3.png" />
-            </a>
-            <a href="lotto.html">
-                <img src="images/games_pic_4.png" />
-            </a>
+            </div>
+            <!-- end: home animated SWF banner -->
+
+            <!-- games details -->
+            <div class="layout games-details">
+                <a href="chat-online.html" class="games-1"></a>
+                <a href="betting.html" class="games-2"></a>
+                <a href="sports-games.html" class="games-3"></a>
+                <a href="lotto.html" class="games-4"></a>
+            </div>
+            <!-- end: games details -->
         </div>
-        <!-- end: games details -->
+        <!-- end: mod-home -->
     </div>
-    <!-- end: mod-home -->
+    <!-- content -->
 
 	<!-- footer -->
 	<div class="footer">
 		<div class="footer-content">
-			<div class="services-wrapper">
-				<div class="services-details">
-					<span class="title">产品服务</span>
-					<span>全球最好 最丰富的在线博彩项目</span>
-				</div>
-				<div class="services-details">
-					<span class="title">银行服务</span>
-					<span>24小时在线存取款 5分钟到帐</span>
-				</div>
-				<div class="services-details">
-					<span class="title">荣誉保证</span>
-					<span>政府颁发营业执照 信誉有保障</span>
-				</div>
-				<div class="services-details">
-					<span class="title">客服团队</span>
-					<span>7x24小时全程贴心服务</span>
-				</div>
-			</div>
-			
-			<div class="footer-menu m-t-30">
-				<a href="about.html">关于我们</a><span>|</span>
-				<a href="withdrawal.html">取款帮助</a><span>|</span>
-				<a href="deposit.html">存款帮助</a><span>|</span>
-				<a href="contact.html">联系我们</a><span>|</span>
-				<a href="agency.html">代理加盟</a><span>|</span>
-				<a href="faq.html">帮助中心</a><span>|</span>
-				<a href="http://www.3399.cc/" target="_blank">线路检测</a>
-			</div>
+            <div class="layout">
+                <ul class="services-wrapper clearfix">
+                    <li class="services-basic">
+                        <span class="title">产品服务</span>
+                        <span>全球最好 最丰富的在线博彩项目</span>
+                    </li>
+                    <li class="services-bank">
+                        <span class="title">银行服务</span>
+                        <span>24小时在线存取款 5分钟到帐</span>
+                    </li>
+                    <li class="services-license">
+                        <span class="title">荣誉保证</span>
+                        <span>政府颁发营业执照 信誉有保障</span>
+                    </li>
+                    <li class="services-customer">
+                        <span class="title">客服团队</span>
+                        <span>7x24小时全程贴心服务</span>
+                    </li>
+                </ul>
+
+                <div class="footer-menu m-t-30"><a href="/help/contact">联系我们</a><span>|</span><a href="/help/contact">隐私政策</a><span>|</span><a href="/help/contact">责任博彩</a><span>|</span><a href="/help/contact">常见问题</a><span>|</span><a href="/help/contact">规则条款</a><span>|</span><a href="/help/contact">合营加盟</a></div>
+            </div>
 		</div>
+
+        <!-- credentials -->
+        <div class="layout credentials">
+            <span>版权所有 &copy; 新葡京娱乐城 Reserved</span>
+        </div>
+        <!-- end: credentials -->
 	</div>
 	<!-- end: footer -->
-	
-	<!-- credentials -->
-	<div class="credentials">
-		<span>版权所有 &copy; 新葡京娱乐城 Reserved</span>
-	</div>
-	<!-- end: credentials -->
 </body>
 </html>
 

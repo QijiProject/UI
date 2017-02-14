@@ -14,7 +14,7 @@ $(function () {
     });
     $(".next").click(function () {
         $index++;
-        if ($index > 4) {
+        if ($index > 3) {
             $index = 0
         }
         $(".choose span").eq($index).addClass("red").siblings().
@@ -25,7 +25,7 @@ $(function () {
     $(".pre").click(function () {
         $index--;
         if ($index < 0) {
-            $index = 4
+            $index = 3
         };
         $(".choose span").eq($index).addClass("red").siblings().
           removeClass("red");

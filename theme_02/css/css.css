@@ -2,13 +2,13 @@
 
 /* 首页 */
 .help-links { background-color:#171717; height:79px; }
-.help-links > .cen-content { background:url('../images/help_links.png') no-repeat; height:100%; }
-.help-links > .cen-content > a { display:block; float:left; width:250px; height:100%; }
+.help-links > .layout { background:url('../images/help_links.png') no-repeat; height:100%; }
+.help-links > .layout > a { display:block; float:left; width:250px; height:100%; }
 
 .games-introduce { background:url('../images/games_introduce_bg.png') no-repeat center -327px;  }
 
-.games-types { margin:10px 0 15px 0; }
-.games-types > a { background:url('../images/games_introduce.png'); display:inline-block; width:242px; height:272px; margin-right:5px; }
+.games-types { padding:15px 0 10px 0; }
+.games-types > a { background:url('../images/games_introduce.png'); float:left; display:inline; width:242px; height:272px; margin-right:10px; }
 .games-types > a.sport-link:hover { background-position: -242px 0; }
 .games-types > a.casino-link { background-position: 0 -271px; }
 .games-types > a.casino-link:hover { background-position: -241px -273px; }
@@ -19,15 +19,21 @@
 
 .games-details { background-color:#171717; padding: 15px 0 10px 0; }
 .games-details .left-col { width:163px; }
-.games-details .left-col > a { padding: 18px 10px 18px 70px; display:block; color:#fff; font-size:12pt; margin-bottom:3px; }
+.games-details .left-col > a { padding: 18px 10px 18px 70px; display:block; color:#fff; font-size:16px; margin-bottom:3px; }
 .games-details .left-col > a:hover, .games-details .left-col > a.cur { background-color:#202020 !important; color:#ff0; }
 .games-details .left-col > a.mg { background:url('../images/mg_icon.png') no-repeat 14px center #161616; }
 .games-details .left-col > a.ag { background:url('../images/ag_icon.png') no-repeat 14px center #161616; }
 .games-details .left-col > a.bb { background:url('../images/bb_icon.png') no-repeat 14px center #161616; }
 .games-details .middle-col { width:568px; height:241px; background:url('../images/games_details_middle.png') no-repeat; }
-.games-details .right-col { width:269px; height:241px; background:url('../images/games_details_right.png') no-repeat; padding: 52px 0 0 129px; box-sizing: border-box; }
-.games-details .right-col > span { font-size:10.5pt; color:#ff0; width:140px; text-align:center; display:block; margin-bottom:20px; }
+.games-details .right-col { position:relative; width:269px; height:241px; background:url('../images/games_details_right.png') no-repeat; }
+.games-details .right-col > span { position:absolute; left: 115px; font-size:14px; color:#ff0; width:140px; text-align:center; display:block; margin-bottom:20px; }
+.games-details .right-col > span.s1 { top:52px; }
+.games-details .right-col > span.s2 { top:93px; }
+.games-details .right-col > span.s3 { top:134px; }
+.games-details .right-col > span.s4 { top:174px; }
+.games-details .right-col > span.s5 { top:212px; }
 
+.app-ads { background:url('../images/app_advertisement.png') no-repeat; height:297px; }
 
 .banner { width:100%; height:416px; max-width:1920px; margin:0 auto; position: relative; overflow:hidden; }
 .banner a.img-slice { z-index: 100; display: block; width:100%; height: 100%; position: absolute; left:100%; top:0; }
@@ -36,6 +42,7 @@
 .banner .choose { z-index: 1000; position: absolute; bottom:57px; width:100%; text-align:center; }
 .banner .choose span { margin-right:8px; display:inline-block; background: #ccc; width:15px; height: 15px; border-radius: 10px; cursor:pointer; }
 .banner .choose .red, .banner .choose span:hover {  background: #a92c2d; }
+.banner .left, .banner .right { display:none; }
 /* 首页 */
 
 
