@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+	<title>新葡京官网,新葡京线上娱乐-老品牌值得信赖!欢迎您的光临！</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/css.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.marquee.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slide.js"></script>
+    <script type="text/javascript" src="js/banner.js"></script>
+	
+	<script>
+		$(function(){
+			$('.marquee').marquee({
+				duration: 10000,
+				pauseOnHover: true
+			});
+            
+			var timerID = setInterval("dispTime()", 1000); // site time
+
+		    /* license mouseover */
+			$("#license").hover(
+                function () {
+                    $(this).find("> .license-wrap").show();
+			    },
+                function () {
+                    $(this).find("> .license-wrap").hide();
+                }
+            );
+		    /* end: license mouseover */
+
+		    /* nav drop mouseover */
+			$(".nav > li").hover(
+                function () {
+                    $(this).find("> .nav-drop").stop().fadeIn(300);
+                },
+                function () {
+                    $(this).find("> .nav-drop").stop().fadeOut(300);
+                }
+            );
+		    /* end: nav drop mouseover */
+
+			colorSwitchLoop(); // calling color switch
+		});
+
+        /* site time */
+		var current = 1486907141000 || 0;
+		function dispTime() {
+		    current += 1000;
+		    var dateObj = new Date(current);
+		    var Y = dateObj.getFullYear();
+		    var Mh = dateObj.getMonth() + 1;
+		    if (Mh > 12) Mh = 01;
+		    if (Mh < 10) Mh = '0' + Mh;
+		    var D = dateObj.getDate() < 10 ? '0' + dateObj.getDate() : dateObj.getDate();
+		    var H = dateObj.getHours() < 10 ? '0' + dateObj.getHours() : dateObj.getHours();
+		    var M = dateObj.getMinutes() < 10 ? '0' + dateObj.getMinutes() : dateObj.getMinutes();
+		    var S = dateObj.getSeconds() < 10 ? '0' + dateObj.getSeconds() : dateObj.getSeconds();
+		    document.getElementById('site-time').innerHTML = "美东时间：" + Y + '-' + Mh + '-' + D + ' ' + H + ':' + M + ':' + S;
+		}
+        /* end: site time */
+
+		/* color switch */
+		function colorSwitchLoop() {
+		    setTimeout(function () { 
+		        var currentColor = $(".color-switch").css("color"); 
+		        if (currentColor == "rgb(255, 255, 255)") {
+		            $(".color-switch").css("color", "#ffff00");
+		        }
+		        else {
+		            $(".color-switch").css("color", "#ffffff");
+		        }
+                colorSwitchLoop();
+            }, 600);
+		}
+		/* end: color switch */
+	</script>
+</head>
+
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="header-content cen-content">
+            <div id="site-time" class="fl"></div>
+			<!-- top right menu -->
+            <div class="top-menu fr">
+                <a id="license" href="#">牌照展示<div class="license-wrap"></div></a>|
+                <a href="#">资讯端下载</a>|
+                <a href="#">酒店介绍</a>|
+                <a href="#" class="color-switch">优惠大厅</a>|
+                <a href="#">代理联盟</a>|
+                <a href="#">备用网址</a>|
+                <a href="#">加入收藏</a>|
+                <a href="#">语言选择</a>
+            </div>
+            <!-- end: top right menu -->
+            <div class="clear"></div>
+
+            <!-- site logo -->
+            <div class="logo pr fl">
+                <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="85" width="222">
+                    <param value="images/header_logo.swf" name="movie" />
+                    <param value="transparent" name="wmode" />
+                    <param value="high" name="quality" />
+                    <embed play="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="images/header_logo.swf" height="85" width="222" />
+                </object>
+                <a href="index.html" title="" class="home-link"></a>
+            </div>
+            <!-- end: site logo -->
+				
+            <div class="login-wrap m-t-20">
+                <!-- 登陆前 -->
+                <div class="login-menu">
+                    <div class="fl">
+                        <input type="text" id="uid" name="uid" placeholder="账号" />
+                        <input type="password" id="jpwd" name="jpwd" placeholder="密码" />
+                    </div>
+                    <div class="fl m-l-10">
+                        <a href="javascript:void(0);" id="gologin" class="log-btn">登 录</a>
+                        <a href="#" class="forgot-password" title="忘记密码？">忘记密码？</a>
+                    </div>
+                    <div class="fr m-l-10">
+                        <a href="#" class="join-us-btn"></a>
+                    </div>
+                </div>
+                <!-- END: 登陆前 -->                            
+                <!-- 登陆后 -->
+                <div class="logined-nav hide">
+                    <span class="username">欢迎！</span>
+                    <a href="#" class="message">未读消息（<em id="_umessage" class="cMain">0</em>）</a>
+                    <br />
+                    <a href="#" class="user-center">账户中心<i></i></a>
+                    <span>账户余额：<em class="cMain">0.00</em></span>
+                    <span class="money-operate">
+                        <a href="/wallet/transfer" class="transfer-href">转账</a>
+                        <a href="/wallet/deposit" class="deposit-href">存款</a>
+                        <a href="/wallet/withdraw" class="withdraw-href">取款</a>
+                    </span>
+                    <a class="logged-out" href="/home/logout">安全退出</a>
+                </div>
+                <!-- END: 登陆后 -->
+            </div>
+			
+		</div>
+        <div class="clear"></div>
+
+		<!-- main menu -->
+		<ul class="nav" id="menu">
+            <li class="cur selected homepage"><a href="index.html">首页</a></li>
+            <li>
+                <a href="#">体育赛事</a>
+                <div class="nav-drop sports-drop">
+                    <a href="#">系统体育</a>
+                    <a href="#">三昇体育</a>
+                    <a href="#">沙巴体育</a>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="color-switch">电子游艺</a>
+                <span class="hot-icon"></span>
+                <div class="nav-drop egames-drop">
+                    <a href="#">MG电子</a>
+                    <a href="#">PT电子</a>
+                    <a href="#">YG电子</a>
+                    <a href="#">HB电子</a>
+                    <a href="#">BBIN电子</a>
+                    <a href="#">对战游戏</a>
+                </div>
+            </li>
+            <li>
+                <a href="#">视讯直播</a>
+                <div class="nav-drop live-visual-drop">
+                    <a href="#">BBIN馆</a>
+                    <a href="#">AG国际馆</a>
+                    <a href="#">DS太阳城</a>
+                    <a href="#">OG东方馆</a>
+                    <a href="#">HG名人馆</a>
+                    <a href="#">AB亚洲馆</a>
+                </div>
+            </li>
+            <li><a href="#">对战游戏</a></li>
+            <li><a href="#">彩票游戏</a></li>
+            <li><a href="#" class="color-switch">优惠活动</a><span class="hot-icon"></span></li>
+            <li><a href="#">在线客服</a></li>
+		</ul>
+		<!-- end: main menu -->
+	</div>
+	<!-- end: header -->
+
+    <!-- mod-home -->
+    <div class="mod-home">
+        <!-- animated banner -->
+        <div class="banner">
+            <a href="#" class="img-slice first">
+                <img src="images/banner_1.jpg" />
+            </a>
+            <a href="#" class="img-slice">
+                <img src="images/banner_2.jpg" />
+            </a>
+            <a href="#" class="img-slice">
+                <img src="images/banner_3.jpg" />
+            </a>
+            <a href="#" class="img-slice">
+                <img src="images/banner_4.jpg" />
+            </a>
+
+            <div class="choose">
+                <span class="red"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <!-- marquee -->
+            <div class="notification">
+                <div class="notification-holder">
+                    <img src="images/volume_icon.png" />
+                    <span class="p-r-10">最新公告</span>
+                    <div class="marquee">【手机APP·上线公告】系统已新增“手机客户端”请点击首页左下角的图片扫描二维码下载，如有疑问请咨询“在线客服”祝您游戏愉快！&nbsp;&nbsp;&nbsp;&nbsp;【天天抢红包】日有效存款达100元以上，即可参与每天的[抢红包活动]，抢红包时间为北京时间每天的下午13:00点开始，千万现金筹码等您来取哦$$详情请进入活动页面，参阅活动规则，谢谢&nbsp;&nbsp;&nbsp;&nbsp;#系统新增对战游戏【捕鱼王\斗地主】，天天游戏返水1.0%起！祝您游戏愉快！&nbsp;&nbsp;&nbsp;&nbsp;敬请注意：因公司业务需求，将不定期更新收款账户，请在每次存款前先确认最新入款账号，避免存入过期账号，以确保您的款项正常添加，如存入过期账号，无法查收造成的损失，公司恕不负责，谢谢配合！</div>
+                </div>
+            </div>            
+            <!-- end: marquee -->
+        </div>
+        <!-- end: animated banner -->
+
+        <!-- help links -->
+        <div class="help-links">
+            <div class="cen-content">
+                <a href="http://www.jsh122.com/jc" target="_blank"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
+        <!-- end: help links -->
+
+        <!-- games introduction -->
+        <div class="games-introduce">
+            <div class="cen-content">
+                <div class="games-types">
+                    <a href="#" class="sport-link"></a>
+                    <a href="#" class="casino-link"></a>
+                    <a href="#" class="game-link"></a>
+                    <a href="#" class="lottery-link"></a>
+                </div>
+            </div>
+
+            <div class="games-details">
+                <div class="cen-content">
+                    <div class="left-col fl">
+                        <a href="#" class="mg cur">MG电子</a>
+                        <a href="#" class="ag">AG电子</a>
+                        <a href="#" class="bb">BB电子</a>
+                        <a href="#" class="ag">AG捕鱼王</a>
+                    </div>
+                    <div class="middle-col fl"></div>
+                    <div class="right-col fl">
+                        <span>11,111,111.11</span>
+                        <span>22,222,222.22</span>
+                        <span>33,333,333.33</span>
+                        <span>44,444,444.44</span>
+                        <span>55,555,555.55</span>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        
+            <div class="cen-content">
+                <img src="images/app_advertisement.png" />
+            </div>
+        </div>
+        <!-- end: games introduction -->
+    </div>
+    <!-- end: mod-home -->
+
+	<!-- footer -->
+	<div class="footer">
+        <div class="footer-banner"></div>
+		<div class="cen-content">
+            <div class="footer-menu fl">
+                <a href="#">关于我们</a>|
+                <a href="#">存款帮助</a>|
+                <a href="#">取款帮助</a>|
+                <a href="#">常见问题</a>|
+                <a href="#">客服中心</a>
+            </div>
+            <p class="credentials fr">COPYRIGHT &copy; 澳門金沙會 SANDS RESERVED</p>
+        </div>
+        <div class="clear"></div>
+	</div>
+	<!-- end: footer -->
+	
+</body>
+</html>
+
