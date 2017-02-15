@@ -26,13 +26,6 @@
 			});
 
 			colorful(); // calling color switching function
-
-		    /* resize flash */
-			$(window).resize(function () {
-			    updateFlashSize();
-			});
-			updateFlashSize()
-		    /* END: resize flash */
 		});
 
 		/* top nav red-yellow color switching */
@@ -52,26 +45,6 @@
 		    setTimeout('colorful()', 300);
 		}
         /* END: top nav red-yellow color switching */
-
-        /* resize flash */
-		function updateFlashSize() {
-		    if ($(window).width() < 1050) {
-		        $(".home-banner object").css("height", "350px");
-		    }
-		    else if ($(window).width() < 1200) {
-		        $(".home-banner object").css("height", "400px");
-		    }
-		    else if ($(window).width() < 1300) {
-		        $(".home-banner object").css("height", "450px");
-		    }
-		    else if ($(window).width() < 1425) {
-		        $(".home-banner object").css("height", "500px");
-		    }
-		    else {
-		        $(".home-banner object").css("height", "550px");
-		    }
-		}
-        /* END: resize flash */
 	</script>
 </head>
 
@@ -84,7 +57,7 @@
 
 	<!-- header -->
 	<div class="header">
-		<div class="header-content clearfix">
+		<div class="layout">
             <div class="logo pr fl">
                 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="580" height="107" onmousedown="location.href='index.html'">
                     <param name="movie" value="images/header_logo.swf" />
@@ -122,7 +95,7 @@
                     <div class="login-menu">
                         <input type="text" id="uid" name="uid" placeholder="账号" />
                         <input type="password" id="jpwd" name="jpwd" placeholder="密码" />
-                        <a href="javascript:void(0);" id="gologin" class="log-btn" onclick="$(this).attr('class', 'log-btn-disabled');">登录</a>
+                        <a href="javascript:void(0);" id="gologin" class="log-btn">登录</a>
                         <a href="#" class="reg-btn">注册</a>
                         <a href="#" class="forgot-password" title="忘记密码？">忘记密码？</a>
                     </div>
@@ -151,7 +124,7 @@
 		</div>
 
 		<!-- main menu -->
-		<ul class="nav clearfix" id="menu">
+		<ul class="nav layout" id="menu">
 			<li class="nav-home cur"><a href="index.html"><i></i>首页</a></li>
 			<li class="nav-sports"><a href="sports-news.html"><i></i>体育赛事</a></li>
 			<li class="nav-live"><a href="chat-online.html"><i></i>真人视讯</a></li>
@@ -205,22 +178,23 @@
         <!-- mod-home -->
         <div class="mod-home">
             <!-- home animated SWF banner -->
-            <div class="home-banner">
-                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
-                    <param name="movie" value="images/home_banner.swf" />
-                    <param name="wmode" value="transparent" />
-                    <!--[if !IE]>-->
-                    <object type="application/x-shockwave-flash" data="images/home_banner.swf">
+            <div class="home-banner pr">
+                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1440" height="550">
+                        <param name="movie" value="images/home_banner.swf" />
                         <param name="wmode" value="transparent" />
-                        <!--<![endif]-->
-                        <a href="http://www.adobe.com/go/getflashplayer">
-                            <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-                        </a>
+                        <param name="scale" value="noborder" />
                         <!--[if !IE]>-->
+                        <object type="application/x-shockwave-flash" data="images/home_banner.swf" scale="noborder" width="1440" height="550">
+                            <param name="wmode" value="transparent" />
+                            <param name="scale" value="noborder" />
+                            <!--<![endif]-->
+                            <a href="http://www.adobe.com/go/getflashplayer">
+                                <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                            </a>
+                            <!--[if !IE]>-->
+                        </object>
+                        <!--<![endif]-->
                     </object>
-                    <!--<![endif]-->
-                </object>
-
             </div>
             <!-- end: home animated SWF banner -->
 

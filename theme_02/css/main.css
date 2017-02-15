@@ -20,7 +20,7 @@ ol.with-list { list-style-type:decimal; margin-left:16px; line-height:29px; text
 ol.with-list.la { list-style-type:lower-alpha; }
 ol.with-list > li { list-style-type:inherit; padding-left:1px; }
 .required { color:#f00; font-size:10px; }
-.layout, .nav { width:1000px; margin:0 auto; box-sizing:border-box; }
+.layout { width:1000px; margin:0 auto; box-sizing:border-box; }
 /* end common */
 
 /* header */
@@ -54,7 +54,7 @@ ol.with-list > li { list-style-type:inherit; padding-left:1px; }
 .login-wrap > .logined-nav .logged-out { margin-left:4px; }
 
 .nav { margin-top:3px; }
-.nav > li { float:left; display:inline; position:relative; }
+.nav > li { float:left; display:inline; position:relative; margin-right:4px; }
 .nav > li.homepage > a { color:#00ffff; }
 .nav > li > a { font-size:14px; display:block; font-weight:bold; color:#fff; width:121px; padding:9px 10px; box-sizing:border-box; text-align:center; }
 .nav > li > a:hover { background-color:#14100F; }
@@ -63,7 +63,7 @@ ol.with-list > li { list-style-type:inherit; padding-left:1px; }
 .nav .nav-drop.sports-drop { left:-48px; }
 .nav .nav-drop.egames-drop { left:-113px; }
 .nav .nav-drop.live-visual-drop { left:-140px; }
-.nav .nav-drop > a { float:left; display:inline; color:#FFFFE4; font-size:12px; font-weight:normal; padding:8px 4px; }
+.nav .nav-drop > a { display:inline-block; color:#FFFFE4; font-size:12px; font-weight:normal; padding:8px 4px; }
 .nav .nav-drop > a:hover { color:#F2E1B0; }
 /* end header */
 
