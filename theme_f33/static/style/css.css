@@ -37,12 +37,12 @@ body{position:relative;}
 .mod-home .login-menu .username-btn{margin-top:40px; margin-right:0;}
 .mod-home .login-menu .password-btn{margin-top:20px; }
 .mod-home .login-menu .log-btn, .mod-home .login-menu .reg-btn, .mod-home .login-menu .log-btn-disabled{width: 97px; height: 40px; float: left; display: inline; margin:0; padding:10px; box-sizing: border-box; font:bold 14px 'Microsoft Yahei'; text-align: center;}
-.mod-home .login-menu .log-btn{background-position: 0 -660px; margin-right:15px;}
+.mod-home .login-menu .log-btn{background-position: 0 -660px; margin-right:19px;}
 .mod-home .login-menu .log-btn:hover{background-position: 0 -700px;}
 .mod-home .login-menu .log-btn-disabled{background-position:0 -740px; margin-right:15px;}
 .mod-home .login-menu .reg-btn{background-position: 0 -780px; color:#000;}
 .mod-home .login-menu .reg-btn:hover{background-position: 0 -820px;}
-.mod-home .login-menu .forgot-password{margin:15px 0 15px 15px; float:right; font-size:14px; display:block; width:100%; text-align:right; color:#fff;}
+.mod-home .login-menu .forgot-password{margin:15px 0 15px 15px; float:right; font-size:12px; display:block; width:100%; text-align:right; color:#fff;}
 
 .mod-home .logined-nav .top-deposit-href{float:none; background-position:0 -92px; display:block;}
 .mod-home .logined-nav .username{display:block; margin-top:25px; float: none;}
@@ -50,7 +50,8 @@ body{position:relative;}
 .mod-home .logined-nav .money-operate{margin:20px 0; padding-right:0;}
 .mod-home .logined-nav .money-operate a{padding:0 11px;}
 .mod-home .logined-nav .logged-out{background-color:#F9CC54; color:#76310A; padding:10px 60px; font: bold 16px/1.5 "Microsoft YaHei"; margin-left:17px;}
-.mod-home .logined-nav > h2, .mod-home .login-menu > h2 {font: bold 16px 'Microsoft Yahei'; display:block; color:#fff;}
+.mod-home .logined-nav > h2, .mod-home .login-menu > h2 {font:18px 'Microsoft Yahei'; display:block; color:#fff;}
+.mod-home .logined-nav > h2 > span, .mod-home .login-menu > h2 > span{font-size:14px;}
 
 .mod-home .mod-banner{height:495px;}
 .mod-home .content{background:url(../images/home/content_bg.jpg) no-repeat center 73px;}

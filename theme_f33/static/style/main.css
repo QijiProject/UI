@@ -19,7 +19,7 @@ a:hover,a:active{color:#F1EDA9;}
 
 /* header */
 .header{position:relative; z-index:99; background-color:#2b2b2b; }
-.header .logo{position:absolute; top:0; left:0; cursor:pointer; height:155px; width:155px; background:url('../images/header_logo.png') no-repeat;}
+.header .logo{position:absolute; top:0; left:0; cursor:pointer; height:155px; width:155px;}
 .header .logo a{cursor:pointer; position:absolute; top:0; left:0; display:block; width:100%; height:100%; z-index:100;}
 
 .header-top{background-color:#151515; height:36px;}
@@ -39,9 +39,10 @@ a:hover,a:active{color:#F1EDA9;}
 
 .header-bottom{background:#191919; height:40px; padding-top:5px; border-top: 1px solid #444; border-bottom: 1px solid #444;}
 .login-wrap{width: 632px; float: right;}
-.login-menu input{background:url(../images/header/header_spirits.png) no-repeat; width:130px; height:18px; float:left; display:inline; line-height:18px; margin:3px 10px 0 0; padding:5px 10px 5px 30px; font-size:14px; border:1px solid #555; color:#555;}
-.login-menu input::-webkit-input-placeholder{font-size:14px; color:#787679;}
-.login-menu input::-moz-placeholder{font-size:14px; color:#787679;}
+.login-menu input{background:url(../images/header/header_spirits.png) no-repeat; width:130px; height:18px; float:left; display:inline; line-height:18px; margin:3px 10px 0 0; padding:5px 10px 5px 30px; font-size:14px; border:1px solid #555; color:#fff;}
+.login-menu input:focus{border-color:#F9CC54;}
+.login-menu input::-webkit-input-placeholder{font-size:14px; color:#999;}
+.login-menu input::-moz-placeholder{font-size:14px; color:#999;}
 .login-menu .username-btn{background-position: 5px -187px;}
 .login-menu .password-btn{background-position: 5px -224px;}
 .login-menu .log-btn, .login-menu .reg-btn, .login-menu .log-btn-disabled{background:url(../images/header/header_spirits.png) no-repeat; width: 91px; height: 27px; margin:-13px 10px 0 0; float: left; display: inline; font-size:0;}
@@ -50,11 +51,11 @@ a:hover,a:active{color:#F1EDA9;}
 .login-menu .log-btn-disabled{background-position:0 -88px;}
 .login-menu .reg-btn{background-position: 0 -115px; width:95px;}
 .login-menu .reg-btn:hover{background-position: 0 -142px;}
-.login-menu .forgot-password{float:right; display:inline; margin-top:9px; color:#787679;}
+.login-menu .forgot-password{float:right; display:inline; margin-top:9px; color:#999;}
 .logined-nav > h2, .login-menu > h2{display:none;}
 
 .logined-nav{float:right; color:#dcdcd6; height:26px; line-height:26px; padding-top:5px;}
-.logined-nav span{float:left; display:inline; padding-right:10px;}
+.logined-nav > span{float:left; display:inline; padding-right:10px;}
 .logined-nav .message{padding:0 5px;}
 .logined-nav a{display:inline; float:left;}
 .logined-nav > a:hover{text-decoration:underline;}
@@ -173,7 +174,7 @@ a:hover,a:active{color:#F1EDA9;}
 
 .footer .footer-contact{background-color:#2C2A2D;}
 .footer .footer-contact > .layout{background:url('../images/footer/footer_contact.jpg') no-repeat center top;}
-.footer .footer-contact ul > li {float:left; display:inline; width:33%; padding:17px 10px; font-size:15px; text-align:center; color:#eee; box-sizing:border-box;}
+.footer .footer-contact ul > li {float:left; display:inline; width:33%; padding:17px 10px; font-size:15px; text-align:center; color:#c5c5c5; box-sizing:border-box;}
 
 
 

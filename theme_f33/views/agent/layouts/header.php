@@ -13,7 +13,7 @@
     </div>
     <div class="header-content layout pr">
         <div class="logo">
-            <a href="/home/index" title="<?=Helper::GetSiteTextInfo(2);?>"></a>
+            <a href="/home/index" title="<?=Helper::GetSiteTextInfo(2);?>"><img src="<?=$this->getCdn();?>/static/images/header_logo.png" /></a>
         </div>
         <?php if(strcasecmp($this->id,'home') == 0): ?>
         <ul class="nav fr">

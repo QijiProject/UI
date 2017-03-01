@@ -13,7 +13,7 @@
     </div>
     <div class="header-content layout pr">
         <div class="logo">
-            <a href="/home/index" title="<?=Helper::GetSiteTextInfo(2);?>"></a>
+            <a href="/home/index" title="<?=Helper::GetSiteTextInfo(2);?>"><img src="<?=$this->getCdn();?>/static/images/header_logo.png" /></a>
         </div>
         <ul class="nav fr" id="menu">
             <li class="<?=$this->setActive('/home/index') ?>"><a href="/home/index">网站首页<em>HOME</em></a></li>
@@ -63,7 +63,7 @@
             <div class="login-wrap">
                 <?php if(!$this->is_login()): ?>
                     <div class="login-menu">
-                        <h2>会员登录 LOGIN</h2>
+                        <h2>会员登录 <span>LOGIN</span></h2>
                         <input type="text" id="uid" name="uid" placeholder="会员账号" class="username-btn" />
                         <input type="password" id="jpwd" name="jpwd" placeholder="密码" class="password-btn" />
                         <a href="/home/fetchPassword" class="forgot-password" title="忘记密码？">忘记密码？</a><br />
@@ -72,7 +72,7 @@
                     </div>
                 <?php else: ?>
                     <div class="logined-nav">
-                        <h2>欢迎光临 WELCOME</h2>
+                        <h2>欢迎光临 <span>WELCOME</span></h2>
                         <!--<a href="/wallet/deposit" class="top-deposit-href">马上充值</a>-->
                         <span class="username">欢迎！<?=$this->user['playername'] ?></span>
                         <span class="nav-balance">账户余额：<em class="cMain"><?=Helper::money($this->user['balance']) ?></em></span>
