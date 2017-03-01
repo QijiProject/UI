@@ -172,9 +172,8 @@ a:hover,a:active{color:#F1EDA9;}
 
 .footer p{color:#5159c5; padding:10px 0; color:#666;}
 
-.footer .footer-contact{background-color:#2C2A2D;}
-.footer .footer-contact > .layout{background:url('../images/footer/footer_contact.jpg') no-repeat center top;}
-.footer .footer-contact ul > li {float:left; display:inline; width:33%; padding:17px 10px; font-size:15px; text-align:center; color:#c5c5c5; box-sizing:border-box;}
+.footer .footer-contact.layout{background:url('../images/footer/footer_contact.jpg') no-repeat center top;}
+.footer .footer-contact li {float:left; display:inline; width:33%; padding:17px 10px; font-size:15px; text-align:center; color:#c5c5c5; box-sizing:border-box;}
 
 
 
