@@ -60,7 +60,7 @@
                     </li>
                 </ul>
 
-                <ul id="mggame_list" class="clearfix">
+                <ul id="mggame_list" class="hide clearfix">
                     <li class="mg-1">
                         <em gameid="ReelGems" class="ReelGems"></em>
                         <div class="game-name">宝石迷阵</div>
@@ -93,7 +93,7 @@
                     </li>
                 </ul>
               
-                <ul id="bbgame_list" class="clearfix">
+                <ul id="bbgame_list" class="hide clearfix">
                     <li class="bb-1">
                         <em class="Game_5106"></em>
                         <div class="game-name">三国</div>
@@ -126,7 +126,7 @@
                     </li>
                 </ul>
               
-                <ul id="aggame_list" class="clearfix">
+                <ul id="aggame_list" class="hide clearfix">
                     <li class="ag-1" onclick="load_ag_by("<?= $this->is_login()?0:1; ?>);">
                         <em class="ag_game_fish"></em>
                         <div class="game-name">捕鱼王2</div>
@@ -159,7 +159,7 @@
                     </li>
                 </ul>
               
-                <ul id="ntgame_list" class="clearfix">
+                <ul id="ntgame_list" class="hide clearfix">
                     <li class="nt-1">
                         <em class="nt_attraction"></em>
                         <div class="game-name">引力</div>
@@ -195,15 +195,6 @@
                 <span class="tac">PT ( palytech ) 平台是欧盟最热门的游戏平台之一，该平台开发的漫威主题系列游戏深受广大玩家喜爱，风靡全球，精彩刺激，爱不释手...</span>
             </div>
             <div class="jackpot-wrap fr">
-                <script>
-                  $(function(){
-                      $('.jackpot-marquee').marquee({
-                          duration: 10000,
-                          pauseOnHover: true,
-                          direction: 'up'
-                      });
-                  });
-                </script>
                 <span class="jackpot-amount">超级彩金<br /><span class="fi">CNY</span>454,875,293.32</span>
                 <div class="jackpot-winner m-t-20">
                     <div class="jackpot-title">超级赢家榜</div>
@@ -212,26 +203,11 @@
                         <span>金额</span>
                         <span>游戏名称</span>
                     </div>
-                    <ul class="jackpot-marquee clearfix">
-                        <li class="clearfix"><span>a111**213</span><span>897.22</span><span>绿巨人刮刮乐</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>1897.22</span><span>招财进宝</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>2897.22</span><span>X战警刮刮乐</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>3897.22</span><span>绿巨人刮刮乐</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>4897.22</span><span>炼金术师实验室</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>5897.22</span><span>炼金术师实验室</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>897.22</span><span>绿巨人刮刮乐</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>1897.22</span><span>招财进宝</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>2897.22</span><span>X战警刮刮乐</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>3897.22</span><span>绿巨人刮刮乐</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>4897.22</span><span>炼金术师实验室</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>5897.22</span><span>炼金术师实验室</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>897.22</span><span>绿巨人刮刮乐</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>1897.22</span><span>招财进宝</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>2897.22</span><span>X战警刮刮乐</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>3897.22</span><span>绿巨人刮刮乐</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>4897.22</span><span>炼金术师实验室</span></li>
-                        <li class="clearfix"><span>a111**213</span><span>5897.22</span><span>炼金术师实验室</span></li>
-                    </ul>
+                    <div id="jackpot-scroll">
+                      <ul class="jackpot-marquee clearfix">
+                          <?=Helper::GetSiteTextInfo(23);?>
+                      </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -273,10 +249,18 @@
     </div>
     <!-- END: 关于 -->
 </div>
-<?=Helper::GetSiteTextInfo(31);?>
 
+<script src="<?=$this->getCdn();?>/js/jquery/jquery.scrollbox.js" type="text/javascript"></script>
 <script>
   $(document).ready(function(){
+      // jackpot winner scrollbox
+      $("#jackpot-scroll").scrollbox({
+          linear: true,
+          step: 1,
+          delay: 0,
+          speed: 100
+      });
+                        
       // live games mouseover
       $(".live-games > a").mouseover(function(){
           $(".live-games > a").removeClass("hover");
@@ -320,3 +304,4 @@
       });
   });
 </script>
+<?=Helper::GetSiteTextInfo(31);?>
