@@ -37,9 +37,9 @@
 .contact-wrap ul .email a:hover{color:#88662c;}
 
 /* 公告 */
-.notice{background:url(../images/notice_bg.png) repeat; height:35px; width:100%; line-height:35px; position:absolute; bottom:0;}
+.notice{background:url(../images/notice_bg.png) repeat; height:38px; width:100%; line-height:35px; position:absolute; bottom:0;}
 .notice > .layout{overflow:hidden;}
-.notice i{background:url(../images/notice_icon.png) no-repeat 0 center; padding-left:25px; color:#E9D77B; float:left; display:inline; width:62px;}
-.marquee{float:left; display:inline; width:910px; height:35px; line-height:35px; color:#B7B7B7; overflow:hidden;}
+.notice i{background:url(../images/notice_icon.png) no-repeat 0 10px; padding-left:25px; color:#F9CC54; float:left; display:inline; width:71px; font-size:14px;}
+.marquee{float:left; display:inline; width:901px; height:38px; line-height:37px; color:#B7B7B7; overflow:hidden;}
 
 .mod-banner{height:218px;}

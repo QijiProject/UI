@@ -290,7 +290,7 @@
           }
       });
       
-      $(".hd-menu").find("li").click(function(){
+      $(".hd-menu").find("li").mouseover(function(){
           $(".hd-menu").find("li.active").removeClass("active");
           $(this).addClass("active");
           //$(".games-platform-item").hide();

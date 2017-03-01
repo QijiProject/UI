@@ -21,13 +21,13 @@ Yii::app()->clientScript->registerScriptFile( "/js/game/Game.js",CClientScript::
         </div>
         <div class="l-c-platform layout m-t-30">
             <ul class="clearfix">
-                <li class="allbet-play-btn"><a href="javascript:void(0);" onclick="load_allbet(<?=$allbet_status ?>);"></a></li>
-                <li class="ag-play-btn"><a href="javascript:void(0);" onclick="get_ag_gc(<?=$ag_status ?>,<?=AsiaGames::GP_TYPE ?>);"></a></li>
-                <li class="bb-play-btn"><a href="javascript:void(0);" onclick="load_bbin_ld(<?=$bbin_status ?>,<?=BBIN::LD?>,'live');"></a></li>
-                <li class="salon-play-btn"><a href="javascript:void(0);" onclick="load_salon_ld(<?= $salon_status?>)"></a></li>
-                <li class="gd-play-btn"><a href="javascript:void(0);" onclick='get_gd_gc(<?=$gd_status ?>,<?=GoldDeluxe::GP_TYPE?>,"");'></a></li>
-                <li class="mg-play-btn"><a href="javascript:void(0);" onclick="load_mg_ld(<?=$mg_status ?>,'')"></a></li>
-                <li class="pt-play-btn"><a href="javascript:void(0);" onclick="load_pt('<?=NPT::PT_LD ?>',<?=$pt_status ?>,'plba');"></a></li>
+                <li class="allbet-play-btn"><span><a href="javascript:void(0);" onclick="load_allbet(<?=$allbet_status ?>);">进入游戏</a></span></li>
+                <li class="ag-play-btn"><span><a href="javascript:void(0);" onclick="get_ag_gc(<?=$ag_status ?>,<?=AsiaGames::GP_TYPE ?>);">进入游戏</a></span></li>
+                <li class="bb-play-btn"><span><a href="javascript:void(0);" onclick="load_bbin_ld(<?=$bbin_status ?>,<?=BBIN::LD?>,'live');">进入游戏</a></span></li>
+                <li class="salon-play-btn"><span><a href="javascript:void(0);" onclick="load_salon_ld(<?= $salon_status?>)">进入游戏</a></span></li>
+                <li class="gd-play-btn"><span><a href="javascript:void(0);" onclick='get_gd_gc(<?=$gd_status ?>,<?=GoldDeluxe::GP_TYPE?>,"");'>进入游戏</a></span></li>
+                <li class="mg-play-btn"><span><a href="javascript:void(0);" onclick="load_mg_ld(<?=$mg_status ?>,'')">进入游戏</a></span></li>
+                <li class="pt-play-btn"><span><a href="javascript:void(0);" onclick="load_pt('<?=NPT::PT_LD ?>',<?=$pt_status ?>,'plba');">进入游戏</a></span></li>
             </ul>
         </div>
     </div>

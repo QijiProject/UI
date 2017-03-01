@@ -6,12 +6,19 @@ body{position:relative;}
 
 /* hd-menu */
 .platform-wrap{border:1px solid #2C2A2D; background:#151515; width:998px; margin:0 auto; box-shadow:0 0 8px #000;}
-.platform-wrap .hd-menu > ul > li{background-color:#2C2A2D; width:198px; border-right:1px solid #343235;}
-.platform-wrap .hd-menu > ul > li.nt-menu{border-right:none; width:201px;}
-.platform-wrap .hd-menu > ul > li:hover, .platform-wrap .hd-menu > ul > li.active{background:#000 !important;}
+.platform-wrap .hd-menu > ul > li{background-color:#2C2A2D; width:20%; height:92px; box-sizing:border-box; border-right:1px solid #343235;}
+.platform-wrap .hd-menu > ul > li.nt-menu{border-right:none;}
+.platform-wrap .hd-menu > ul > li.active{background:#000 !important;}
+.platform-wrap .hd-menu > ul > li > i{height:57px; margin-bottom:0;}
+.platform-wrap .hd-menu > ul > li.pt-menu > i{background-position:60px 11px;}
+.platform-wrap .hd-menu > ul > li.mg-menu > i{background-position:60px -72px;}
+.platform-wrap .hd-menu > ul > li.bb-menu > i{background-position:60px -147px;}
+.platform-wrap .hd-menu > ul > li.ag-menu > i{background-position:60px -232px;}
+.platform-wrap .hd-menu > ul > li.nt-menu > i{background-position:60px -305px; }
+.platform-wrap .hd-menu h2{font:18px "Microsoft YaHei";}
+.mod-games .hd-menu > ul > li:hover, .mod-games .hd-menu > ul > li.active{background:#000 !important;}
 .hd-menu{background:#151515;}
 .hd-menu > ul > li {display:inline; float:left; no-repeat; cursor:pointer; width:200px; height:126px; font-size:14px; color:#fff; text-align:center;}
-.hd-menu > ul > li:hover, .hd-menu > ul > li.active{background:url('../images/hd_menu_cur.png') center top;}
 .hd-menu > ul > li > i{ background:url('../images/hd_menu_spirits.png') no-repeat; display:block; width:100%; height:70px; margin-bottom:10px;}
 .hd-menu > ul > li.pt-menu > i{background-position:60px 28px;}
 .hd-menu > ul > li.mg-menu > i{background-position:60px -53px;}
@@ -19,11 +26,12 @@ body{position:relative;}
 .hd-menu > ul > li.ag-menu > i{background-position:60px -213px;}
 .hd-menu > ul > li.nt-menu > i{background-position:60px -285px; }
 .mod-lottery .hd-menu h2{font:22px/60px "Microsoft YaHei";}
-.mod-games .hd-menu h2{font:18px/64px "Microsoft YaHei"; margin-top:-8px;}
+.mod-games .hd-menu h2{font:18px "Microsoft YaHei"; margin-top:2px;}
 
 /* 首页 */
+.mod-home .hd-menu > ul > li:hover, .mod-home .hd-menu > ul > li.active{background:url('../images/hd_menu_cur.png') center top;}
 .mod-home .header-bottom{height:0; padding:0; border:none;}
-.mod-home .login-wrap{background:url(../images/header/header_spirits.png) 0 -280px no-repeat; width:241px; height:298px; position:absolute; top:106px; right:0; padding:20px 14px; box-sizing: border-box;}
+.mod-home .login-wrap{background:url(../images/header/header_spirits.png) 0 -280px no-repeat; width:241px; height:298px; position:absolute; top:75px; right:0; padding:20px 14px; box-sizing: border-box;}
 .mod-home .login-menu{padding-top:5px;}
 .mod-home .login-menu input{width:172px;}
 .mod-home .login-menu .username-btn{margin-top:40px; margin-right:0;}
@@ -41,7 +49,7 @@ body{position:relative;}
 .mod-home .logined-nav .nav-balance,.mod-home .logined-nav .message{display:block; padding:0; float:none;}
 .mod-home .logined-nav .money-operate{margin:20px 0; padding-right:0;}
 .mod-home .logined-nav .money-operate a{padding:0 11px;}
-.mod-home .logined-nav .logged-out{background-color:#F7D44F; color:#76310A; padding:10px 60px; font: bold 16px/1.5 "Microsoft YaHei"; margin-left:17px;}
+.mod-home .logined-nav .logged-out{background-color:#F9CC54; color:#76310A; padding:10px 60px; font: bold 16px/1.5 "Microsoft YaHei"; margin-left:17px;}
 .mod-home .logined-nav > h2, .mod-home .login-menu > h2 {font: bold 16px 'Microsoft Yahei'; display:block; color:#fff;}
 
 .mod-home .mod-banner{height:495px;}
@@ -133,10 +141,10 @@ body{position:relative;}
 
 
 /* 公告 */
-.notice{background:url(../images/notice_bg.png) repeat; height:35px; width:100%; line-height:35px; position:absolute; bottom:0;}
+.notice{background:url(../images/notice_bg.png) repeat; height:38px; width:100%; line-height:35px; position:absolute; bottom:0;}
 .notice > .layout{overflow:hidden;}
-.notice i{background:url(../images/notice_icon.png) no-repeat 0 center; padding-left:25px; color:#E9D77B; float:left; display:inline; width:62px;}
-.marquee{float:left; display:inline; width:910px; height:35px; line-height:35px; color:#B7B7B7; overflow:hidden;}
+.notice i{background:url(../images/notice_icon.png) no-repeat 0 10px; padding-left:25px; color:#F9CC54; float:left; display:inline; width:71px; font-size:14px;}
+.marquee{float:left; display:inline; width:901px; height:38px; line-height:37px; color:#B7B7B7; overflow:hidden;}
 
 /*体育投注*/
 .mod-sports{padding:10px 0;}
@@ -154,18 +162,21 @@ body{position:relative;}
 .mod-sports .notice{position:relative; margin:-10px 0 10px 0;}
 
 /*真人娱乐*/
-.l-c-platform li{float:left; display:inline; width:290px; height:190px; cursor:pointer; margin:15px 18px;}
+.l-c-platform li{float:left; display:inline; position:relative; width:290px; height:190px; margin:15px 18px;}
 .l-c-platform li.ag-play-btn,.l-c-platform li.bb-play-btn{margin-left:26px;}
 .l-c-platform li.salon-play-btn,.l-c-platform li.gd-play-btn,.l-c-platform li.mg-play-btn,.l-c-platform li.pt-play-btn{width:213px;}
-.l-c-platform li a{display:block; width:100%; height:100%; text-indent:-9999em; cursor:pointer;}
-.l-c-platform li.allbet-play-btn a{background:url(../images/live_casino/l_c_allbet.jpg) no-repeat;}
-.l-c-platform li.ag-play-btn a{background:url(../images/live_casino/l_c_ag.jpg) no-repeat;}
-.l-c-platform li.bb-play-btn a{background:url(../images/live_casino/l_c_bbin.jpg) no-repeat;}
-.l-c-platform li.salon-play-btn a{background:url(../images/live_casino/l_c_salon.jpg) no-repeat;}
-.l-c-platform li.gd-play-btn a{background:url(../images/live_casino/l_c_gd.jpg) no-repeat;}
-.l-c-platform li.mg-play-btn a{background:url(../images/live_casino/l_c_mg.jpg) no-repeat;}
-.l-c-platform li.pt-play-btn a{background:url(../images/live_casino/l_c_pt.jpg) no-repeat;}
-.l-c-platform li.more-play-btn a{background:url(../images/live_casino/l_c_more.jpg) no-repeat; cursor:default;}
+.l-c-platform li a{display:none; margin: 75px auto 0 auto; color: #E0CAAA; border: 1px solid #E0CAAA; width: 141px; height: 36px; font-size: 16px; text-align: center; line-height: 35px;cursor:pointer;}
+.l-c-platform li a:hover{background-color:#E0CAAA; color:#000;}
+.l-c-platform li.allbet-play-btn{background:url(../images/live_casino/l_c_allbet.jpg) no-repeat;}
+.l-c-platform li.ag-play-btn{background:url(../images/live_casino/l_c_ag.jpg) no-repeat;}
+.l-c-platform li.bb-play-btn{background:url(../images/live_casino/l_c_bbin.jpg) no-repeat;}
+.l-c-platform li.salon-play-btn{background:url(../images/live_casino/l_c_salon.jpg) no-repeat;}
+.l-c-platform li.gd-play-btn{background:url(../images/live_casino/l_c_gd.jpg) no-repeat;}
+.l-c-platform li.mg-play-btn{background:url(../images/live_casino/l_c_mg.jpg) no-repeat;}
+.l-c-platform li.pt-play-btn{background:url(../images/live_casino/l_c_pt.jpg) no-repeat;}
+.l-c-platform li.more-play-btn{background:url(../images/live_casino/l_c_more.jpg) no-repeat; cursor:default;}
+.l-c-platform li > span{display:none; background: url(/static/images/ui_alpha_black_80.png) repeat; position: absolute; width: 100%; height: 100%;}
+.l-c-platform li:hover a, .l-c-platform li:hover > span{display:block;}
 
 /*彩票投注*/
 .lotto-items{background-color:#000; padding-top:30px;}
@@ -176,9 +187,12 @@ body{position:relative;}
 .lotto-items .img img{width:100%; height:100%;}
 .lotto-items h4{font-size:13px; font-weight:normal; color:#ccc; font-size:14px; margin:14px 0; text-align:center;}
 .lotto-items li:hover h4{color:#d0b679;}
+.lotto-items .lotto-bb li{margin:0 0 40px 11px;}
 .mod-lottery .bb-item .bb-07{background-position:-214px -109px;}
 
-.platform-wrap .hd-menu.lottery-menu > ul > li{width:498px; height:60px; position:relative; border-right:none;}
+.platform-wrap .hd-menu.lottery-menu > ul > li{width:499px; height:60px; position:relative; border-right:none;}
+.platform-wrap .hd-menu.lottery-menu > ul > li:hover{background-color:#2C2A2D;}
+.platform-wrap .hd-menu.lottery-menu > ul > li:hover h2{color:#F9CC54;}
 .platform-wrap .hd-menu.lottery-menu > ul > li > i{background:url('../images/hd_menu_spirits.png') 0 -143px no-repeat; position:absolute; left:150px; width:86px; height:60px; margin:0;}
 .platform-wrap .hd-menu.lottery-menu > ul > li.sgwin-menu > i{background-position: 0 -392px;}
 .platform-wrap .hd-menu.lottery-menu > ul > li h2{padding-left:90px;}
@@ -214,8 +228,8 @@ body{position:relative;}
 .lotto-sgwin li:hover .sgwin-13{background-position:-728px -387px;}
 .lotto-sgwin li:hover .sgwin-14{background-position:-873px -387px;}
 
-.lotto-bb .img{height:120px; background-size:cover !important;}
-.lotto-bb .bb-01{background:url(../images/lotto/bb_01.jpg) 0 -11px no-repeat;}
+.lotto-bb .img{width:153px; height:155px;}
+.lotto-bb .bb-01{background:url(../images/lotto/bb_01.jpg) 0 -4px no-repeat;}
 .lotto-bb .bb-02{background:url(../images/lotto/bb_02.jpg) 0 -4px no-repeat;}
 .lotto-bb .bb-03{background:url(../images/lotto/bb_03.jpg) 0 -4px no-repeat;}
 .lotto-bb .bb-04{background:url(../images/lotto/bb_04.jpg) 0 -4px no-repeat;}

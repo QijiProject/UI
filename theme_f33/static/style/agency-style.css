@@ -3,9 +3,9 @@
 /* 代理前端 */
 .nav{width:600px;}
 .nav li > a{height:47px; padding-top:40px;}
-.mod-banner{height:360px;}
-.agency-platform li{margin:0 0 30px; background:#333; padding:1px;}
-.agency-platform .platform-tit{background:#000; border:1px solid #222; height:116px;}
+.mod-banner{height:408px;}
+.agency-platform li{margin:0 0 20px;}
+.agency-platform .platform-tit{background:#000; border-top:1px solid #222; height:116px;}
 .agency-platform .platform-logo{width:250px; margin:20px 0 0; height:70px; border-right:1px solid #222; color:#666; text-align:center;}
 .agency-platform .platform-logo h2{font:30px/1.2 "Microsoft YaHei"; color:#FEE81B;}
 .agency-platform .platform-logo span{font:20px/1.6 "Microsoft YaHei";}
@@ -15,7 +15,7 @@
 .agency-platform .platform-go:hover{background:#9D0101;}
 
 /*.agency-content{padding:20px 0;}*/
-.agency-content .layout{background:#000; margin:0 auto; color:#888;}
+.agency-content .layout{background:#000; margin:0 auto; margin-bottom:10px; color:#888;}
 .agency-content .agency-wrap{padding:20px; width:960px;}
 .agency-content h2{font:30px/1.5 "Microsoft YaHei"; margin-bottom:20px; color:#fff;}
 .agency-content p{font-size:14px; line-height:24px; margin:10px 0; text-indent:2em;}
@@ -27,9 +27,9 @@
 .mod-reg,.mod-forget-passwd{background: url('../images/welcome_banner_01.jpg') center top no-repeat; padding-top: 218px;}
 
 /* notice */
-.notice{background:url(../images/notice_bg.png) repeat; height:35px; width:100%; line-height:35px; margin-bottom:10px;}
+.notice{background:url(../images/notice_bg.png) repeat; height:38px; width:100%; line-height:35px; margin-bottom:10px;}
 .notice > .layout{overflow:hidden;}
-.notice i{background:url(../images/notice_icon.png) no-repeat 0 center; padding-left:25px; color:#E9D77B; float:left; display:inline; width:62px;}
-.marquee{float:left; display:inline; width:910px; height:35px; line-height:35px; color:#B7B7B7; overflow:hidden;}
+.notice i{background:url(../images/notice_icon.png) no-repeat 0 10px; padding-left:25px; color:#F9CC54; float:left; display:inline; width:71px; font-size:14px;}
+.marquee{float:left; display:inline; width:901px; height:38px; line-height:37px; color:#B7B7B7; overflow:hidden;}
 
 /* 代理中心 */
