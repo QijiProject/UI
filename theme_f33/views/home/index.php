@@ -195,7 +195,10 @@
                 <span class="tac">PT ( palytech ) 平台是欧盟最热门的游戏平台之一，该平台开发的漫威主题系列游戏深受广大玩家喜爱，风靡全球，精彩刺激，爱不释手...</span>
             </div>
             <div class="jackpot-wrap fr">
-                <span class="jackpot-amount">超级彩金<br /><span class="fi">CNY</span>454,875,293.32</span>
+                <div class="jackpot-amount">
+                    超级彩金
+                    <iframe src="/home/ticker2" width="190" height="30" scrolling="no" frameborder="0" border="0" allowtransparency="true"></iframe>
+                </div>
                 <div class="jackpot-winner m-t-20">
                     <div class="jackpot-title">超级赢家榜</div>
                     <div class="clearfix">
@@ -203,8 +206,8 @@
                         <span>金额</span>
                         <span>游戏名称</span>
                     </div>
-                    <div id="jackpot-scroll">
-                      <ul class="jackpot-marquee clearfix">
+                    <div id="jackpotScroll" class="jackpot-scroll">
+                      <ul>
                           <?=Helper::GetSiteTextInfo(23);?>
                       </ul>
                     </div>
@@ -254,7 +257,7 @@
 <script>
   $(document).ready(function(){
       // jackpot winner scrollbox
-      $("#jackpot-scroll").scrollbox({
+      $("#jackpotScroll").scrollbox({
           linear: true,
           step: 1,
           delay: 0,
