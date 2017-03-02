@@ -27,9 +27,5 @@
 .mod-reg,.mod-forget-passwd{background: url('../images/welcome_banner_01.jpg') center top no-repeat; padding-top: 218px;}
 
 /* notice */
-.notice{background:url(../images/notice_bg.png) repeat; height:38px; width:100%; line-height:35px; margin-bottom:10px;}
-.notice > .layout{overflow:hidden;}
-.notice i{background:url(../images/notice_icon.png) no-repeat 0 10px; padding-left:25px; color:#F9CC54; float:left; display:inline; width:71px; font-size:14px;}
-.marquee{float:left; display:inline; width:901px; height:38px; line-height:37px; color:#B7B7B7; overflow:hidden;}
-
+.notice{position:relative; margin-bottom:10px;}
 /* 代理中心 */

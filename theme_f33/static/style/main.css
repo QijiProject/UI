@@ -8,7 +8,7 @@ a:hover,a:active{color:#F1EDA9;}
 .layout1020{width:1020px; margin:0 auto;}
 
 /* spirits 图片 */
-.top-notice em,.nav ul li.nav-item a i,.home-menu .menu-info p em,.header-online-chat,.slide-wrap .slide-arrow em{background:url(../images/common_spirits.png) no-repeat;}
+.top-notice em,{background:url(../images/common_spirits.png) no-repeat;}
 .login-menu .log-btn,.login-menu .log-btn-disabled,.login-menu .reg-btn{background:url(../images/header/header_spirits.png) no-repeat;}
 
 /*系统公告*/
@@ -16,6 +16,12 @@ a:hover,a:active{color:#F1EDA9;}
 .top-notice .layout{position:relative;}
 .top-notice em{background-position:-179px -120px; height:18px; width:18px; display:block; position:absolute; top:6px; left:0;}
 .top-notice .top-marquee{width:960px; margin-left:30px; overflow:hidden; height:100%; color:#4d3308;}
+
+/* 公告 */
+.notice{background:url(../images/notice_bg.png) repeat; height:38px; width:100%; line-height:35px; position:absolute; bottom:0;}
+.notice > .layout{overflow:hidden;}
+.notice i{background:url(../images/notice_icon.png) no-repeat 0 10px; padding-left:25px; color:#F9CC54; float:left; display:inline; width:71px; font-size:14px;}
+.marquee{float:left; display:inline; width:901px; height:38px; line-height:37px; color:#B7B7B7; overflow:hidden;}
 
 /* header */
 .header{position:relative; z-index:99; background-color:#2b2b2b; }

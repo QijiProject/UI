@@ -12,7 +12,7 @@
 .help-wrap .area-main ol li{list-style-type:decimal; line-height:24px; margin-left:20px; *margin-left:25px; padding:15px 10px;}
 .help-wrap .area-main h2{font:26px/1.5 "Microsoft YaHei"; color:#fff; margin-top:25px;}
 .help-wrap .area-main p{padding:10px 0; line-height:24px;}
-.help-wrap .area-main h3{background:url('../images/list_dot.png') 0 8px no-repeat; padding-left: 20px; margin-top:30px; cursor:pointer; font-size:14px;}
+.help-wrap .area-main h3{margin-top:30px; font-size:14px; color:#E0CAAA;}
 .help-wrap .area-main .child,#faqs p{font-size:12px;}
 .help-wrap .area-main ul.child li{line-height:24px; background:url(../images/list_dot.png) no-repeat 0 -52px; padding:10px 0 10px 15px; list-style-type:none; margin:0;}
 .help-wrap .area-main ol.child li{padding:10px 0 10px 10px;}
@@ -20,7 +20,7 @@
 .help-wrap .area-main .answer{display:none; margin:0 20px;}
 .help-wrap .area-main .answer a{text-decoration:underline; color:#88662c;}
 .help-wrap .area-main .answer p,.help-wrap .area-main .answer .child li{color:#888;}
-#faqs h3{margin-top:10px; color:#aaa; height:34px; line-height:34px; background-position:0 14px;}
+#faqs h3{background:url('../images/list_dot.png') 0 14px no-repeat; padding-left: 20px; margin-top:10px; color:#aaa; height:34px; line-height:34px; cursor:pointer;}
 #faqs h3.current,#faqs h3.current:hover,#faqs h3:hover{color:#FDFA25;}
 
 /* 联系我们 */
@@ -35,11 +35,5 @@
 .contact-wrap ul .online-chat a:hover{background:#da2c00;}
 .contact-wrap ul .email a{text-decoration:underline; font-size:16px; color:#88662c;}
 .contact-wrap ul .email a:hover{color:#88662c;}
-
-/* 公告 */
-.notice{background:url(../images/notice_bg.png) repeat; height:38px; width:100%; line-height:35px; position:absolute; bottom:0;}
-.notice > .layout{overflow:hidden;}
-.notice i{background:url(../images/notice_icon.png) no-repeat 0 10px; padding-left:25px; color:#F9CC54; float:left; display:inline; width:71px; font-size:14px;}
-.marquee{float:left; display:inline; width:901px; height:38px; line-height:37px; color:#B7B7B7; overflow:hidden;}
 
 .mod-banner{height:218px;}
