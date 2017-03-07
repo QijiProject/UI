@@ -1,0 +1,38 @@
+/* CSS Document */
+.welcome-banner{background:url('../images/welcome_banner_01.jpg') no-repeat center top; height:218px;}
+.help-content{padding:20px 0; background-color:#1b1b1b;}
+.help-wrap .menu-sub{width:260px; padding-bottom: 155px; background: url(/static/images/help_promo.jpg) no-repeat center bottom;}
+.help-wrap .menu-sub ul li{background:url('/static/images/help_arrow.png') no-repeat 218px 17px; width:100%; height:38px; line-height:38px; border-bottom: 1px solid #222; border-left:5px solid transparent;}
+.help-wrap .menu-sub ul li:hover, .help-wrap .menu-sub ul li.current{background-position:218px -21px; border-left-color:#971212; background-color: #131313;}
+.help-wrap .menu-sub ul li a{padding-left:35px; color:#999; display:block; font-size:14px; position:relative;}
+.help-wrap .help-header{display:block; width: 260px; height: 108px; background: url('../images/help_title.png') no-repeat center center #131313; margin-bottom: 10px;}
+
+.help-wrap .area-main{width:820px; padding:0 20px 30px 20px; border: 1px solid #323232; color:#888; font-size:12px; box-sizing:border-box;}
+.help-wrap .area-main ol li{list-style-type:decimal; line-height:24px; margin-left:20px; *margin-left:25px; padding:10px;}
+.help-wrap .area-main h2{font:18px "Microsoft YaHei"; color:#ecc866; margin-top:25px; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #7c7777;}
+.help-wrap .area-main p{padding:10px 0; line-height:24px;}
+.help-wrap .area-main h3{margin-top:30px; font-size:14px; color:#E0CAAA;}
+.help-wrap .area-main .child,#faqs p{font-size:12px;}
+.help-wrap .area-main ul.child li{line-height:24px; background:url(../images/list_dot.png) no-repeat 0 -52px; padding:10px 0 10px 15px; list-style-type:none; margin:0;}
+.help-wrap .area-main ol.child li{padding:10px 0 10px 10px;}
+.help-wrap .area-main h4{color:#888; padding:40px 0 10px}
+.help-wrap .area-main .answer{display:none; margin:0 20px;}
+.help-wrap .area-main .answer a{text-decoration:underline; color:#88662c;}
+.help-wrap .area-main .answer p,.help-wrap .area-main .answer .child li{color:#888;}
+#faqs h3{background:url('../images/list_dot.png') 0 14px no-repeat; padding-left: 20px; margin-top:10px; color:#aaa; height:34px; line-height:34px; cursor:pointer;}
+#faqs h3.current,#faqs h3.current:hover,#faqs h3:hover{color:#edc968;}
+
+/* 联系我们 */
+.contact-wrap ul li{margin:45px 0;}
+.contact-wrap ul li i{background:url(../images/contact.png) no-repeat; width:60px; height:60px; float:left;}
+.contact-wrap ul .tel i{background-position:0 -118px;}
+.contact-wrap ul .email i{background-position:0 -213px;}
+.contact-wrap ul li div{margin-left:74px; *margin-top:-20px;}
+.help-wrap .contact-wrap ul li div h4{font:16px/1 "Microsoft YaHei"; color:#aaa; padding:0;}
+.contact-wrap ul li p{text-indent:0;}
+.contact-wrap ul .online-chat a{background:#c41100; height:30px; text-align:center; display:block; width:135px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; color:#fff; font:16px/30px "Microsoft YaHei"; cursor:pointer;}
+.contact-wrap ul .online-chat a:hover{background:#da2c00;}
+.contact-wrap ul .email a{text-decoration:underline; font-size:16px; color:#edc968;}
+
+.mod-banner{height:180px;}
+.slide-wrap ul li img{top:0;}
