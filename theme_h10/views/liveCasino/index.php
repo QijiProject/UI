@@ -19,7 +19,7 @@ Yii::app()->clientScript->registerScriptFile( "/js/game/Game.js",CClientScript::
             <?= $this->renderPartial('/layouts/notice') ?>
             <!--end 公告 -->
         </div>
-        <div class="l-c-platform layout m-t-30">
+        <div class="l-c-platform layout1000 m-t-30">
             <ul class="clearfix">
                 <li class="ag-play-btn"><span><a href="javascript:void(0);" onclick="get_ag_gc(<?=$ag_status ?>,<?=AsiaGames::GP_TYPE ?>);">进入游戏</a></span></li>
                 <li class="bb-play-btn"><span><a href="javascript:void(0);" onclick="load_bbin_ld(<?=$bbin_status ?>,<?=BBIN::LD?>,'live');">进入游戏</a></span></li>

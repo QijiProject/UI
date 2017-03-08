@@ -133,7 +133,7 @@
                                     <a href="/sports/index" class="sb">
                                         <i></i>
                                         <div class="title-wrap">
-                                            <span class="cn-title">沙巴体育</span> / <span class="en-title">Sabah Sports</span><span class="game-btn">进入游戏</span>
+                                            <span class="cn-title">沙巴体育</span><span class="en-title">Sabah Sports</span><span class="game-btn">进入游戏</span>
                                         </div>
                                     </a>
                                 </li>
@@ -141,7 +141,7 @@
                                     <a href="/sports/im" class="im">
                                         <i></i>
                                         <div class="title-wrap">
-                                            <span class="cn-title">IM体育</span> / <span class="en-title">IM Sports</span><span class="game-btn">进入游戏</span>
+                                            <span class="cn-title">IM体育</span><span class="en-title">IM Sports</span><span class="game-btn">进入游戏</span>
                                         </div>
                                     </a>
                                 </li>
@@ -149,7 +149,7 @@
                                     <a href="/sports/hg" class="hg">
                                         <i></i>
                                         <div class="title-wrap">
-                                            <span class="cn-title">皇冠体育</span> / <span class="en-title">Crown Sports</span><span class="game-btn">进入游戏</span>
+                                            <span class="cn-title">皇冠体育</span><span class="en-title">Crown Sports</span><span class="game-btn">进入游戏</span>
                                         </div>
                                     </a>
                                 </li>
@@ -157,7 +157,7 @@
                                     <a href="/sports/bb" class="bb">
                                         <i></i>
                                         <div class="title-wrap">
-                                            <span class="cn-title">BB体育</span> / <span class="en-title">BBIN Sports</span><span class="game-btn">进入游戏</span>
+                                            <span class="cn-title">BB体育</span><span class="en-title">BBIN Sports</span><span class="game-btn">进入游戏</span>
                                         </div>
                                     </a>
                                 </li>

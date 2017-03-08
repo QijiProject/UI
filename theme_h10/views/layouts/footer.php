@@ -7,7 +7,7 @@
         <li class="footer-contact-4"><i></i><span>客服QQ<br />839327777</span></li>
     </ul>
     <div class="footer-icon"><div class="layout pr"></div></div>
-    <div class="footer-menu"><a href="/help/contact">联系我们</a><a href="/help/privacy">隐私政策</a><a href="/help/responsibility">责任博彩</a><a href="/help/faqs">常见问题</a><a href="/help/terms">规则条款</a><a href="/agent/home/index">合营加盟</a></div>
+    <div class="footer-menu"><a href="/help/contact">联系我们</a><a href="/help/privacy">隐私政策</a><a href="/help/responsibility">责任博彩</a><a href="/help/faqs">常见问题</a><a href="/help/terms">规则条款</a><a href="/agent/home/index" target="_blank">合营加盟</a></div>
     <div class="credentials">Copyright &copy; 澳门新葡京赌场 Reserved</div>
     <!--<div class="layout"><p><?=Helper::GetSiteTextInfo(1);?></p></div>-->
 </div>

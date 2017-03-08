@@ -59,3 +59,26 @@
         </div>
     </div>
 </div>
+
+<script>
+	$(function(){
+		var timerID = setInterval("dispTime()", 1000); // site time
+	});
+	
+	/* site time */
+		var current = 1486907141000 || 0;
+		function dispTime() {
+			current += 1000;
+			var dateObj = new Date(current);
+			var Y = dateObj.getFullYear();
+			var Mh = dateObj.getMonth() + 1;
+			if (Mh > 12) Mh = 01;
+			if (Mh < 10) Mh = '0' + Mh;
+			var D = dateObj.getDate() < 10 ? '0' + dateObj.getDate() : dateObj.getDate();
+			var H = dateObj.getHours() < 10 ? '0' + dateObj.getHours() : dateObj.getHours();
+			var M = dateObj.getMinutes() < 10 ? '0' + dateObj.getMinutes() : dateObj.getMinutes();
+			var S = dateObj.getSeconds() < 10 ? '0' + dateObj.getSeconds() : dateObj.getSeconds();
+			document.getElementById('siteTime').innerHTML = "美东时间：" + Y + '-' + Mh + '-' + D + ' ' + H + ':' + M + ':' + S;
+		}
+	/* end: site time */
+</script>

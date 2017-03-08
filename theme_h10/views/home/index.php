@@ -6,6 +6,9 @@
     <!--焦点图-->
     <div class="slide-wrap clearfix" id="slides">
         <?=Helper::GetSiteTextInfo(101);?>
+        <a class="slide-arrow fl slide-prev" href="javascript:void(0);"><em></em></a>
+        <a class="slide-arrow fr slide-next" href="javascript:void(0);"><em></em></a>
+        <div class="num"><span class="current">1</span><span>2</span></div>
         <ul>
             <li style="display:block;"><img src="/static/images/home_banner_01.png" /></li>
             <li><img src="/static/images/home_banner_02.jpg" /></li>
