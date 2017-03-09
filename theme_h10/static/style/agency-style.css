@@ -1,9 +1,10 @@
 /* CSS Document */
 
 /* 代理前端 */
-.nav{width:600px;}
+.nav{width:582px;}
 .nav li > a{height:47px; line-height:47px;}
-.mod-banner{height:344px;}
+.mod-banner{height:360px;}
+.mod-banner .slide-wrap ul li img{top:0;}
 .agency-platform li{margin:0 0 20px;}
 .agency-platform .platform-tit{background:#000; border-top:1px solid #222; height:116px;}
 .agency-platform .platform-logo{width:250px; margin:20px 0 0; height:70px; border-right:1px solid #222; color:#666; text-align:center;}
@@ -11,10 +12,10 @@
 .agency-platform .platform-logo span{font:20px/1.6 "Microsoft YaHei";}
 .agency-platform .platform-text{font-size:14px; width:360px; padding:24px 10px 10px 80px; color:#888;}
 .agency-platform .platform-text strong{color:#BEA76D;}
-.agency-platform .platform-go{background:#E52A35; color:#fff; margin:32px 40px 0px 20px; width:220px; height:54px; font:20px/54px "Microsoft YaHei"; text-align:center; cursor:pointer;}
+.agency-platform .platform-go{background:#E52A35; color:#fff; margin:32px 40px 0px 120px; width:220px; height:54px; font:20px/54px "Microsoft YaHei"; text-align:center; cursor:pointer;}
 .agency-platform .platform-go:hover{background:#9D0101;}
 
-/*.agency-content{padding:20px 0;}*/
+.agency-content, .agency-home{padding-top:10px;}
 .agency-content .layout{background:#000; margin:0 auto; margin-bottom:10px; color:#888;}
 .agency-content .agency-wrap{padding:20px; width:960px;}
 .agency-content h2{font:30px/1.5 "Microsoft YaHei"; margin-bottom:20px; color:#fff;}
@@ -29,3 +30,5 @@
 /* notice */
 .notice{position:relative; margin-bottom:10px;}
 /* 代理中心 */
+
+

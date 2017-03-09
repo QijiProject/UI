@@ -36,7 +36,7 @@
         <div class="layout pr">
             <div class="login-wrap">
                 <?php if(!$this->is_agent_login()): ?>
-                <div class="login-menu">
+                <div class="login-menu fr">
                     <span class="login-title">代理登录 / login</span>
                     <input type="text" id="uid" name="uid" placeholder="代理账号" class="username-btn" />
                     <input type="password" id="jpwd" name="jpwd" placeholder="密码" class="password-btn" />

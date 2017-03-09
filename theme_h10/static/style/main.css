@@ -98,6 +98,7 @@ a{color:#fff;}
 .header-bottom{height:41px; border-bottom: 1px solid #d7be69 !important;}
 .header-bottom .header-address{background:url(../images/header/head_address.png) no-repeat; display:block; width:175px; height:30px; position:absolute; top:41px; left:50%; margin-left:-87.5px; z-index:1000;}
 
+.login-wrap{padding-right:20px;}
 .login-menu .login-title{background-position:0 9px; float:left; color:#f2d983; font-size:14px; line-height:42px; margin-right:20px; padding-left:28px;}
 .login-menu input{width:212px; height:34px; float:left; display:inline; margin:3px 5px 0 0; padding:5px 10px 5px 30px; font-size:14px; color:#fff; border:1px solid #555; border-radius:0; box-sizing:border-box;}
 .login-menu input:focus{border-color:#f2d983;}
@@ -209,9 +210,9 @@ a{color:#fff;}
 .footer{background-color:#171717; color:#999;}
 .footer .footer-contact{border-top:1px solid #2d2d2d; border-bottom:1px solid #2d2d2d;}
 .footer .footer-contact li {float:left; display:inline; padding:14px 0; font-size:14px; color:#999; box-sizing:border-box;}
-.footer .footer-contact li.footer-contact-1{margin-right:132px;}
-.footer .footer-contact li.footer-contact-2{margin-right:149px;}
-.footer .footer-contact li.footer-contact-3{margin-right:135px;}
+.footer .footer-contact li.footer-contact-1{margin-right:179px;}
+.footer .footer-contact li.footer-contact-2{margin-right:179px;}
+.footer .footer-contact li.footer-contact-4{float:right;}
 .footer .footer-contact li > span{display: block; padding-left: 50px;}
 .footer .footer-contact li > i{background:url('../images/footer/footer_contact.png') no-repeat 0 0; display: block; width: 36px; height: 36px; position: absolute; margin-top:4px;}
 .footer .footer-contact li.footer-contact-2 > i{background-position:0 -42px;}

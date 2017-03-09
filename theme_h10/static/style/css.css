@@ -194,9 +194,8 @@ body{position:relative;}
 .mod-lottery .bb-item .bb-07{background-position:-214px -109px;}
 
 .platform-wrap .hd-menu.lottery-menu > li{width:499px; height:60px; position:relative; border-right:none;}
-.platform-wrap .hd-menu.lottery-menu > li:hover h2{color:#edc968;}
 .platform-wrap .hd-menu.lottery-menu > li h2{padding:18px 0 0 90px;}
-.platform-wrap .hd-menu.lottery-menu > li.bb-menu{background-position: 165px -159px;}
+.platform-wrap .hd-menu.lottery-menu > li.bb-menu{background-position: 165px -159px; border-right: 1px solid #545454;}
 .platform-wrap .hd-menu.lottery-menu > li.kg-menu{background-image: url(/static/images/menu_slots_kg.png); background-position: 138px 10px; background-repeat: no-repeat;}
 
 .lotto-sgwin .img{background:url(../images/lotto/lottery_sgwin_icon.png) no-repeat;}
@@ -275,7 +274,7 @@ body{position:relative;}
 .mod-games .bb-item .games-item li em{background-repeat:no-repeat; width:180px; height:120px; background-position:0 -170px; display:block; margin:2px auto;}
 .mod-games .bb-item .games-item li:hover em{background-position:0 -20px;}
 .mod-games .ag-item .games-item li em{background-repeat:no-repeat; width:450px; height:230px; display:block; margin:0 auto;}
-.mod-games .nt-item .games-item li em{background-repeat:no-repeat; width:180px; height:120px; display:block; margin:0 auto;}
+.mod-games .nt-item .games-item li em{background-repeat:no-repeat; width:180px; height:120px; display:block; margin:2px auto;}
 
 .pt-pc-download{background:url(../images/pt_pc_download.png) no-repeat; width:198px; height:44px; display:block; position:absolute; top:-7px; right:8px; line-height:200px; overflow:hidden;}
 .pt-pc-download:hover{background-position:0 -44px;}

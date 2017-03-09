@@ -48,51 +48,51 @@
                     <ul>
                         <li>
                             <span class="state">北京</span>
-										        <span class="username">ro***41854</span>
-										        <span class="game">古怪的猴子</span>
-										        <span class="amount">32000元</span>
+                            <span class="username">ro***41854</span>
+                            <span class="game">古怪的猴子</span>
+                            <span class="amount">32000元</span>
                         </li>
                         <li>
                             <span class="state">湖南</span>
-										        <span class="username">ow***23</span>
-										        <span class="game">宝石之轮</span>
-										        <span class="amount">46000元</span>
+                            <span class="username">ow***23</span>
+                            <span class="game">宝石之轮</span>
+                            <span class="amount">46000元</span>
                         </li>
                         <li>
                             <span class="state">北京</span>
-										        <span class="username">ro***41854</span>
-										        <span class="game">古怪的猴子</span>
-										        <span class="amount">32000元</span>
+                            <span class="username">ro***41854</span>
+                            <span class="game">古怪的猴子</span>
+                            <span class="amount">32000元</span>
                         </li>
                         <li>
                             <span class="state">湖南</span>
-										        <span class="username">ow***23</span>
-										        <span class="game">宝石之轮</span>
-										        <span class="amount">46000元</span>
+                            <span class="username">ow***23</span>
+                            <span class="game">宝石之轮</span>
+                            <span class="amount">46000元</span>
                         </li>
                         <li>
                             <span class="state">北京</span>
-										        <span class="username">ro***41854</span>
-										        <span class="game">古怪的猴子</span>
-										        <span class="amount">32000元</span>
+                            <span class="username">ro***41854</span>
+                            <span class="game">古怪的猴子</span>
+                            <span class="amount">32000元</span>
                         </li>
                         <li>
                             <span class="state">湖南</span>
-										        <span class="username">ow***23</span>
-										        <span class="game">宝石之轮</span>
-										        <span class="amount">46000元</span>
+                            <span class="username">ow***23</span>
+                            <span class="game">宝石之轮</span>
+                            <span class="amount">46000元</span>
                         </li>
                         <li>
                             <span class="state">北京</span>
-										        <span class="username">ro***41854</span>
-										        <span class="game">古怪的猴子</span>
-										        <span class="amount">32000元</span>
+                            <span class="username">ro***41854</span>
+                            <span class="game">古怪的猴子</span>
+                            <span class="amount">32000元</span>
                         </li>
                         <li>
                             <span class="state">湖南</span>
-										        <span class="username">ow***23</span>
-										        <span class="game">宝石之轮</span>
-										        <span class="amount">46000元</span>
+                            <span class="username">ow***23</span>
+                            <span class="game">宝石之轮</span>
+                            <span class="amount">46000元</span>
                         </li>
                     </ul>
                 </div>
@@ -100,51 +100,51 @@
                     <ul>
                         <li>
                             <span class="state">北京</span>
-										        <span class="username">ro***41854</span>
-										        <span class="game">古怪的猴子</span>
-										        <span class="amount">32000元</span>
+                            <span class="username">ro***41854</span>
+                            <span class="game">古怪的猴子</span>
+                            <span class="amount">32000元</span>
                         </li>
                         <li>
                             <span class="state">湖南</span>
-										        <span class="username">ow***23</span>
-										        <span class="game">宝石之轮</span>
-										        <span class="amount">46000元</span>
+                            <span class="username">ow***23</span>
+                            <span class="game">宝石之轮</span>
+                            <span class="amount">46000元</span>
                         </li>
                         <li>
                             <span class="state">北京</span>
-										        <span class="username">ro***41854</span>
-										        <span class="game">古怪的猴子</span>
-										        <span class="amount">32000元</span>
+                            <span class="username">ro***41854</span>
+                            <span class="game">古怪的猴子</span>
+                            <span class="amount">32000元</span>
                         </li>
                         <li>
                             <span class="state">湖南</span>
-										        <span class="username">ow***23</span>
-										        <span class="game">宝石之轮</span>
-										        <span class="amount">46000元</span>
+                            <span class="username">ow***23</span>
+                            <span class="game">宝石之轮</span>
+                            <span class="amount">46000元</span>
                         </li>
                         <li>
                             <span class="state">北京</span>
-										        <span class="username">ro***41854</span>
-										        <span class="game">古怪的猴子</span>
-										        <span class="amount">32000元</span>
+                            <span class="username">ro***41854</span>
+                            <span class="game">古怪的猴子</span>
+                            <span class="amount">32000元</span>
                         </li>
                         <li>
                             <span class="state">湖南</span>
-										        <span class="username">ow***23</span>
-										        <span class="game">宝石之轮</span>
-										        <span class="amount">46000元</span>
+                            <span class="username">ow***23</span>
+                            <span class="game">宝石之轮</span>
+                            <span class="amount">46000元</span>
                         </li>
                         <li>
                             <span class="state">北京</span>
-										        <span class="username">ro***41854</span>
-										        <span class="game">古怪的猴子</span>
-										        <span class="amount">32000元</span>
+                            <span class="username">ro***41854</span>
+                            <span class="game">古怪的猴子</span>
+                            <span class="amount">32000元</span>
                         </li>
                         <li>
                             <span class="state">湖南</span>
-										        <span class="username">ow***23</span>
-										        <span class="game">宝石之轮</span>
-										        <span class="amount">46000元</span>
+                            <span class="username">ow***23</span>
+                            <span class="game">宝石之轮</span>
+                            <span class="amount">46000元</span>
                         </li>
                     </ul>
                 </div>
@@ -249,28 +249,28 @@
                     </ul>
               
                     <ul id="aggame_list" class="hide clearfix">
-                        <li class="ag-1" onclick="load_ag_by("<?= $this->is_login()?0:1; ?>);">
+                        <li class="ag-1" onclick="load_ag_by(<?= $this->is_login()?0:1; ?>);">
                             <span class="hot-game"></span>
                             <em class="ag_game_fish"></em>
                             <div class="game-name">捕鱼王2</div>
                         </li>
-                        <li class="ag-2" onclick="load_ag_game("<?= $this->is_login()?0:1; ?>);">
+                        <li class="ag-2" onclick="load_ag_game(<?= $this->is_login()?0:1; ?>);">
                             <em class="ag_game_items"></em>
                             <div class="game-name">性感女仆</div>
                         </li>
-                        <li class="ag-3" onclick="load_ag_game("<?= $this->is_login()?0:1; ?>);">
+                        <li class="ag-3" onclick="load_ag_game(<?= $this->is_login()?0:1; ?>);">
                             <em class="ag_game_items"></em>
                             <div class="game-name">灵猴献瑞</div>
                         </li>
-                        <li class="ag-4" onclick="load_ag_game("<?= $this->is_login()?0:1; ?>);">
+                        <li class="ag-4" onclick="load_ag_game(<?= $this->is_login()?0:1; ?>);">
                             <em class="ag_game_items"></em>
                             <div class="game-name">杰克高手</div>
                         </li>
-                        <li class="ag-5" onclick="load_ag_game("<?= $this->is_login()?0:1; ?>);">
+                        <li class="ag-5" onclick="load_ag_game(<?= $this->is_login()?0:1; ?>);">
                             <em class="ag_game_items"></em>
                             <div class="game-name">水果拉霸</div>
                         </li>
-                        <li class="ag-6" onclick="load_ag_game("<?= $this->is_login()?0:1; ?>);">
+                        <li class="ag-6" onclick="load_ag_game(<?= $this->is_login()?0:1; ?>);">
                             <span class="hot-game"></span>
                             <em class="ag_game_items"></em>
                             <div class="game-name">幸运8</div>

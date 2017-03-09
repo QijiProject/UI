@@ -205,7 +205,7 @@
             <i class="header-address"></i>
             <div class="login-wrap">
                 <?php if(!$this->is_login()): ?>
-                    <div class="login-menu">
+                    <div class="login-menu fr">
                         <span class="login-title">用户登录 / login</span>
                         <input type="text" id="uid" name="uid" placeholder="账号" class="username-btn" />
                         <input type="password" id="jpwd" name="jpwd" placeholder="密码" class="password-btn" />

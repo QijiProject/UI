@@ -1,9 +1,6 @@
 <div class="content">
 	  <div class="agency-home">
 		    <div class="mod-banner">
-            <!-- 公告 -->
-            <?= $this->renderPartial('../../layouts/notice') ?>
-            <!--end 公告 -->
             <!--焦点图-->
             <div class="slide-wrap" id="slides">
                 <ul>
@@ -13,7 +10,7 @@
             <!--end 焦点图-->	
         </div>
         
-        <div class="agency-platform layout1000 clearfix">
+        <div class="agency-platform layout clearfix">
             <ul>
                 <li>
                     <div class="platform-tit info-tit clearfix">

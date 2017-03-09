@@ -264,5 +264,5 @@ function nt_search(){
 </script>
 
 <!-- PT电游客户端下载 -->
-<?= $this->renderPartial('/game/ptClientDownload',array('pt_playername'=>$pt_playername,'name'=>'澳门金沙')) ?>
+<?= $this->renderPartial('/game/ptClientDownload',array('pt_playername'=>$pt_playername,'name'=>'澳门新葡京赌场')) ?>
 <!-- end PT电游客户端下载 -->
