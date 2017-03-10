@@ -99,7 +99,7 @@ a{color:#fff;}
 .header-bottom .header-address{background:url(../images/header/head_address.png) no-repeat; display:block; width:175px; height:30px; position:absolute; top:41px; left:50%; margin-left:-87.5px; z-index:1000;}
 
 .login-wrap{padding-right:20px;}
-.login-menu .login-title{background-position:0 9px; float:left; color:#f2d983; font-size:14px; line-height:42px; margin-right:20px; padding-left:28px;}
+.login-menu .login-title{background-position:0 9px; float:left; color:#f2d983; font-size:14px; line-height:42px; margin-right:20px; padding-left:28px; position:absolute; left:0;}
 .login-menu input{width:212px; height:34px; float:left; display:inline; margin:3px 5px 0 0; padding:5px 10px 5px 30px; font-size:14px; color:#fff; border:1px solid #555; border-radius:0; box-sizing:border-box;}
 .login-menu input:focus{border-color:#f2d983;}
 .login-menu input::-webkit-input-placeholder{font-size:14px; color:#fff;}
@@ -144,20 +144,6 @@ a{color:#fff;}
 .slide-wrap ul li{position:absolute; left:50%; top:0; display:none;}
 .slide-wrap ul li a{display:block;}
 .slide-wrap ul li img{position:relative; left:-50%; top:-60px;}
-
-/*侧边在线客服浮动*/
-.float-box{position:absolute; z-index:1000; top:150px;}
-.float-box a{display:block; width:100%; height:100%;}
-.float-box-left{left:10px; float:left;}
-.float-box-left > div{background:url(../images/side_contact_left.png) no-repeat; width:130px; height:274px;}
-.float-box-right{right:10px; float:right;}
-.float-box-right > div{background:url(../images/side_contact_right.png?0311) no-repeat; width:130px; height:274px;}
-.float-box ul li{cursor:pointer;}
-.float-box .box-games{width:100%; height:251px;}
-.float-box .box-chat{width:100%; height:77px;}
-.float-box .box-qq{width:100%; height:92px;}
-.float-box .box-browser-dl{width:100%; height:82px;}
-.float-box .box-close{height:23px; width:104px; margin-left:13px;}
 
 /* 表单 */
 .mod-forms label,.mod-forget-passwd li label{line-height:30px;}

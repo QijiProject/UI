@@ -11,7 +11,7 @@ if($this->is_login()){
         <div class="section section-app">
             <div class="layout">
                 <div class="fr section-info">
-                    <h3 class="clearfix"><span class="fl">澳门新葡京赌场手机APP</span><i class="fl"></i></h3>
+                    <h3 class="clearfix"><span class="fl">澳门新葡京手机APP</span><i class="fl"></i></h3>
                     <div class="inner clearfix">
                         <p class="fl qr-code"><img src="<?=Helper::GetSiteTextInfo(203);?>" /></p>
                         <div class="fl">
@@ -29,7 +29,7 @@ if($this->is_login()){
             <div class="layout">
                 <div class="fr section-img"><img src="<?=$this->getCdn();?>/images/mobile_web_img.png" /></div>
                 <div class="fl section-info">
-                    <h3>澳门新葡京赌场手机Web版</h3>
+                    <h3>澳门新葡京手机Web版</h3>
                     <div class="inner clearfix">
                         <p class="fl qr-code"><img src="<?=Helper::GetSiteTextInfo(204);?>" /></p>
                         <div class="fl">
@@ -83,6 +83,6 @@ if($this->is_login()){
 </div>
 
 <!-- PT电游客户端下载 -->
-<?= $this->renderPartial('/game/ptClientDownload',array('pt_playername'=>$pt_playername,'name'=>'澳门新葡京赌场')) ?>
+<?= $this->renderPartial('/game/ptClientDownload',array('pt_playername'=>$pt_playername,'name'=>'澳门新葡京')) ?>
 <!-- end PT电游客户端下载 -->
 
