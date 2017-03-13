@@ -31,9 +31,7 @@
     
     <div class="layout">
         <div class="banking-info pr">
-            <div class="qr-wrap">
-                <i class="qr-code"></i>
-            </div>
+            <div class="qr-wrap"></div>
             <ul class="clearfix">
                 <li class="circle-01">
                     <p><span class="title">存款</span><span class="sub-title">到帐</span><span class="desc">&nbsp;&nbsp;平均时间</span></p>
@@ -53,7 +51,7 @@
         <div class="product-services">
             <p>产品优势 <span>PRODUCT ADVANTAGES</span></p>
             <ul class="clearfix">
-                <li><span class="title">真人视讯</span><span>六大最权威平台，我们提供囊括东西方最全面平台，BG、AG、OG、MG、PT，我们的现场二十一点游戏、现场百家乐、现场轮盘和骰宝游戏中都有美丽的真人荷官与您相伴，仿佛亲临拉斯维加斯，大西洋城和澳门现代城的感觉。</span></li>
+                <li><span class="title">真人视讯</span><span>七大最权威平台，我们提供囊括东西方最全面平台，BB、AG、GD、PT、MG、沙龙、欧博，我们的现场二十一点游戏、现场百家乐、现场轮盘和骰宝游戏中都有美丽的真人荷官与您相伴，仿佛亲临拉斯维加斯，大西洋城和澳门现代城的感觉。</span></li>
                 <li class="last-col"><span class="title">电子游戏</span><span>最优秀的在线老虎机平台，最丰富奖金和红利，更有机会赢得高额累积奖池。</span></li>
                 <li><span class="title">体育平台</span><span>提供您最喜爱的体育赛事，如足球五大联赛、世界杯，NBA，WNBA，NFL，MLB，NCAA及四大网球公开赛。</span></li>
                 <li class="last-col"><span class="title">彩票游戏</span><span>我们提供游戏丰富，提供最高赔率，所以宾果依据官方开奖结果。彩票游戏给您一夜致富的机会及空前的游戏体验！</span></li>

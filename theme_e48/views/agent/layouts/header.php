@@ -31,7 +31,7 @@
                 <?php else: ?>
                 <div class="logined-nav fr">
                     <span class="username">欢迎！<?=$this->agent['agentname']; ?></span>
-                    <span>主账户：<em class="cMain"><?=Helper::money($this->agent['balance']) ?></em></span>
+                    <span class="user-balance">主账户：<em class="cMain"><?=Helper::money($this->agent['balance']) ?></em></span>
                     <a href="/agent/info/message" class="message">消息（<em id="_amessage" class="cMain"><?=$this -> getAUnreadCount();?></em>）</a>
                     <a href="/agent/info/index" class="user-center">账户中心</a>
                     <a class="logged-out" href="/agent/home/logout">安全退出</a>

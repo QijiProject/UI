@@ -29,12 +29,14 @@ Yii::app()->clientScript->registerScriptFile( "/js/game/Game.js",CClientScript::
                 <li class="l-c-gd">
                     <a href="javascript:void(0);" onclick='get_gd_gc(<?=$gd_status ?>,<?=GoldDeluxe::GP_TYPE?>,"")'>进入游戏<i></i></a>
                 </li>
-                
                 <li class="l-c-pt last">
                     <a href="javascript:void(0);" onclick="load_pt('<?=PT::PT_LD ?>',<?=$pt_status ?>,'plba')">进入游戏<i></i></a>
                 </li>
                 <li class="l-c-mg">
                     <a href="javascript:void(0);" onclick="load_mg_ld(<?=$mg_status ?>,'')">进入游戏<i></i></a>
+                </li>
+                <li class="l-c-more">
+                    <a href="javascript:void(0);"></a>
                 </li>
             </ul>
         </div>

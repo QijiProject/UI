@@ -1,7 +1,6 @@
 <div class="header">
 	<div class="layout1440">
         <div class="header-logo fl pr">
-        	<!--<a href="/home/index" title="<?=Helper::GetSiteTextInfo(2);?> 首页"><img src="/static/images/header_logo.png"/></a>-->
             <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="75" onmousedown="location.href='/home/index'">
                 <param name="movie" value="/static/images/header/header_logo.swf" />
                 <param name="wmode" value="transparent" />
@@ -16,7 +15,7 @@
                 </object>
                 <!--<![endif]-->
             </object>
-            <a href="/home/index" title="" class="home-link"></a>
+            <a href="/home/index" title="<?=Helper::GetSiteTextInfo(2);?> 首页" class="home-link"></a>
         </div>	
         <div class="header-top fr">
             <div class="login-wrap clearfix">
@@ -32,18 +31,20 @@
                 <?php else: ?>
                     <div class="logined-nav fr">
                         <span class="username">欢迎！<?=$this->user['playername'] ?></span>
-                        <span>主账户：<em class="cMain"><?=Helper::money($this->user['balance']) ?></em></span>
+                        <span class="user-balance">主账户：<em class="cMain"><?=Helper::money($this->user['balance']) ?></em></span>
                         <a href="/member/message" class="message">消息（<em id="_umessage" class="cMain"><?=$this -> getUnreadCount();?></em>）</a>
                         <a href="/member/index" class="user-center">账户中心</a>
-                        <a href="/wallet/transfer" class="transfer-href" >转账</a>
-                        <a href="/wallet/deposit" class="deposit-href">存款</a>
-                        <a href="/wallet/withdraw" class="withdraw-href">取款</a>
+                        <span class="money-operate">
+                            <a href="/wallet/transfer" class="transfer-href" >转账</a>
+                            <a href="/wallet/deposit" class="deposit-href">存款</a>
+                            <a href="/wallet/withdraw" class="withdraw-href">取款</a>
+                       	</span>
                         <a class="logged-out" href="/home/logout">安全退出</a>
                      </div>
                 <?php endif; ?>
             </div>
             <ul id="menu" class="nav clearfix">
-            	<li class="<?=$this->setActive('/home/index') ?>"><a href="/home/index">首&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
+            	<li class="<?=$this->setActive('/home/index') ?>"><a href="/home/index">首页</a></li>
                 <li class="<?=$this->setActive('/sports/index') ?> nav-sports"><a href="/sports/index">体育投注</a>
                 	<div class="nav-drop sports-drop"> 
                     	<ul>
@@ -143,44 +144,4 @@
             $(this).find('.nav-drop').hide();
         });
     });
-    //<!--时间插件-->
-    function startTime(){
-        d=new Date(); //创建一个Date对象 
-        localTime = d.getTime(); 
-        localOffset=d.getTimezoneOffset()*60000; //获得当地时间偏移的毫秒数 
-        utc = localTime + localOffset; //utc即GMT时间 
-        offset = 8; //以夏威夷时间为例，东10区 
-        md = utc + (3600000*offset); 
-        
-        var today=new Date(md);
-        var years=today.getFullYear();
-        var months=today.getMonth();
-        var d=today.getDate()
-        var h=today.getHours()
-        var m=today.getMinutes()
-        var s=today.getSeconds()
-        // add a zero in front of numbers<10
-        months=months+1
-        months=checkTime(months)
-        d=checkTime(d)
-        m=checkTime(m)
-        s=checkTime(s)
-        var weekday=new Array(7)
-        weekday[0]="星期日"
-        weekday[1]="星期一"
-        weekday[2]="星期二"
-        weekday[3]="星期三"
-        weekday[4]="星期四"
-        weekday[5]="星期五"
-        weekday[6]="星期六"
-        var w=weekday[today.getDay()]
-        $("#showtime").html(years+"-"+months+"-"+d+" "+h+":"+m+":"+s+"(GMT+8) ");
-        t=setTimeout('startTime()',500)
-    }
-    function checkTime(i){
-        if (i<10)
-        {i="0" + i}
-        return i
-    }
-    setInterval(function(){startTime();},200);
 </script>

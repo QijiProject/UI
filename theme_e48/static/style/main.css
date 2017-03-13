@@ -51,12 +51,18 @@ a:active{color:#222;}
 .logined-nav{color:#eee; height:25px; line-height:25px; margin-right:25px;}
 .logined-nav > span{float:left; display:inline; padding:0 8px;}
 .logined-nav a{display:inline; float:left; color:#eee; padding:0 8px; cursor:pointer;}
+.logined-nav a.user-center, .logined-nav .user-balance em.cMain{color:#ffc93c;}
 .logined-nav a:hover{color:#fff;}
+.logined-nav .money-operate{margin-top:-6px;}
+.logined-nav .money-operate a{padding:0 15px; background:#ffc93c; height:26px; line-height:26px; margin-top:5px; color:#8b0d01; margin-right:1px;}
+.logined-nav .money-operate .transfer-href{border-top-left-radius:13px; border-bottom-left-radius:13px;}
+.logined-nav .money-operate .withdraw-href{border-top-right-radius:13px; border-bottom-right-radius:13px;}
+
 
 .nav{margin-top:40px;}
 .nav > li{float: left; position: relative; width: 97px;}
 .nav > li > a{display: block; text-align: center; width: 133px; height: 41px; font-size: 16px; color: #fff; letter-spacing: 1px; line-height: 41px;}
-.nav > li > a:hover{background:url(../images/nav/nav_hover.png) no-repeat 0 1px; color:#1d6644;}
+.nav > li > a:hover, .nav > li.cur > a{background:url(../images/nav/nav_hover.png) no-repeat 0 1px; color:#1d6644;}
 
 .nav .nav-drop{display:none; position:absolute; left:0; top:100%; background:url(../images/mask_80p.png) repeat; z-index:1000;}
 .nav .nav-drop.l-c-drop{width:770px; left:-316px;}
@@ -86,7 +92,7 @@ a:active{color:#222;}
 .mod-banner{height:350px; overflow:hidden;}
 .slide-wrap{position:relative; text-align:center; height:100%; width:100%; overflow:hidden;}
 
-.slide-wrap .num{position:absolute; top:19px; left:504px; z-index:1;}
+.slide-wrap .num{position:absolute; top:19px; left:32%; z-index:1;}
 .slide-wrap .num span{background:url(../images/banner_bullet.png) no-repeat 0 0; width:13px; height:13px; cursor:pointer; font-size:0; margin:0 3px; display:inline-block;}
 .slide-wrap .num span.current{background-position:0 -15px;}
 .slide-wrap > ul li{position:absolute; left:50%; top:0; display:none;}
@@ -94,7 +100,8 @@ a:active{color:#222;}
 .slide-wrap > ul li img{position:relative; left:-50%;}
 
 /*侧边在线客服浮动*/
-.float-box-right{position:fixed; top:0; right:0; z-index:1000;}
+.float-box-right{position:fixed; top:0; right:0; z-index:1000; width:0;}
+.float-box-right.hover{width:auto;}
 .float-box-right .box-tit, .float-box-right .side-float, .float-box-right .qq-contact i,
 .float-box-right .box-list > li a, .float-box-right .box-list > li:hover{background:url(../images/side_contact_sprite.png) no-repeat;}
 .float-box-right.hover .box-tit{right:136px;}
@@ -108,9 +115,13 @@ a:active{color:#222;}
 .float-box-right .qq-contact span{line-height:22px;}
 .float-box-right .box-list > li{height:45px; line-height:45px; background:url(../images/side_contact_shadow.png) no-repeat 0 bottom; }
 .float-box-right .box-list > li:hover{background-position:-145px -358px;}
-.float-box-right .box-list > li a{display:block; padding-left:55px; font-size:16px; color:#fff; background-position:-223px -5px;}
-.float-box-right .box-list > li.box-2 a{background-position:-221px -75px;}
-.float-box-right .box-list > li.box-3 a{background-position:-221px -147px;}
+.float-box-right .box-list > li a{display:block; padding-left:55px; font-size:16px; color:#fff;}
+.float-box-right .box-list > li.box-1 a{background-position:-223px -5px;}
+.float-box-right .box-list > li.box-2 a{background-position:-221px -147px;}
+.float-box-right .box-list > li.box-3 a{background-position:-221px -217px;}
+.float-box-right .box-list > li.box-4{margin-top:17px;}
+.float-box-right .box-list > li.box-4 a{display:block; height:133px; background:none;}
+.float-box-right .box-list > li.box-4:hover{background-position:300px 300px;}
 
 /* 表单 */
 .mod-forms label,.mod-forget-passwd li label{line-height:30px;}
@@ -166,7 +177,7 @@ a:active{color:#222;}
 .footer .footer-icon{background:url(../images/footer/footer_icon.png) no-repeat center center #3b3a3b; height:46px;}
 .footer .footer-left{padding: 21px 0;}
 .footer .footer-left .tutorial-link{display:inline-block; margin-right:15px;}
-.footer .credentials{font-size: 14px; line-height: 103px; margin-right:120px;}
+.footer .credentials{font-size: 14px; line-height: 103px;}
 .footer .footer-menu{width:560px; margin-top:12px; padding-top:12px; border-top:1px solid #fff;}
 .footer .footer-menu a:hover{color:#fff;}
 .footer .footer-menu span{margin:0 3px;}

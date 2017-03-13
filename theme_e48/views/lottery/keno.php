@@ -9,8 +9,8 @@ Yii::app()->clientScript->registerScriptFile( "/js/game/Game.js",CClientScript::
         <div class="platform-wrap layout">
             <div class="hd-menu">
                 <ul class="clearfix">
-                    <li class="current kg-menu" target="kg-item"><h2>KG彩票</h2></li>
-                    <li class="bb-menu" target="bb-item"><h2>BBIN彩票</h2></li>
+                    <li class="current kg-menu" target="kg-item"><i></i><h2>KG彩票</h2></li>
+                    <li class="bb-menu" target="bb-item"><i></i><h2>BBIN彩票</h2></li>
                 </ul>
             </div>
             <div class="lotto-items">
