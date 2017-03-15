@@ -7,8 +7,6 @@
  */
 $action = Yii::app()->controller->action->id;
 $saba = strcasecmp($action, 'index') == 0;
-$hg = strcasecmp($action, 'hg') == 0;
-$bb = strcasecmp($action, 'bb') == 0;
 $im = strcasecmp($action, 'im') == 0;
 ?>
 <div class="content mod-sports">
@@ -16,7 +14,7 @@ $im = strcasecmp($action, 'im') == 0;
         <a href="/sports/index" <?php if ($saba): ?> class="current" <?php endif; ?>>沙巴体育</a>
         <a href="/sports/im" <?php if ($im): ?> class="current" <?php endif; ?> style="border:none;">IM体育</a>
     </div>
-    <div class="<?php if ($hg){ ?>layout1050<? } else { ?>layout1020<? } ?>">
+    <div class="layout1020">
         <iframe id="sb_frame" name="sb_frame" allowTransparency="true" width="100%" height="602" style="border: 0" frameborder=“0” src=""></iframe>
     </div>
 </div>

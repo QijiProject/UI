@@ -13,6 +13,7 @@ Yii::app()->clientScript->registerScriptFile($this->getCdn(). "/js/game/Game.js"
             <div class="games-panes clearfix">
                 <!-- PT游戏厅 -->
                 <div class="games-platform-item pt-item pr">
+                	<a class="pt-pc-download" id="pt_download_start" href="javascript:void(0);">PT客户端下载</a>
                     <ul class="games-sub-menu clearfix">
                         <?= $this->renderPartial('/game/ptMenu') ?>
                         <li class="tab7 games-pt-search" style="display:none;"><span>搜索结果</span></li>
@@ -67,12 +68,6 @@ $(document).ready(function(){
         if(!$(this).hasClass("games-mg-search")){
             $(".games-mg-search").hide();
         }
-        if(!$(this).hasClass("games-bb-search")){
-            $(".games-bb-search").hide();
-        }
-        if(!$(this).hasClass("games-nt-search")){
-            $(".games-nt-search").hide();
-        }
         $(".games-sub-menu").find(".current").removeClass("current");
         var index = $(this).attr("class").replace("tab",'');
         index = parseInt(index)-1;
@@ -91,12 +86,6 @@ $(document).ready(function(){
         var gameId = $(this).find("em").attr("class").replace('game_','');  
         load_pt('<?=PT::PT_RE ?>',<?=$pt_status ?>,gameId);
     });
-
-
-    $('#bbgame_list li').bind('click',function(){
-       var gameId = $(this).find("em").attr("class").replace('Game_','');
-       load_bbin_game(<?=$bbin_status?>,'<?=BBIN::CH ?>',gameId);
-    });
 	
 	$('#pt-keyword').keypress(function (e) {
         var key = e.which;
@@ -106,16 +95,6 @@ $(document).ready(function(){
     $('#mg-keyword').keypress(function (e) {
         var key = e.which;
         if (key == 13) {mg_search();} 
-    });
-    
-    $('#bb-keyword').keypress(function (e) {
-        var key = e.which;
-        if (key == 13) {bb_search();} 
-    });
-    
-    $('#nt-keyword').keypress(function (e) {
-        var key = e.which;
-        if (key == 13) {nt_search();} 
     });
 	
 	//导航下拉菜单点击选择对应平台
@@ -159,42 +138,6 @@ function mg_search(){
     $('#mg-search-result li').bind('click',function(){
         var gameId = $(this).find("em").attr("gameid");
         load_mg(<?=$mg_status?>,gameId);
-    });
-}
-
-//bb-游戏搜索
-function bb_search(){
-    var b = [];
-    var k = $("#bb-keyword").val();
-    if(k=="")return;
-    $(".games-bb-search").show().click();
-    $("#bb-search-result").html('');
-    $(".bb-item .game-name").each(function(){
-        if($(this).html().indexOf(k)!=-1){
-            $("#bb-search-result").append('<li>'+$(this).parent().html()+'</li>');
-        }
-    });
-    $('#bb-search-result li').bind('click',function(){
-       var gameId = $(this).find("em").attr("class").replace('Game_','');
-       load_bbin_game(<?=$bbin_status?>,'<?=BBIN::CH ?>',gameId);
-    });
-}
-
-//nt-游戏搜索
-function nt_search(){
-    var b = [];
-    var k = $("#nt-keyword").val();
-    if(k=="")return;
-    $(".games-nt-search").show().click();
-    $("#nt-search-result").html('');
-    $(".nt-item .game-name").each(function(){
-        if($(this).html().indexOf(k)!=-1){
-            $("#nt-search-result").append('<li>'+$(this).parent().html()+'</li>');
-        }
-    });
-    $('#nt-search-result li').bind('click',function(){
-       var gameId = $(this).find("em").attr("class").replace('nt_','');
-       load_nt(<?= $nt_status?>,gameId);
     });
 }
 </script>

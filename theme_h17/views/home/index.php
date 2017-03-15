@@ -12,7 +12,7 @@ $this->layout = 'home';
                     <li class="date-item-04"><label>累计派彩金额：</label><span id="_k" style="width:77%;">-</span></li>
                 </ul>
             </div>
-            <a class="home-reg-btn"></a>
+            <a href="/home/register" class="home-reg-btn"></a>
         </div>
         <div class="home-entry layout">
             <ul>

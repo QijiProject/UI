@@ -58,6 +58,7 @@
 
 /*彩票投注*/
 .mod-lottery{padding-bottom:30px;}
+.mod-lottery .mod-banner{height:350px;}
 
 .lottery-hd-menu{position:relative; z-index:2; width:100%;}
 .lottery-hd-menu ul li{float:left; display:inline; height:50px; width:1000px; margin-right:1px; background:#353535; color:#fff; font:18px/50px "Microsoft YaHei"; text-align:center; cursor:pointer; position:relative;}
@@ -125,7 +126,7 @@
 .games-sub-menu li.tab10:hover{background-position:0 -740px;}
 .games-sub-menu li.tab10.current{background-position:0 -1309px;}
 
-.mod-games .games-list{width:790px; padding:40px 20px 0 0; float:right; display:inline;}
+.mod-games .games-list{width:790px; padding:50px 20px 0 0; float:right; display:inline;}
 .mod-games .games-item li{display:inline; float:left; width:178px; overflow:hidden; margin:0 0 35px 19px; cursor:pointer; text-align:center; position:relative;}
 .mod-games .games-item li .game-name{color:#686868; margin-top:10px;}
 .mod-games .games-item li:hover .game-name{color:#b80036;}
@@ -153,6 +154,9 @@
 .search-wrap input::-moz-placeholder{font-size:14px; color:#999;}
 .search-wrap a{cursor:pointer; width:46px; height:30px; display:inline; float:right;}
 /*-- 搜索 end --*/
+
+.pt-pc-download{background:url(../images/pt_pc_download.png) no-repeat; width:198px; height:44px; display:block; position:absolute; top:-7px; right:8px; line-height:200px; overflow:hidden;}
+.pt-pc-download:hover{background-position:0 -44px;}
 
 /*优惠活动*/
 .mod-promotions{padding-bottom:30px;}
