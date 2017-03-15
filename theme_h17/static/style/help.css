@@ -1,0 +1,56 @@
+/* CSS Document */
+.help-wrap{padding:20px 0 50px;}
+.help-wrap .layout{width:998px; border:1px solid #262528; background:#1d1c20;}
+.help-wrap .area-sub{width:210px; float:left; display:inline; background:#303030;}
+.help-wrap .menu-sub h2{background:#3c3f41; height:44px; font:16px/44px "Microsoft YaHei"; padding-left:25px; color:#fff;}
+.help-wrap .menu-sub ul li{font-size:14px; height:44px; line-height:44px; cursor:pointer; border-bottom:2px solid #151515;}
+.help-wrap .menu-sub ul li a{color:#d1cec9; padding-left:25px; display:block; position:relative;}
+.help-wrap .menu-sub ul li a em{background:url(../images/common_spirits.png) no-repeat -159px -545px; width:8px; height:12px; position:absolute; right:20px; top:17px;}
+.help-wrap .menu-sub ul li a:hover,.help-wrap .menu-sub ul .current a{color:#e60044; background:#151515;}
+.help-wrap .menu-sub ul li a:hover em,.help-wrap .menu-sub ul .current a em{background-position:-159px -530px;}
+
+.help-wrap .area-main{width:737px; padding:0 25px 30px; font-size:14px; border-left:1px solid #262528; color:#c9caca;}
+.help-wrap .area-main ol li{list-style-type:decimal; line-height:24px; margin-left:20px; *margin-left:25px; padding:15px 10px;}
+.help-wrap .area-main h2{font:20px/1.5 "Microsoft YaHei"; color:#fff; margin-top:20px;}
+.help-wrap .area-main p{padding:12px 0; line-height:24px;}
+.help-wrap .area-main h3{margin-top:30px; font-size:14px; color:#acce03;}
+.help-wrap .area-main .child,#faqs p{font-size:12px;}
+.help-wrap .area-main ul.child li{line-height:24px; background:url(../images/list_dot.png) no-repeat 0 -53px; padding:10px 0 10px 15px; list-style-type:none; margin:0;}
+.help-wrap .area-main ol.child li{padding:10px 0 10px 10px;}
+.help-wrap .area-main h4{color:#fff; font-weight:normal; padding:40px 0 10px}
+.help-wrap .area-main h4 a{color:#fff;}
+.help-wrap .area-main .answer{display:none; margin:0 20px;}
+.help-wrap .area-main .answer a{text-decoration:underline;}
+#faqs h3{margin-top:14px; padding-left:20px; height:39px; line-height:39px; color:#fff; font-weight:normal; background:#2c2c2c url(../images/common_spirits.png) no-repeat right -874px; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; cursor:pointer;}
+#faqs h3.current,#faqs h3.current:hover{background:#77a11c url(../images/common_spirits.png) no-repeat right -820px;}
+#faqs h3:hover{color:#fff; background-color:#444;}
+
+/* 联系我们 */
+.contact-wrap ul li{margin:45px 0;}
+.contact-wrap ul li i{background:url(../images/contact.png) no-repeat; width:54px; height:49px; float:left;}
+.contact-wrap ul .online-chat i{background-position:0 3px;}
+.contact-wrap ul .tel i{background-position:0 -100px;}
+.contact-wrap ul .email i{background-position:0 -207px;}
+.contact-wrap ul li div{margin-left:74px; *margin-top:-20px;}
+.help-wrap .contact-wrap ul li div h4{font:20px/1 "Microsoft YaHei"; color:#fff; padding:0;}
+.contact-wrap ul li p{text-indent:0;}
+.contact-wrap ul .online-chat a{background:#84b31f; color:#fff !important; height:36px; line-height:36px; text-align:center; display:block; width:180px; cursor:pointer; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;}
+.contact-wrap ul .online-chat a:hover{background:#77a11c;}
+.contact-wrap ul .email a{text-decoration:underline; font-size:16px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
