@@ -3,13 +3,6 @@ $pt_playername = "";if($this->is_login()){$user = $this->user;$pt_playername = '
 ?>
 <div class="content">
     <div class="mod-games">
-        <div class="mod-banner pr">
-            <!--焦点图-->
-            <div class="slide-wrap clearfix" id="slides">
-                <?=Helper::GetSiteTextInfo(104);?>
-            </div>
-            <!--end 焦点图-->
-        </div>
         <!--notice-->
         <?= $this->themeLayout('notice') ?>
         <!--notice end-->

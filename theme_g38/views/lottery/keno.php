@@ -1,15 +1,5 @@
-<?php
-Yii::app()->clientScript->registerScriptFile($this->getCdn(). "/js/game/Game.js",CClientScript::POS_END);
-?>
 <div class="content">
     <div class="mod-lottery">
-        <div class="mod-banner">
-            <!--焦点图-->
-            <div class="slide-wrap layout" id="slides">
-                <?=Helper::GetSiteTextInfo(103);?>
-           </div>
-            <!--end 焦点图-->
-        </div>
         <!--notice-->
         <?= $this->themeLayout('notice') ?>
         <!--notice end-->

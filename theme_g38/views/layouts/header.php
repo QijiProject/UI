@@ -94,10 +94,10 @@
             <li class="<?=$this->setActive('/game/index') ?>"><a href="/game/index">电子游艺</a>
                 <div class="nav-drop games-drop">
                     <a href="/game/index#nt" onclick="$('.nt-menu').click();" class="nt">NT电子厅</a>
-                    <a href="/game/index#pt" onclick="$('.pt-menu').click();" class="pt">PT电子厅</a>
                     <a href="/game/index#mg" onclick="$('.mg-menu').click();" class="mg">MG电子厅</a>
-					<a href="/game/index#bb" onclick="$('.bb-menu').click();" class="bb">BB电子厅</a>
-					<a href="/game/index#ag" onclick="$('.ag-menu').click();" class="ag last-a">AG电子厅</a>
+                    <a href="/game/index#pt" onclick="$('.pt-menu').click();" class="pt">PT电子厅</a>
+					<a href="/game/index#ag" onclick="$('.ag-menu').click();" class="ag">AG电子厅</a>
+					<a href="/game/index#bb" onclick="$('.bb-menu').click();" class="bb last-a">BB电子厅</a>
                 </div>
             </li>
 			<li><a href="javascript:void(0);" onclick="get_ag_gc(<?=$this->is_login()?0:1 ?>,<?=AsiaGames::GP_TYPE ?>)">AG 真人</a></li>

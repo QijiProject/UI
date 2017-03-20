@@ -26,15 +26,14 @@
                     </div>
                 <?php else: ?>
                     <div class="logined-nav clearfix">
-                        <p class="agent-logined-user">
-                            <span class="username">欢迎！<em><?=$this->agent['agentname']; ?></em></span>
+                        <p class="clearfix">
                             <span><a href="/agent/info/index">主账户：<em><?=Helper::money($this->agent['balance']) ?></em></a></span>
+                            <span class="username">欢迎！<em><?=$this->agent['agentname']; ?></em></span>
                         </p>
-                        <p class="clear"></p>
-                        <p>
-                            <span class="money-operate"><a href="/agent/info/index" class="user-center">账户中心</a><a href="/agent/info/message" class="message">未读消息（<em id="_amessage"><?=$this -> getAUnreadCount();?></em>）</a></span>
+                        <p class="agent-logined-user">
                             <a class="logged-out" href="/agent/home/logout">登出</a>
-                        </p>              
+                            <span class="money-operate"><a href="/agent/info/index" class="user-center">账户中心</a><a href="/agent/info/message" class="message">未读消息（<em id="_amessage"><?=$this -> getAUnreadCount();?></em>）</a></span>
+                        </p>            
                     </div>
                 <?php endif; ?>
             </div>

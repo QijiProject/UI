@@ -22,4 +22,6 @@
 .agency-content table th{background:#666; color:#fff;}
 .agency-content table td,.agency-content table th{border:1px solid #511b0f; text-align:center;}
 
+.logined-nav .money-operate a:hover{color:#fff;}
+.logined-nav .agent-logined-user{margin-top:6px;}
 /* 代理中心 */

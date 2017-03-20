@@ -52,5 +52,4 @@
         <p><?=Helper::GetSiteTextInfo(1);?></p>
     </div>
 </div>
-<div class="footer_mobile" id="footer_mobile"><a href="http://dwjvip.com/dwjdns/index.html" target="_blank"></a></div>
 <?=Helper::GetSiteTextInfo(5);?>

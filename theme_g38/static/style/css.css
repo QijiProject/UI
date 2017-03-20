@@ -235,8 +235,8 @@
 .mod-mobile .section2 .section-info{width:410px;}
 .mod-mobile .section2 h3{font-size:35px;}
 .mod-mobile .section2 .pt-user-prefix{font:22px/1.5 "Microsoft YaHei"; color:#ffc600;}
-.mod-mobile .pt-player-name{border:1px solid #6f284f; height:40px; width:380px; margin-top:15px;}
-.mod-mobile .pt-player-name label{background:#6f284f; color:#fff; float:left; display:inline; width:100px; height:100%; padding-right:20px; line-height:19px; text-align:right;}
+.mod-mobile .pt-player-name{border:1px solid #1b4878; height:40px; width:380px; margin-top:15px;}
+.mod-mobile .pt-player-name label{background:#1b4878; color:#fff; float:left; display:inline; width:100px; height:100%; padding-right:20px; line-height:19px; text-align:right;}
 .mod-mobile .pt-player-name span,.mod-mobile .pt-login-notice i{color:#e41739;}
 .mod-mobile .pt-player-name span{float:left; display:inline; width:260px; height:100%; font:22px/40px "Microsoft YaHei"; text-align:center;}
 .mod-mobile .pt-login-notice{color:#999; line-height:24px; margin-top:10px;}
@@ -257,3 +257,6 @@
 .mod-mobile .section3 .section-info-text p{font:16px/30px "Microsoft YaHei"; color:#ccc;}
 .mod-mobile .section3 .section-info-text p a{text-decoration:underline; color:#e41739;}
 .mod-mobile .section3 .section-img{text-align:center; margin:30px 0 20px;}
+
+/* 备用网址 */
+.linecheck-left ul li i{background-position:-164px -113px;}

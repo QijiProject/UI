@@ -18,13 +18,13 @@
 <?= $this->themeLayout('header') ?>
 <?= $content ?>
 <?= $this->themeLayout('footer') ?>
-<script type="text/javascript" src="<?=$this->getCdn();?>/js/game/Game.js"></script>
 <script type="text/javascript">
 //$(document).ajaxStart($.blockUI).ajaxStop($.unblockUI);
 MG_GP_ID = "<?=Config::MG_GP_ID;?>";
 SPON_GP_ID = "<?=Config::SPON_GP_ID;?>";
 AG_GP_ID = "<?=Config::AG_GP_ID;?>";
 </script>
+<script type="text/javascript" src="<?=$this->getCdn();?>/js/game/Game.js"></script>
 <script type="text/javascript" src="<?=$this->getCdn();?>/util/all.js"></script>
 <script type="text/javascript" src="<?=$this->getCdn();?>/util/rsa.js"></script>
 <script type="text/javascript" src="<?=$this->getCdn();?>/util/error.js"></script>

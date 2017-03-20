@@ -1,12 +1,5 @@
 <div class="content">
     <div class="mod-promotions">
-        <div class="mod-banner">
-            <!--焦点图-->
-            <div class="slide-wrap" id="slides">
-                <?=Helper::GetSiteTextInfo(106);?>
-            </div>
-            <!--end 焦点图-->
-        </div>
         <!--notice-->
         <?= $this->themeLayout('notice') ?>
         <!--notice end-->

@@ -1,6 +1,5 @@
 <?php
     $this->layout = 'home';
-    Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . "/js/game/Game.js",CClientScript::POS_END);
 ?>
 <div class="content">
     <div class="mod-home">

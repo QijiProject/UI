@@ -8,13 +8,6 @@ $bb = strcasecmp($action, 'bb') == 0;
 $hg = strcasecmp($action, 'hg') == 0;
 ?>
 <div class="content mod-sports">
-    <div class="mod-banner">
-        <!--焦点图-->
-        <div class="slide-wrap layout" id="slides">
-            <?=Helper::GetSiteTextInfo(105);?>
-        </div>
-        <!--end 焦点图-->
-    </div>
     <!--notice-->
     <?= $this->themeLayout('notice') ?>
     <!--notice end-->

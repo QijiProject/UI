@@ -13,7 +13,7 @@ a:hover,a:active{color:#00a0d4;}
 
 /* spirits 图片 */
 .top-notice em,.mod-reg .reg-sub a,.mod-forget-passwd .ways a,.slide-wrap .slide-arrow em{background:url(../images/common_spirits.png) no-repeat;}
-.login-wrap .log-btn,.login-wrap .reg-btn,.header-top .img-lang{background:url(../images/header/header_spirits.png) no-repeat;}
+.login-menu .log-btn,.login-menu .reg-btn,.login-menu .log-btn-disabled,.header-top .img-lang{background:url(../images/header/header_spirits.png) no-repeat;}
 
 /*系统公告*/
 .top-notice{background:#fff4d1; color:#777; height:30px; line-height:30px; position:relative; z-index:100; overflow:hidden;}
@@ -46,19 +46,20 @@ a:hover,a:active{color:#00a0d4;}
 .login-menu input::-webkit-input-placeholder{font-size:12px; color:#f0f0f0;}
 .login-menu input::-moz-placeholder{font-size:12px; color:#f0f0f0;}
 .login-menu .username-btn{margin-bottom:5px;}
-.login-menu .log-btn,.login-menu .log-btn-disabled,.login-menu .reg-btn{width:67px; height:58px; display:block; background-position:0px -45px; font-size:0;}
-.login-menu .log-btn-disabled{opacity:0.6}
+.login-menu .log-btn,.login-menu .log-btn-disabled,.login-menu .reg-btn{width:67px; height:58px; display:block; background-position:0 -45px; font-size:0;}
+.login-menu .log-btn-disabled{background-position:-79px -45px;}
 .login-menu .reg-btn{width:124px; background-position:0 -137px;}
 .login-menu .forgot-password{line-height:28px; transition:color linear .5s; -webkit-transition:color linear .5s; -moz-transition:color linear .5s; margin-left:5px;}
 .login-menu .forgot-password{color:#00a0d4;}
 
 .logined-nav{margin-top:26px; color:#fff; line-height:25px; float:right;}
 .logined-nav ul li{display:block; margin-bottom:5px; overflow:hidden;}
-.logined-nav span{float:right; display:inline; padding-right:10px;}
+.logined-nav span{float:right; display:inline;}
 .logined-nav .message{padding:0 15px; color:#fff;}
 .logined-nav .message:hover{color:#00a0d4;}
+.logined-nav .username{padding-right:10px;}
+.logined-nav .logged-out{padding-left:8px;}
 .logined-nav a{display:inline; float:right;}
-.logined-nav .user-center{height:30px;}
 .logined-nav .user-center i{background-position:-192px -634px; width:5px; height:9px; display:inline-block; margin-left:6px; _display:inline; _zoom:1;}
 .logined-nav .money-operate{padding:0 10px;}
 .logined-nav .money-operate a{padding:0 13px; background:#00a0d4; height:24px; line-height:24px; color:#fff; margin-right:1px; border-top:1px solid #288e8b; cursor:pointer; float:left;}
@@ -94,7 +95,6 @@ a:hover,a:active{color:#00a0d4;}
 .slide-wrap ul li{position:absolute; left:50%; top:0; display:none;}
 .slide-wrap ul li a{display:block;}
 .slide-wrap ul li img{position:relative; left:-50%;}
-.mod-banner{height:0;}
 .mod-home .mod-banner{height:376px; overflow:hidden;}
 .mod-home .mod-banner .layout{height:100%;}
 
@@ -145,7 +145,7 @@ a:hover,a:active{color:#00a0d4;}
 .mod-pt .pt-wrap .unfold:hover,.mod-pt .pt-wrap .fold:hover,.page a:hover{border-color:#008ebc; color:#008ebc;}/* 不建议用浅色 */
 
 /* footer */
-.footer{background:#000; position:relative; text-align:center; padding:10px 0 0;}
+.footer{background:#000; color:#fff; position:relative; text-align:center; padding:10px 0 0;}
 .footer-02{height:50px; margin:10px 0 20px 0; background:url(../images/footer/footer_icons.png) no-repeat center center;}
 .footer-03{padding:15px 5px; border-top: 1px dashed #fada5c; border-bottom: 1px dashed #fada5c;}
 .footer-03 .fr{width:120px; color:#fff;}
