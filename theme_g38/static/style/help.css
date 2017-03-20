@@ -1,0 +1,42 @@
+/* CSS Document */
+.help-content{background-color:#282828;}
+.help-content .help-wrap{padding:90px 20px 20px; background:#282828 url(../images/help_bg.jpg) repeat-x center top; overflow:hidden;}
+
+.help-wrap .area-sub > a {display: block; height: 44px; width: 200px; position: absolute;top: 0}
+
+.help-wrap .menu-sub{background:url(../images/help_sub_bg.png) no-repeat center top; min-height:204px; overflow:hidden; padding:45px 0px 0px; width:200px;}
+.help-wrap .menu-sub ul{width:200px; margin:0 auto;}
+.help-wrap .menu-sub ul li{height:34px; line-height:34px; background:url(../images/help_sub_menu_bg.png) bottom center no-repeat;}
+.help-wrap .menu-sub ul li a{height:34px; color:#fff; display:block; font-size:12px; text-align:center; cursor:pointer;}
+.help-wrap .menu-sub ul li a:hover,.help-wrap .menu-sub ul .current a,.help-wrap .menu-sub ul .current a:hover{color:#fff; background:url(../images/help_sub_current.png) no-repeat center center;}
+
+.help-wrap .area-main{width:700px; padding:0 20px 30px 30px; color:#ddd;}
+.help-wrap .area-main ol li{list-style-type:decimal; line-height:24px; margin-left:20px; *margin-left:25px; padding:15px 10px;}
+.help-wrap .area-main h2{font:26px/1.5 "Microsoft YaHei"; color:#fff; margin-top:5px;}
+.help-wrap .area-main p{padding:10px 0; line-height:24px;}
+.help-wrap .area-main h3{margin-top:30px; cursor:pointer; font-size:14px; color:#F6E961;}
+.help-wrap .area-main .child,#faqs p{font-size:12px;}
+.help-wrap .area-main ul.child li{line-height:24px; background:url(../images/list_dot.png) no-repeat 0 -52px; padding:10px 0 10px 15px; list-style-type:none; margin:0;}
+.help-wrap .area-main ol.child li{padding:10px 0 10px 10px;}
+.help-wrap .area-main h4{color:#ddd; padding:40px 0 10px}
+.help-wrap .area-main .answer{display:none; margin:0 20px;}
+.help-wrap .area-main .answer a{text-decoration:underline; color:#F6E961;}
+.help-wrap .area-main .answer p,.help-wrap .area-main .answer .child li{color:#ddd;}
+#faqs h3{margin-top:14px; padding-left:20px; height:39px; line-height:39px; color:#fff; font-weight:normal; background:#212121 url(../images/help_arrow.png) no-repeat right -174px; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; cursor:pointer;}
+#faqs h3.current,#faqs h3.current:hover{background:#A78B17 url(../images/help_arrow.png) no-repeat right -120px;}
+#faqs h3:hover{color:#fff; background-color:#31313b;}
+
+.help-wrap .area-bottom {background: url(../images/help_bottom_bg.png) no-repeat center; width: 200px; height: 192px}
+/* 联系我们 */
+.contact-wrap ul li{margin:45px 0;}
+.contact-wrap ul li i{background:url(../images/contact.png) no-repeat; width:60px; height:60px; float:left;}
+.contact-wrap ul .online-chat i{background-position:0 3px;}
+.contact-wrap ul .tel i{background-position:0 -100px;}
+.contact-wrap ul .email i{background-position:0 -207px;}
+.contact-wrap ul li div{margin-left:74px; *margin-top:-20px;}
+.help-wrap .contact-wrap ul li div h4{font:20px/1 "Microsoft YaHei"; color:#aaa; padding:0;}
+.contact-wrap ul li p{text-indent:0;}
+.contact-wrap ul .online-chat a{background:#A78B17; height:30px; text-align:center; display:block; width:135px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; color:#fff; font:16px/30px "Microsoft YaHei"; cursor:pointer;}
+.contact-wrap ul .online-chat a:hover{background:#C7AE26;}
+.contact-wrap ul .email a{text-decoration:underline; font-size:16px; color:#ff0;}
+.contact-wrap ul .email a:hover{color:#c41100;}
