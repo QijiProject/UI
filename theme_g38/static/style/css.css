@@ -225,8 +225,8 @@
 .mod-mobile .section1 .inner .fl{display:inline;}
 .mod-mobile .section1 .inner .qr-code{margin:22px 30px 0 0;}
 .mod-mobile .section1 h3{padding-top:40px;}
-.mod-mobile .section1 .link a{font:18px/40px "Microsoft YaHei"; width:180px; height:40px; margin:24px 0; color:#fff; text-align:center; display:block; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; background:#00a0d4; background-image:linear-gradient(to top,#156ac5,#1b4878);background-image:-webkit-linear-gradient(to top,#156ac5,#1b4878);}
-.mod-mobile .section1 .link a:hover{background:#00a0d4; background-image:linear-gradient(to top,#1b4878,#156ac5);background-image:-webkit-linear-gradient(to top,#1b4878,#156ac5);}
+.mod-mobile .section1 .link a{font:18px/40px "Microsoft YaHei"; width:180px; height:40px; margin:24px 0; color:#fff; text-align:center; display:block; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; background:#1b4878; background-image:linear-gradient(to top,#156ac5,#1b4878);background-image:-webkit-linear-gradient(to top,#156ac5,#1b4878);}
+.mod-mobile .section1 .link a:hover{background:#156ac5; background-image:linear-gradient(to top,#1b4878,#156ac5);background-image:-webkit-linear-gradient(to top,#1b4878,#156ac5);}
 
 /*客户端 PT下载*/
 .mod-mobile .section2{padding:30px 0;}
