@@ -18,6 +18,7 @@
 <?= $this->renderPartial('//layouts/header') ?>
 <?= $content ?>
 <?= $this->themeLayout('footer'); ?>
+<script type="text/javascript" src="<?=$this->getCdn();?>/js/game/Game.js"></script>
 <script type="text/javascript" src="<?=$this->getCdn();?>/util/all.js"></script>
 <script type="text/javascript" src="<?=$this->getCdn();?>/util/rsa.js"></script>
 <script type="text/javascript" src="<?=$this->getCdn();?>/util/error.js"></script>

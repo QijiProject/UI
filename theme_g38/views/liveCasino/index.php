@@ -5,7 +5,6 @@
 * Date: 15/1/8
 * Time: 17:05
 */
-Yii::app()->clientScript->registerScriptFile($this->getCdn(). "/js/game/Game.js",CClientScript::POS_END);
 ?>
 <div class="content">
     <div class="mod-live-casino">
@@ -78,6 +77,7 @@ Yii::app()->clientScript->registerScriptFile($this->getCdn(). "/js/game/Game.js"
                             </p>
                         </div>
                     </li>
+                    <li class="l-c-more"></li>
                 </ul>
             </div>
         </div>

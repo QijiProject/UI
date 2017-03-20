@@ -103,6 +103,7 @@
 .l-c-platform li.allbet-play-btn{background:url(../images/live_casino/l_c_allbet.jpg) no-repeat;}
 .l-c-platform li.salon-play-btn{background:url(../images/live_casino/l_c_salon.jpg) no-repeat;}
 .l-c-platform li.pt-play-btn{background:url(../images/live_casino/l_c_pt.jpg) no-repeat;}
+.l-c-platform li.l-c-more{background:url(../images/live_casino/l_c_more.jpg) no-repeat;}
 
 .l-c-platform li .game-detail{background:url(../images/live_casino/game_bg.png) repeat; width:318px; height:238px; border:solid 1px #12467f; position:absolute; left:0; top:0; margin-top:241px; -webkit-transition:all .3s; -moz-transition:all .3s; -o-transition:all .3s; -webkit-transition:all .3s; transition:all .3s;}
 .l-c-platform li.hover .game-detail{margin:0;}

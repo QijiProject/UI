@@ -69,33 +69,42 @@
             <li class="<?=$this->setActive('/sports/index') ?>"><a href="/sports/bb">体育投注</a>
                 <div class="nav-drop sports-drop">
                     <a href="/sports/hg" class="hg">皇冠体育</a>
+                    <a href="/sports/index" class="sb">沙巴体育</a>
+                    <a href="/sports/im" class="im">IM体育</a>
                     <a href="/sports/bb" class="bb last-a">BB体育</a>
                 </div>
             </li>
             <li class="<?=$this->setActive('/liveCasino/index') ?>"><a href="/liveCasino/index">真人视讯</a>
                 <div class="nav-drop l-c-drop">
-                    <a href="/liveCasino/index" class="bb">BB娱乐厅</a>
                     <a href="/liveCasino/index" class="ag">AG娱乐厅</a>
+                    <a href="/liveCasino/index" class="gd">GD娱乐厅</a>
+                    <a href="/liveCasino/index" class="allbet">欧博娱乐厅</a>
+                    <a href="/liveCasino/index" class="bb">BBIN娱乐厅</a>
+                    <a href="/liveCasino/index" class="shalon">沙龙娱乐厅</a>
+                    <a href="/liveCasino/index" class="mg">MG娱乐厅</a>
+                    <a href="/liveCasino/index" class="pt last-a">PT娱乐厅</a>
                 </div>
             </li>
             <li class="<?=$this->setActive('/lottery/keno') ?>"><a href="/lottery/keno">彩票游戏</a>
                 <div class="nav-drop lottery-drop">
-                    <a href="/lottery/keno#bb" onclick="$('.bb-menu').click();" class="bb last-a">BB彩票</a>
+                    <a href="/lottery/keno#bb" onclick="$('.bb-menu').click();" class="bb">BBIN彩票</a>
+                    <a href="/lottery/keno#kg" onclick="$('.kg-menu').click();" class="kg last-a">KG彩票</a>
                 </div>
             </li>
             <li class="<?=$this->setActive('/game/index') ?>"><a href="/game/index">电子游艺</a>
                 <div class="nav-drop games-drop">
+                    <a href="/game/index#nt" onclick="$('.nt-menu').click();" class="nt">NT电子厅</a>
                     <a href="/game/index#pt" onclick="$('.pt-menu').click();" class="pt">PT电子厅</a>
                     <a href="/game/index#mg" onclick="$('.mg-menu').click();" class="mg">MG电子厅</a>
+					<a href="/game/index#bb" onclick="$('.bb-menu').click();" class="bb">BB电子厅</a>
 					<a href="/game/index#ag" onclick="$('.ag-menu').click();" class="ag last-a">AG电子厅</a>
                 </div>
             </li>
-			<li class="<?=$this->setActive('/liveCasino/index') ?>"><a href="/liveCasino/index">AG 真人</a></li>
+			<li><a href="javascript:void(0);" onclick="get_ag_gc(<?=$this->is_login()?0:1 ?>,<?=AsiaGames::GP_TYPE ?>)">AG 真人</a></li>
 			<li class="<?=$this->setActive('/game/index') ?>"><a href="/game/index#pt" onclick="$('.pt-menu').click();" class="pt">PT老虎机</a></li>
             <li class="<?=$this->setActive('/promotions/index') ?>"><a href="/promotions/index">优惠活动</a></li>
             <li class="<?=$this->setActive('/home/mobile') ?>"><a href="/home/mobile">手机投注</a></li>
             <li class="nav-agency <?=$this->setActive('/agent/home/index') ?>"><a href="/agent/home/index" target="_blank">代理合作</a></li>
-            
         </ul>
     </div>
 </div>

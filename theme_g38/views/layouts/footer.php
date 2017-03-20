@@ -4,7 +4,7 @@
         <div class="footer-02"></div>
         <div class="footer-03 clearfix">
             <span class="fr">易记域名：zb888.net</span>
-            <div class="footer-menu fl"><a href="/help/about">关于我们</a> | <a href="/help/contact">联系我们</a> | <a href="/help/privacy">隐私政策</a> | <a href="/help/responsibility">责任博彩</a> | <a href="/help/faqs">常见问题</a> | <a href="/agent/home/register" target="_blank">合营加盟</a></div>
+            <div class="footer-menu fl"><a href="/help/about">关于我们</a> | <a href="/help/contact">联系我们</a> | <a href="/help/privacy">隐私政策</a> | <a href="/help/responsibility">责任博彩</a> | <a href="/help/faqs">常见问题</a> | <a href="/agent/home/index" target="_blank">合营加盟</a></div>
         </div>
         <div class="footer-04 clearfix">
             <ul class="m-l-n">
