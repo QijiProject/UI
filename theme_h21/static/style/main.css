@@ -1,0 +1,175 @@
+/* CSS Document */
+body{background:#2c2b2b; font-family:'Microsoft YaHei',Arial,sans-serif;}
+a{color:#fff;}
+a:hover,a:active{color:#ffd053;}
+.cMain,a.cMain,.cMain a,.cMain a:active{color:yellow !important;}
+.cRed,a.cRed,.cRed a,.cRed a:active{color:#ff0000;}
+.cRed a:hover,a.cRed:hover{color:#cc000f; text-decoration:underline;}
+.cGray a:hover,a.cGray:hover,.c6 a:hover,a.c6:hover,.c8 a:hover,a.c8:hover{color:#FEE819;}
+.layout1100 {width: 1100px; margin: 0 auto}
+.layout1000, .layout{width:1000px; margin:0 auto;}
+.layout1020{width:1020px; margin:0 auto;}
+.layout940{width:940px; margin:0 auto;}
+.layout940{zoom:1;}
+.layout940:after, .layout1100:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+.content{background:#171717;}
+
+/* spirits 图片 */
+.top-notice em,.nav ul li.nav-item a i,.mod-home-menu .menu-info p em,.mod-reg .reg-sub a,.mod-forget-passwd .ways a{background:url(../images/common_spirits.png) no-repeat;}
+
+/*系统公告*/
+.top-notice{background:#fff4d1; color:#777; height:30px; line-height:30px; position:relative; z-index:100; overflow:hidden;}
+.top-notice .layout{position:relative;}
+.top-notice em{background-position:-179px -120px; height:18px; width:18px; display:block; position:absolute; top:6px; left:0;}
+.top-notice .top-marquee{width:960px; margin-left:30px; overflow:hidden; height:100%; color:#4d3308;}
+
+/* header */
+.header{height:170px; position:relative; background:url(../images/header/header_bg.png) repeat-x; border-bottom:1px solid #E5CC85;}
+.header .logo{position:absolute; top:10px; cursor:pointer; width:316px; height:98px;}
+.header .logo a{cursor:pointer; position:absolute; display:block; width:100%; height:100%;}
+.header .header-address{background:url(../images/header/header_address.png) no-repeat; display:block; width:175px; height:30px; position:absolute; top:170px; left:50%; margin-left:-87.5px; z-index:1000;}
+
+.header-top{height:120px; width:750px; float:right; overflow:hidden; background:url(/static/images/header/img_word.png) no-repeat 0 16px;}
+.header-top .web-nav{color:#a3a3a3; float:right; line-height:18px; margin:23px 0 8px 0;}
+.header-top .web-nav a,.header-top .web-nav span,.header-top .web-nav .img-lang,.header-top .web-nav img{float:left; margin-top:8px;}
+.header-top .web-nav img{margin:0 20px 0 0;}
+.header-top .web-nav .img-lang{background:url(../images/header/img_lang_rect.png) no-repeat 62px 1px; padding-right:74px;}
+.header-top .web-nav a:hover{color:#FFEA2F;}
+
+.login-menu{float:right; margin-top:10px;}
+.login-menu input{float:left; height:28px; background:#161616; margin:2px 8px 4px 0; padding:0; width:140px; text-indent:5px; color:#fff; border:1px solid #666; outline:none; border-radius:0;}
+.login-menu input::-webkit-input-placeholder{font-size:12px; color:#999;}
+.login-menu input::-moz-placeholder{font-size:12px; color:#999;}
+.login-menu .log-btn,.login-menu .log-btn-disabled,.login-menu .reg-btn{height:31px; width:73px; float:left; display:inline; background:url(../images/header/header_spirits.png) no-repeat; line-height:200px; overflow:hidden; margin:2px 8px 0 0;}
+.login-menu .log-btn:hover{background-position:0 -31px;}
+.login-menu .reg-btn{background-position:0 -62px;}
+.login-menu .reg-btn:hover{background-position:0 -93px;}
+.login-menu .log-btn-disabled{background-position:-73px 0;}
+.login-menu .forgot-password{text-align:center; line-height:32px; float:left;}
+
+.logined-nav{margin-top:10px; color:#fff; height:25px; line-height:25px; float:right;}
+.logined-nav span{float:left; display:inline; padding-right:10px;}
+.logined-nav .message{padding:0 8px;}
+.logined-nav a{display:inline; float:left;}
+.logined-nav .user-center{padding:0 15px; height:30px;}
+.logined-nav .user-center i{background-position:-192px -634px; width:5px; height:9px; display:inline-block; margin-left:6px; _display:inline; _zoom:1;}
+.logined-nav .money-operate{padding:0 10px;}
+.logined-nav .money-operate a{padding:0 15px; background:#d9c181; height:24px; line-height:24px; color:#000; margin-right:1px; border-top:1px solid #e6d39f;}
+.logined-nav .money-operate a:hover{background:#ffe794; border-top-color:#fffbb4;}
+.logined-nav .money-operate .transfer-href{border-top-left-radius:3px; border-bottom-left-radius:3px;}
+.logined-nav .money-operate .withdraw-href{border-top-right-radius:3px; border-bottom-right-radius:3px;}
+.logined-nav .logged-out{padding-left:5px;}
+
+.nav li{float:left; display:inline; height:50px; width:137px;}
+.nav li.nav-contact{width:141px;}
+.nav li > a{height:100%; width:100%; background:url(../images/header/nav_spirits.png) no-repeat right -50px; font:16px/50px "Microsoft YaHei"; text-align:center; color:#E5CC85; overflow:hidden; display:block;}
+.nav li.cur > a,.nav .hover > a,.nav li > a:hover{background:url(../images/header/nav_spirits.png) no-repeat 0 0; color:#fff;}
+
+.nav-drop{display:none; background-color:#000; opacity:0.92; filter:alpha(opacity=92); position:absolute; width:100%; height:164px; border-top: 1px solid #E5CC85; box-sizing:border-box; top:170px; left:0; font-size:15px; z-index:1001;}
+.nav-drop .layout{height:136px; padding:14px 0;}
+.nav-drop .return-panel{color:#E5CC85; font-size:14px; font-weight:bold; height:164px; border-right:1px solid #222; padding-right:20px;}
+.nav-drop .return-panel h2{font-size:58px; line-height:65px; margin-top:35px;}
+
+.nav-drop dl{margin-left:20px;}
+.nav-drop dl dd{float:left;display:inline; margin-right:20px; background:url(../images/header/nav_drop_spirits.png) no-repeat;}
+.nav-drop dl dd.last-dd{margin-right:0 !important;}
+.nav-drop dl dd a{display:block; width:144px; height:33px; padding-top:100px; font-weight:bold; font-size:15px; color:#bcbcbc; text-align:center;}
+.nav-drop dl dd a:hover{color:#fff;}
+
+.nav-drop dl dd.im{background-position:49px -70px;}
+.nav-drop dl dd.hg{background-position:-92px -72px;}
+.nav-drop dl dd.saba{background-position:-242px -70px;}
+.nav-drop dl dd.bb{background-position:-187px 45px;}
+.nav-drop dl dd.kg{background-position:-433px -66px;}
+.nav-drop dl dd.mg{background-position:52px 45px;}
+.nav-drop dl dd.pt{background-position:-59px 46px;}
+.nav-drop dl dd.ag{background-position:-321px 43px;}
+.nav-drop dl dd.nt{background-position:-453px 44px;}
+.nav-drop dl dd.allbet{background-position:17px -203px;}
+.nav-drop dl dd.tgp{background-position:-119px -198px;}
+.nav-drop dl dd.salon{background-position:-270px -196px;}
+.nav-drop dl dd.gd{background-position:-79px 46px;}
+
+.nav-drop.l-c-drop dl dd{margin-right:10px;}
+.nav-drop.l-c-drop dl dd a{width:105px;}
+.nav-drop.l-c-drop dl dd.ag{background-position:-337px 43px;}
+.nav-drop.l-c-drop dl dd.bb{background-position:-207px 47px;}
+.nav-drop.l-c-drop dl dd.mg{background-position:32px 45px;}
+.nav-drop.l-c-drop dl dd.pt{background-position:-207px 47px;}
+
+/* 焦点图 */
+.mod-banner{height:245px; width:100%; background:#000; overflow:hidden;}
+.slide-wrap{position:relative; text-align:center; height:100%; width:100%; overflow:hidden;}
+.slide-wrap .num{width:100%; position:absolute; bottom:50px; z-index:10;}
+.slide-wrap .num span{width:10px; height:10px; background:url(../images/num_bg.png) no-repeat; font-size:0; margin:0 5px; display:inline-block; *display:inline; *zoom:1; cursor:pointer; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;}
+.slide-wrap .num span.current{background-position: center bottom;}
+.slide-wrap ul li{position:absolute; left:50%; top:0; display:none;}
+.slide-wrap ul li a{display:block;}
+.slide-wrap ul li img{position:relative; left:-50%;}
+
+/*公告栏*/
+.notice{height:35px; width:100%; line-height:35px; color:#d3d3d3; overflow:hidden; background:url(../images/notice_bg.png) repeat rgba(0,0,0,.8); position: absolute; bottom: 0px}
+.notice i{float:left; display:inline; font-size:14px; width:130px; padding-left:25px; color:#ffd053; background:url(../images/notice_icon.png) no-repeat left center; font-weight: lighter;}
+.notice .marquee{width:945px; height:35px; float:left; display:inline; overflow:hidden;}
+
+/* 表单 */
+.mod-forms label,.mod-forget-passwd li label{line-height:30px;}
+.withdraw-psw-tip p a{color:#db9b00;}
+.withdraw-psw-tip p a:hover{color:#b10101;}
+
+/* 注册 */
+.mod-reg,.mod-forget-passwd,.mod-error{background:url(../images/welcome_banner_01.jpg) no-repeat center top; padding:227px 0 20px; margin-top:-10px;}
+.mod-reg .layout,.mod-forget-passwd .layout,.mod-error .layout{overflow:hidden; width:1000px; background:#fff;}
+.mod-reg .hd,.mod-forget-passwd .hd{padding:20px 30px;}
+.mod-reg .hd h3,.mod-forget-passwd .hd h3{font:22px/1.5 "Microsoft YaHei"; color:#222;}
+.mod-reg .hd p{padding-top:10px; color:#666;}
+.mod-reg .hd p span{font-size:14px;}
+.mod-reg fieldset,.mod-forget-passwd fieldset{border-width:1px 0 0; border-style:solid; border-color:#ccc; margin:15px 30px; padding:10px 10px 10px 0;}
+.mod-reg fieldset legend{font:22px/2.5 "Microsoft YaHei"; color:#db9b00;}
+
+.mod-reg .agreement{margin:0 160px;}
+.mod-reg .agreement a{color:#db9b00; text-decoration:underline;}
+.mod-reg .reg-sub a,.mod-forget-passwd .ways a{width:160px; margin:30px 160px; height:38px; display:block; text-align:center; color:#fff; font:14px/38px "Microsoft YaHei"; background:#e32a35;}
+.mod-reg .reg-sub a:hover,.mod-forget-passwd .ways a:hover{background:#ffd053; color:#000;}
+
+.mod-reg .mod-forms label, .mod-forget-passwd li label{color:#333;}
+
+/* 忘记密码 */
+.mod-forget-passwd fieldset legend{font:16px/2.5 "Microsoft YaHei"; color:#db9b00;}
+.mod-forget-passwd .ways span{color:#666;}
+
+/* error 403 */
+.mod-error .layout{padding:80px 0;}
+.mod-error .error-wrap h3{color:#333;}
+.mod-error .error-wrap p{color:#999;}
+.mod-error .error-wrap .refresh-btn{background:#db9b00; height:30px; display:block; text-align:center; color:#fff; font:14px/30px "Microsoft YaHei"; border-radius:5px;}
+
+/* 用户中心 */
+.user-ctr,.ag-ctr{padding:227px 0 20px; background:url(../images/welcome_banner_01.jpg) no-repeat center top;}
+.user-ctr .layout,.ag-ctr .layout{background:#f1f1f1; overflow:hidden;}
+
+/* 用户中心-导航 */
+.user-ctr .items-tab a:hover,.user-ctr .items-tab a.current,.user-ctr .items-tab a.current:hover,.item h3.title,.item .item-tab a:hover,.recycle-btn:hover{color:#db9b00;}
+.item .item-tab a.current{background:#db9b00;}
+
+/* 用户中心-我的优惠 *//* 翻页 */
+.page .current,.mod-pt .pt-info li a{color:#db9b00;}/* 不建议用浅色 */
+.mod-pt .pt-wrap .unfold:hover,.mod-pt .pt-wrap .fold:hover,.page a:hover{border-color:#db9b00; color:#db9b00;}/* 不建议用浅色 */
+
+/* footer */
+.footer {background: #161616; padding-top: 20px; height: 230px}
+.footer-contact ul {padding: 16px 0;border: 1px solid #2d2d2d;border-left: 0;border-right: 0; height: 36px}
+.footer-contact ul li {float: left; margin-left: 140px}
+.footer-contact ul li:first-child {margin-left: 0}
+.footer-contact ul li img {float: left;margin-right: 13px;}
+.footer-contact ul li > div {display: inline-block;color: #999999;font-size: 14px;}
+
+
+.footer-menu{height:10px; line-height:10px; text-align:center;}
+.footer-menu a{margin:0 10px; font-size:12px; color: #797979}
+.footer-menu a:hover{color:#ffd053; text-decoration:underline;}
+.footer-menu span{color:#454444;}
+.footer-menu img{position:absolute; top:-4px; right:0;}
+.footer-icon{background:url(../images/footer/footer_icons.png) no-repeat center center; height:80px;}
+.footer-icon .layout a._Kzing{position:absolute; top:20px; right:28px; background:url(../images/footer/kzinglogo.png) no-repeat;  width:45px; height:45px;}
+.footer .copyright{color:#444; line-height:25px; padding:8px 0; text-align:center;}
