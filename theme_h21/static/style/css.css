@@ -71,7 +71,7 @@ i.game-right {display: block; width: 561px; height: 494px; position: absolute;ri
 .home-games-panes{height:405px;}
 .home-games-left {width: 254px; height: 405px; float: left; margin-right: 5px}
 .home-games-left li {border: 3px solid #252525;background-color: #252525;; width: 100%; height: 75px; color: #d2d2d2; font-weight: bold; cursor: pointer; position: relative;}
-.home-games-left li:last-child {height: 74px}
+.home-games-left li.nt-menu {height: 74px}
 .home-games-left li:hover, .home-games-left li.current {border: 3px solid #edc968;}
 .home-games-left li i{height:46px; width:83px; display:block; margin:15px 0 0 25px; float: left;}
 .home-games-left li h2 {float: left; font-size: 16px; margin: 15px 0 0 15px;color: #fff}
