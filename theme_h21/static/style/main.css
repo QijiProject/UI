@@ -33,7 +33,7 @@ a:hover,a:active{color:#ffd053;}
 .header-top .web-nav{color:#a3a3a3; float:right; line-height:18px; margin:23px 0 8px 0;}
 .header-top .web-nav a,.header-top .web-nav span,.header-top .web-nav .img-lang,.header-top .web-nav img{float:left; margin-top:8px;}
 .header-top .web-nav img{margin:0 20px 0 0;}
-.header-top .web-nav .img-lang{background:url(../images/header/img_lang_rect.png) no-repeat 62px 1px; padding-right:74px;}
+.header-top .web-nav .img-lang{background:url(../images/header/img_lang_rect.png) no-repeat 62px 2px; padding-right:74px;}
 .header-top .web-nav a:hover{color:#FFEA2F;}
 
 .login-menu{float:right; margin-top:10px;}
@@ -88,14 +88,14 @@ a:hover,a:active{color:#ffd053;}
 .nav-drop dl dd.allbet{background-position:17px -203px;}
 .nav-drop dl dd.tgp{background-position:-119px -198px;}
 .nav-drop dl dd.salon{background-position:-270px -196px;}
-.nav-drop dl dd.gd{background-position:-79px 46px;}
+.nav-drop dl dd.gd{background-position:-450px -196px;}
 
 .nav-drop.l-c-drop dl dd{margin-right:10px;}
 .nav-drop.l-c-drop dl dd a{width:105px;}
 .nav-drop.l-c-drop dl dd.ag{background-position:-337px 43px;}
 .nav-drop.l-c-drop dl dd.bb{background-position:-207px 47px;}
 .nav-drop.l-c-drop dl dd.mg{background-position:32px 45px;}
-.nav-drop.l-c-drop dl dd.pt{background-position:-207px 47px;}
+.nav-drop.l-c-drop dl dd.pt{background-position:-80px 44px;}
 
 /* 焦点图 */
 .mod-banner{height:245px; width:100%; background:#000; overflow:hidden;}

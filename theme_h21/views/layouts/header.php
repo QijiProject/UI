@@ -50,11 +50,11 @@ Yii::app()->clientScript->registerScriptFile($this->getCdn(). "/js/game/Game.js"
                         	<span>日日返水</span>
                         </div>
                         <dl class="fl">
-                            <dd class="mg"><a href="/game/index#mg" onclick="$('.mg-menu').click();">MG电子厅</a></dd>
-                            <dd class="pt"><a href="/game/index#pt" onclick="$('.pt-menu').click();">PT电子厅</a></dd>
-                            <dd class="bb"><a href="/game/index#bb" onclick="$('.bb-menu').click();">BB电子厅</a></dd>
-                            <dd class="ag"><a href="/game/index#ag" onclick="$('.ag-menu').click();">AG电子厅</a></dd>
-                            <dd class="nt last-dd"><a href="/game/index#nt" onclick="$('.nt-menu').click();">NT电子厅</a></dd>
+                            <dd class="mg"><a href="/game/index#mg" onclick="$('.mg-menu').click();">MG游戏厅</a></dd>
+                            <dd class="pt"><a href="/game/index#pt" onclick="$('.pt-menu').click();">PT游戏厅</a></dd>
+                            <dd class="bb"><a href="/game/index#bb" onclick="$('.bb-menu').click();">BB游戏厅</a></dd>
+                            <dd class="ag"><a href="/game/index#ag" onclick="$('.ag-menu').click();">AG游戏厅</a></dd>
+                            <dd class="nt last-dd"><a href="/game/index#nt" onclick="$('.nt-menu').click();">NT游戏厅</a></dd>
                         </dl>
                     </div> 
                 </div>
