@@ -8,11 +8,6 @@
             <!--焦点图-->
             <div class="slide-wrap clearfix" id="slides">
                 <?=Helper::GetSiteTextInfo(101);?>
-                <div class="num"><span class="current">1</span><span>2</span></div>
-         		<ul>
-                	<li style="display:block;"><img src="/static/images/home_banner_01.jpg" /></li>
-                	<li><img src="/static/images/home_banner_02.jpg" /></li>
-                </ul> 
             </div>
             <!--end 焦点图-->
             <!--notice-->
@@ -59,29 +54,13 @@
                     <div class="list-wrap-01">
                         <ul>
                             <?=Helper::GetSiteTextInfo(23);?>
-                            <li><span class="span-title">四2川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四23川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四24川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四22川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四r川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四3川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四川1</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                    	</ul>
+                        </ul>
                     </div>
                 </div>
                 <div class="player-list-02">
                     <div class="list-wrap-02">
                         <ul>
                             <?=Helper::GetSiteTextInfo(24);?>
-                            <li><span class="span-title">四2川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四23川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四24川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四22川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四r川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四3川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四川1</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
-                            <li><span class="span-title">四川</span><span>geg***195</span><span class="span-game">狂欢节</span><span class="span-amount">45000元</span></li>
                         </ul>
                     </div>
                 </div>

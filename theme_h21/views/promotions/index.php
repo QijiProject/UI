@@ -3,9 +3,6 @@
         <!--焦点图-->
         <div class="slide-wrap clearfix" id="slides">
             <?=Helper::GetSiteTextInfo(106);?>
-            <ul>
-            	<li style="display:block;"><img src="/static/images/promotions_banner_01.jpg" /></li>
-            </ul>
         </div>
         <!--end 焦点图-->
     </div>

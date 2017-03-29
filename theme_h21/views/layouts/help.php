@@ -29,6 +29,7 @@ if(!$is_sport){
 echo $this->renderPartial('//layouts/footer');
 }
 ?>
+<script type="text/javascript" src="<?=$this->getCdn();?>/js/game/Game.js"></script>
 <script type="text/javascript" src="<?=$this->getCdn();?>/util/all.js"></script>
 <script type="text/javascript" src="<?=$this->getCdn();?>/util/rsa.js"></script>
 <script type="text/javascript" src="<?=$this->getCdn();?>/util/error.js"></script>

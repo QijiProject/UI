@@ -6,28 +6,28 @@
                 <img src="/static/images/footer/contact_mail.jpg">
                 <div>
                     <p>官方邮箱</p>
-                    <span> xpj123win@gmail.com</span>
+                    <span></span>
                 </div>
             </li>
             <li>
                 <img src="/static/images/footer/contact_www.jpg">
                 <div>
                     <p>简易网址</p>
-                    <span>123.win</span>
+                    <span></span>
                 </div>
             </li>
             <li>
                 <img src="/static/images/footer/contact_wechat.jpg">
                 <div>
                     <p>微信客服</p>
-                    <span>www123win</span>
+                    <span></span>
                 </div>
             </li>
             <li>
                 <img src="/static/images/footer/contact_qq.jpg">
                 <div>
                     <p>客服QQ</p>
-                    <span>839327777</span>
+                    <span></span>
                 </div>
             </li>
         </ul>

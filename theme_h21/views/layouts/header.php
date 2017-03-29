@@ -1,5 +1,4 @@
 <?php
-Yii::app()->clientScript->registerScriptFile($this->getCdn(). "/js/game/Game.js",CClientScript::POS_END);
 ?>
 <div class="header">
     <div class="layout1100 clearfix pr">
@@ -44,7 +43,7 @@ Yii::app()->clientScript->registerScriptFile($this->getCdn(). "/js/game/Game.js"
             <li class="<?=$this->setActive('/home/index') ?>"><a href="/home/index">首页</a></li>
             <li class="<?=$this->setActive('/game/index') ?>"><a href="/game/index">电子游艺</a>
                 <div class="nav-drop games-drop">
-                	<div class="layout1100">
+                	<div class="layout">
                     	<div class="return-panel fl">
                         	<h2>0.8%</h2>
                         	<span>日日返水</span>
@@ -81,7 +80,7 @@ Yii::app()->clientScript->registerScriptFile($this->getCdn(). "/js/game/Game.js"
             </li>
             <li class="<?=$this->setActive('/sports/index') ?>"><a href="/sports/index">体育赛事</a>
                 <div class="nav-drop sports-drop">
-                	<div class="layout1100">
+                	<div class="layout">
                     	<div class="return-panel fl">
                         	<h2>0.8%</h2>
                         	<span>日日返水</span>
@@ -98,7 +97,7 @@ Yii::app()->clientScript->registerScriptFile($this->getCdn(). "/js/game/Game.js"
             
             <li class="<?=$this->setActive('/lottery/keno') ?>"><a href="/lottery/keno">彩票游戏</a>
             	<div class="nav-drop lottery-drop">
-                	<div class="layout1100">
+                	<div class="layout">
                     	<div class="return-panel fl">
                         	<h2>0.8%</h2>
                         	<span>日日返水</span>
@@ -112,7 +111,7 @@ Yii::app()->clientScript->registerScriptFile($this->getCdn(). "/js/game/Game.js"
             </li>
             <li class="<?=$this->setActive('/promotions/index') ?>"><a href="/promotions/index" class="ss">优惠活动</a></li>
             <li class="<?=$this->setActive('/home/mobile') ?>"><a href="/home/mobile">手机投注</a></li>
-			<li class="nav-contact"><a href="javascript:void(0);" onclick="window.open('<?=Helper::GetSiteTextInfo(26);?>','_blank', 'toolbar=no,scrollbars=no,menubar=no,status=no,resizable=yes,location=no')">在线客服</a></li>
+			<li class="nav-contact"><a href="javascript:void(0);" onclick="window.open('<?=Helper::GetSiteTextInfo(26);?>','_blank', 'width=750,height=750,toolbar=no,scrollbars=no,menubar=no,status=no,resizable=yes,location=no')">在线客服</a></li>
         </ul>
     </div>
 </div>
