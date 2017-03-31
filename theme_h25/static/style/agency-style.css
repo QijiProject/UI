@@ -1,0 +1,32 @@
+/* CSS Document */
+.logined-nav{margin-top:12px;}
+.header{position:relative;}
+.nav ul li{margin:20px 10px;}
+.nav ul li.cur a{color:#D90105; background:none;}
+.nav ul li a{color:#000; font-size:14px; margin:0;}
+.nav ul li a:hover{color:#D90105; background:none;}
+.mod-reg,.mod-forget-passwd,.mod-error{padding:30px 0;}
+
+.content{background-position:center -270px;}
+.mod-banner{height:360px;}
+.agency-platform li{margin:20px 0 30px; background:#333;}
+.agency-platform .platform-tit{background:#f4f4f4; border:1px solid #222; height:116px;}
+.agency-platform .platform-logo{width:250px; margin:20px 0 0; height:70px; border-right:1px solid #b5ab99; color:#666666; text-align:center;}
+.agency-platform .platform-logo h2{font:30px/1.2 "Microsoft YaHei"; color:#662d00;}
+.agency-platform .platform-logo span{font:20px/1.6 "Microsoft YaHei";}
+.agency-platform .platform-text{font-size:14px; width:360px; padding:24px 10px 10px 80px; color:#585858;}
+.agency-platform .platform-text strong{color:#333;}
+.agency-platform .platform-go{background:url(../images/agent_register_btn.png) no-repeat; margin:32px 40px 0px 20px; width:220px; height:54px; cursor:pointer;}
+.agency-platform .platform-go:hover{background-position:0 -54px;}
+
+/* 代理前端 */
+.agency-content{color:#000; padding:20px 0;}
+.agency-content .layout{background:#fff; padding:20px; width:960px;}
+.agency-content h2{font:30px/1.5 "Microsoft YaHei"; margin-bottom:20px; color:#000;}
+.agency-content p{font-size:14px; line-height:24px; margin:10px 0; text-indent:2em;}
+.agency-content h3{font:18px/1.5 "Microsoft YaHei"; color:#af0000; margin-top:30px;}
+.agency-content .child{font-size:12px; text-indent:4em;}
+.agency-content .form-t th{background:#a97500; border-color:#8b6000; color:#fff;}
+.agency-content .form-t td{background:#fff; border-color:#8b6000; color:#666;}
+
+/* 代理中心 */
