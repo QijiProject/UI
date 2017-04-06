@@ -121,8 +121,9 @@
 .mod-games .ag-item .games-item li em{background-repeat:no-repeat; width:450px; height:230px; display:block; margin:0 auto;}
 .mod-games .nt-item .games-item li em{background-repeat:no-repeat; width:180px; height:120px; display:block; margin:2px auto;}
 
-.mod-games .search-wrap{margin:10px 15px;}
-.mod-games .search-wrap input{background:transparent; border:1px solid #999; color:#999;}
+.mod-games .search-wrap{position:relative; margin:10px 15px; background:url(/static/images/search_btn.png) no-repeat; width:251px; height:30px;}
+.mod-games .search-wrap input{background:transparent; width:197px; height:30px; margin-left:8px; padding:0; border:none; color:#999;}
+.mod-games .search-wrap a{display:block; width:46px; height:30px; position:absolute; right:0; top:0;}
 
 .pt-pc-download{background:url(../images/pt_pc_download.png) no-repeat 0 -44px; width:198px; height:44px; display:block; position:absolute; top:75px; right:8px; line-height:200px; overflow:hidden;}
 .pt-pc-download:hover{background-position:0 0;}
