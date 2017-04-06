@@ -31,15 +31,16 @@
                 <?php endif; ?>
             </div>
             <div class="logo">
-                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="335" height="123" onmousedown="location.href='/home/index'">
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="309" height="84" onmousedown="location.href='/home/index'">
                     <param name="movie" value="/static/images/header_logo.swf" />
                     <param name="wmode" value="transparent" />
                     <!--[if !IE]>-->
-                    <object type="application/x-shockwave-flash" data="/static/images/header_logo.swf" width="335" height="123">
+                    <object type="application/x-shockwave-flash" data="/static/images/header_logo.swf" width="309" height="84">
                         <param name="wmode" value="transparent" />
                         <!--<![endif]-->
                         <a href="http://www.adobe.com/go/getflashplayer">
-                        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a>
+                        	<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                        </a>
                         <!--[if !IE]>-->
                     </object>
                     <!--<![endif]-->

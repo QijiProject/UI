@@ -4,7 +4,7 @@
     <div class="footer-menu">
         <div class="layout">
             <p class="fr"><?=Helper::GetSiteTextInfo(1);?></p>
-            <p class="fl"><a href="/help/contact">联系我们</a><span>|</span><a href="/help/privacy">隐私政策</a><span>|</span><a href="/help/responsibility">责任博彩</a><span>|</span><a href="/help/faqs">常见问题</a><span>|</span><a href="/help/terms">规则条款</a><span>|</span><a href="/agent/home/index">合营加盟</a></p>
+            <p class="fl"><a href="/help/contact">联系我们</a><span>|</span><a href="/help/privacy">隐私政策</a><span>|</span><a href="/help/responsibility">责任博彩</a><span>|</span><a href="/help/faqs">常见问题</a><span>|</span><a href="/help/terms">规则条款</a><span>|</span><a href="/agent/home/index" target="_blank">合营加盟</a></p>
         </div>
     </div>
     <div class="introduce">

@@ -65,7 +65,7 @@ $pt_playername = "";if($this->is_login()){$user = $this->user;$pt_playername = '
 </div>
 
 <!-- PT电游客户端下载 -->
-<?= $this->renderPartial('/game/ptClientDownload',array('pt_playername'=>$pt_playername,'name'=>'鼎盈娱乐')) ?>
+<?= $this->renderPartial('/game/ptClientDownload',array('pt_playername'=>$pt_playername,'name'=>'鼎盈国际')) ?>
 <!-- end PT电游客户端下载 -->
 
 <script type="text/javascript">

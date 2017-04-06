@@ -7,7 +7,7 @@ $this->cls = 'mod-home';
         <!--焦点图-->
         <div class="layout pr">
             <div class="home-banner-text">
-                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="480" height="300">
+            	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="480" height="300">
                     <param name="movie" value="/static/images/home/home_banner_text.swf" />
                     <param name="wmode" value="transparent" />
                     <!--[if !IE]>-->
@@ -15,7 +15,8 @@ $this->cls = 'mod-home';
                         <param name="wmode" value="transparent" />
                         <!--<![endif]-->
                         <a href="http://www.adobe.com/go/getflashplayer">
-                        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a>
+                            <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                        </a>
                         <!--[if !IE]>-->
                     </object>
                     <!--<![endif]-->

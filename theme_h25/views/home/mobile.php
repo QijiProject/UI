@@ -7,7 +7,7 @@ $pt_playername = "";if($this->is_login()){$user = $this->user;$pt_playername = '
             <div class="section section-app">
                 <div class="layout">
                     <div class="fr section-info">
-                        <h3 class="clearfix"><span class="fl">鼎盈娱乐手机APP</span><i class="fl"></i></h3>
+                        <h3 class="clearfix"><span class="fl">鼎盈国际娱乐城手机APP</span><i class="fl"></i></h3>
                         <div class="inner clearfix">
                             <p class="fl qr-code"><img src="<?=Helper::GetSiteTextInfo(203);?>" /></p>
                             <div class="fl">
@@ -25,7 +25,7 @@ $pt_playername = "";if($this->is_login()){$user = $this->user;$pt_playername = '
                 <div class="layout">
                     <div class="fr section-img"><img src="<?=$this->getCdn();?>/images/mobile_web_img.png" /></div>
                     <div class="fl section-info">
-                        <h3>鼎盈娱乐手机Web版</h3>
+                        <h3>鼎盈国际娱乐城手机Web版</h3>
                         <div class="inner clearfix">
                             <p class="fl qr-code"><img src="<?=Helper::GetSiteTextInfo(204);?>" /></p>
                             <div class="fl">
@@ -80,6 +80,6 @@ $pt_playername = "";if($this->is_login()){$user = $this->user;$pt_playername = '
 </div>
 
 <!-- PT电游客户端下载 -->
-<?= $this->renderPartial('/game/ptClientDownload',array('pt_playername'=>$pt_playername,'name'=>'鼎盈娱乐')) ?>
+<?= $this->renderPartial('/game/ptClientDownload',array('pt_playername'=>$pt_playername,'name'=>'鼎盈国际')) ?>
 <!-- end PT电游客户端下载 -->
 

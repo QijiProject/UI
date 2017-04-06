@@ -20,10 +20,13 @@ Yii::app()->clientScript->registerScriptFile($this->getCdn()."/static/js/jquery.
             <ul class="clearfix">
                 <li class="ag-platform"><a href="javascript:void(0);" onclick="get_ag_gc(<?=$ag_status ?>,<?=AsiaGames::GP_TYPE ?>);"></a></li>
                 <li class="bb-platform m-lr-24"><a href="javascript:void(0);" onclick="load_bbin_ld(<?=$bbin_status ?>,'<?=BBIN::LD ?>','live')"></a></li>
+                <li class="tgp-platform"><a href="javascript:void(0);" onclick="loadTPGLD(<?=$status ?>)"></a></li>
                 <li class="allbet-platform"><a href="javascript:void(0);" onclick="load_allbet(<?=$allbet_status ?>);"></a></li>
-                <li class="salon-platform"><a href="javascript:void(0);" onclick="load_salon_ld(<?= $salon_status?>)"></a></li>
-                <li class="gd-platform m-lr-24"><a href="javascript:void(0);" onclick='get_gd_gc(<?=$gd_status ?>,<?=GoldDeluxe::GP_TYPE?>,"");'></a></li>
-                <li class="mg-platform"><a href="javascript:void(0);" onclick="load_mg_ld(<?=$mg_status ?>,'')"></a></li>
+                <li class="salon-platform m-lr-24"><a href="javascript:void(0);" onclick="load_salon_ld(<?= $salon_status?>)"></a></li>
+                <li class="gd-platform"><a href="javascript:void(0);" onclick='get_gd_gc(<?=$gd_status ?>,<?=GoldDeluxe::GP_TYPE?>,"");'></a></li>
+                <li class="pt-platform"><a href="javascript:void(0);" onclick="load_pt('<?=PT::PT_LD ?>',<?=$pt_status ?>,'plba');"></a></li>
+                <li class="mg-platform m-lr-24"><a href="javascript:void(0);" onclick="load_mg_ld(<?=$mg_status ?>,'')"></a></li>
+                <li class="more-platform"><a href="javascript:void(0);"></a></li>
             </ul>
         </div>
     </div>
