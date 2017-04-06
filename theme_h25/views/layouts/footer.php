@@ -46,21 +46,21 @@
                                 <div class="fr">KENO</div>
                                 <div class="fl"><h4>快乐彩</h4></div>
                             </div>
-                            <p>皇冠国际，兼容iPad/iPhone等各种移动设备是目前市面上用户体验最优秀的产品。</p>
+                            <p>鼎盈国际，兼容iPad/iPhone等各种移动设备是目前市面上用户体验最优秀的产品。</p>
                         </dd>
                         <dd>
                             <div class="int-tit">
                                 <div class="fr">SPORT BET</div>
                                 <div class="fl"><h4>体育平台</h4></div>
                             </div>
-                            <p>经过皇冠国际用户体验中心设计的投注界面，能够让您轻松、怡静的享受体育投注的乐趣。</p>
+                            <p>经过鼎盈国际用户体验中心设计的投注界面，能够让您轻松、怡静的享受体育投注的乐趣。</p>
                         </dd>
                         <dd>
                             <div class="int-tit">
                                 <div class="fr">LIVE CASINO</div>
                                 <div class="fl"><h4>真人娱乐城</h4></div>
                             </div>
-                            <p>皇冠国际所使用的娱乐平台，必须经过TST Game国际认证，保证每款游戏公平公正。</p>
+                            <p>鼎盈国际所使用的娱乐平台，必须经过TST Game国际认证，保证每款游戏公平公正。</p>
                         </dd>
                     </dl>
                 </li>
@@ -72,7 +72,7 @@
                                 <div class="fr">SUBVERSIVE PRODUCTS</div>
                                 <div class="fl"><h4>颠覆性产品</h4></div>
                             </div>
-                            <p>每一款上线的皇冠国际产品都是经过大量测试后证实最符合亚洲人的产品，这是一个对现状做出的强势挑战的创新团队。</p>
+                            <p>每一款上线的鼎盈国际产品都是经过大量测试后证实最符合亚洲人的产品，这是一个对现状做出的强势挑战的创新团队。</p>
                         </dd>
                         <dd>
                             <div class="int-tit">

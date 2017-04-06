@@ -18,11 +18,13 @@
                 <div class="logined-nav">
                     <p class="clearfix">
                         <span class="username">欢迎！<?=$this->agent['agentname']; ?></span>
-                        <span><a href="/agent/info/index">主账户：<em class="cMain"><?=Helper::money($this->agent['balance']) ?></em></a></span>
+                        <a href="/agent/info/index" class="user-center">账户中心</a>
                     </p>
                     <p class="clearfix">
-                        <a href="/agent/info/message" class="message">未读消息（<em id="_amessage" class="cMain"><?=$this -> getAUnreadCount();?></em>）</a>
-                        <a href="/agent/info/index" class="user-center">账户中心</a>
+                    	<span class="money-operate">
+                            <a href="/agent/info/index">主账户：<em class="cMain"><?=Helper::money($this->agent['balance']) ?></em></a>
+                            <a href="/agent/info/message" class="message">未读消息（<em id="_amessage" class="cMain"><?=$this -> getAUnreadCount();?></em>）</a>
+                        </span>
                         <a class="logged-out" href="/agent/home/logout">安全退出</a>
                     </p>
                 </div>

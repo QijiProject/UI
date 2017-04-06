@@ -1,7 +1,7 @@
 /* CSS Document */
 body{background:#917023 url(../images/body_bg.jpg) no-repeat center top;}
-a{color:#b88f6b;}
-a:hover,a:active{color:#FFE27E;}
+a{color:#a47a1c;}
+a:hover,a:active{color:#b88f6b;}
 .cMain,a.cMain,.cMain a,.cMain a:active{color:#ffe533;}
 .cRed,a.cRed,.cRed a,.cRed a:active{color:#ff0000;}
 .cRed a:hover,a.cRed:hover{color:#cc000f; text-decoration:underline;}
@@ -64,7 +64,6 @@ a:hover,a:active{color:#FFE27E;}
 .logined-nav span{float:left; display:inline; padding-right:15px;}
 .logined-nav a{display:inline; float:left; color:#fff;}
 .logined-nav a:hover{color:#FFE27E;}
-.logined-nav .user-center{padding:0 15px; height:30px;}
 .logined-nav .user-center i{background-position:-192px -634px; width:5px; height:9px; display:inline-block; margin-left:6px; _display:inline; _zoom:1;}
 .logined-nav .money-operate a{padding:0 18px; background:#4d3300; height:24px; line-height:24px; color:#fff; margin-right:1px; border-top:1px solid #ffff00;}
 .logined-nav .money-operate a:hover{background:#5a4110;}
@@ -107,7 +106,7 @@ a:hover,a:active{color:#FFE27E;}
 .nav .lottery-drop a.kg{background-position:-237px -256px;}
 
 .nav .lottery-drop{width:162px; left:-27px;}
-.nav .l-c-drop{width:678px; left:-287px;}
+.nav .l-c-drop{width:678px; left:-220px;}
 .nav .nav-service a,.nav .nav-service a:hover{background:url(../images/header/nav_service.png) no-repeat; width:134px; height:56px; font-size:0; margin-top:-12px;}
 .nav .nav-service a:hover{background-position:0 -67px;}
 

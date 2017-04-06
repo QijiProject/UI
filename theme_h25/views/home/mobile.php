@@ -37,7 +37,7 @@ $pt_playername = "";if($this->is_login()){$user = $this->user;$pt_playername = '
                     </div>
                 </div>
             </div>
-            <!--<div class="section section2">
+            <div class="section section2">
                 <div class="layout">
                     <div class="fr section-info">
                         <h3>PT游戏客户端下载</h3>
@@ -56,7 +56,7 @@ $pt_playername = "";if($this->is_login()){$user = $this->user;$pt_playername = '
                     </div>
                     <div class="fl section-img"><img src="/static/images/mobile/second_img.png" /></div>
                 </div>
-            </div>-->
+            </div>
             <div class="section section3">
                 <div class="layout">
                     <div class="section-info clearfix">

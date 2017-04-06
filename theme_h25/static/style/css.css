@@ -81,12 +81,11 @@
 
 /*彩票投注*/
 .mod-lottery .content-wrap{padding:30px 0;}
-.mod-lottery .lotto-wrap{width:492px; height:175px; float:left; display:inline; margin:20px 0 0; overflow:hidden; background:url(../images/keno_icon.png) no-repeat 0 -178px;}
-.mod-lottery .mod-bb,.mod-lottery .mod-kg{margin-left:8px;}
-.mod-lottery .lotto-wrap .img-area{background:url(../images/keno_icon.png) no-repeat 7px 0; width:142px; height:142px; float:left; display:inline; margin:16px 0 0;}
-.mod-lottery .mod-bb .img-area{background-position:-135px 0;}
-.mod-lottery .mod-sgwin .img-area{background-position:-420px 0;}
-.mod-lottery .lotto-wrap .main-area{margin:25px 0 0 160px;}
+.mod-lottery .lotto-wrap{width:480px; height:175px; float:left; display:inline; margin:20px 0 0; overflow:hidden; background:url(../images/keno_icon.png) no-repeat 0 -178px;}
+.mod-lottery .mod-kg{margin-left:40px;}
+.mod-lottery .lotto-wrap .img-area{background:url(../images/keno_icon.png) no-repeat 15px 0; width:155px; height:131px; float:left; display:inline; margin:22px 0 0 16px;}
+.mod-lottery .mod-bb .img-area{background-position:-137px -3px; margin-left:25px;}
+.mod-lottery .lotto-wrap .main-area{margin:25px 0 0 205px;}
 .mod-lottery .lotto-wrap h2{font:30px/1 "Microsoft YaHei"; color:#5B330F;}
 .mod-lottery .lotto-wrap p{color:#666; margin:12px 10px 0 0; height:35px; overflow:hidden;}
 .mod-lottery .lotto-wrap a{background:#4c3200; width:134px; height:32px; margin-top:18px; text-align:center; font:16px/32px "Microsoft YaHei"; color:#fff; display:block;}
@@ -96,7 +95,7 @@
 .mod-games .games-platform-wrap{position:relative; z-index:3;}
 .games-panes{margin:-10px 0 10px 0; padding-top:35px; background:#181818; border-bottom-left-radius:10px; border-bottom-right-radius:10px; min-height:460px;}
 .mod-games .games-sub-menu{border-bottom:3px solid #000;}
-.mod-games .games-sub-menu li{height:24px; line-height:24px; font-size:12px; display:inline; float:left; padding-right:20px; cursor:pointer;}
+.mod-games .games-sub-menu li{height:24px; line-height:24px; font-size:12px; display:inline; float:left; padding-right:16px; cursor:pointer;}
 .mod-games .games-sub-menu span{padding-left:20px; color:#999;}
 .mod-games .games-sub-menu span:hover{color:#ffc000;}
 .mod-games .games-sub-menu .current{background:url(../images/common_spirits.png); background-position:right -814px; padding-right:27px; margin:0;}
@@ -121,6 +120,9 @@
 .mod-games .bb-item .games-item li:hover em{background-position:0 -20px;}
 .mod-games .ag-item .games-item li em{background-repeat:no-repeat; width:450px; height:230px; display:block; margin:0 auto;}
 .mod-games .nt-item .games-item li em{background-repeat:no-repeat; width:180px; height:120px; display:block; margin:2px auto;}
+
+.mod-games .search-wrap{margin:10px 15px;}
+.mod-games .search-wrap input{background:transparent; border:1px solid #999; color:#999;}
 
 .pt-pc-download{background:url(../images/pt_pc_download.png) no-repeat 0 -44px; width:198px; height:44px; display:block; position:absolute; top:75px; right:8px; line-height:200px; overflow:hidden;}
 .pt-pc-download:hover{background-position:0 0;}

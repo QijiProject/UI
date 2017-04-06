@@ -23,7 +23,26 @@ $bb = strcasecmp($action, 'bb') == 0;
     </div>
 </div>
 <script type="text/javascript">
-    $("#sb_frame").attr("src", '<?=$url?>');
+	$(document).ready(function () {
+        <?php if ($saba&&$this->is_login()){ ?>
+            $.post("/kz/gp/reg", {gpid: SPON_GP_ID}, function () {
+                $("#sb_frame").attr("src", '<?=$url?>');
+            });
+        <?php }else{ ?>
+             $("#sb_frame").attr("src", '<?=$url?>');
+        <?php } ?>
+    });
+    
+    $(document).ready(function () {
+        var top = 60;
+        var bottom = 0;
+        var w_height = $(window).height();
+        var height = w_height - top - bottom;
+        if ($('.top-notice').length > 0) {//检测顶部是否有维护信息
+            height -= 30;
+        }
+        $('#sb_frame').height(height);
+    });
     
     var gpid = "<?=$gpid?>";
     if (gpid != "") {

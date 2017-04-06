@@ -38,21 +38,20 @@ $this->cls = 'mod-home';
         });
     </script>
     <div class="home-menu layout">
-            <div class="menu-bg-left">
-                <ul>
-                    <li class="menu-l-c"><a href="/liveCasino/index"><p>提供真人娱乐、百家乐、骰宝、二八杠、龙虎斗、轮盘、金臂...精彩内容面向全玩家。</p></a></li>
-                    <li class="menu-sports"><a href="/sports/index"><p>为您提供最全面赛前及滚球投注服务,眼下最为热门的体育投注类型，总能为您营造最好的赔率，创造最大价值。</p></a></li>
-                    <li class="menu-games"><a href="/game/index"><p>30多款老虎机、电动扑克、大型电玩、桌上游戏、以丰富的视觉、声光效果提供您一级的娱乐。</p></a></li>
-                    <li class="menu-keno"><a href="/lottery/keno"><p>彩票游戏丰富，提供最高赔率，所有赛果依据官方开奖结果。彩票游戏给您一夜致富的机会及空前的游戏体验！</p></a></li>
-                </ul>
-            </div>
-            <div class="menu-bg-right">
-                <ul>
-                    <li class="menu-register"><a href="/home/register"></a></li>
-                    <li class="menu-service"><a href="javascript:void(0);" onclick="window.open('<?=Helper::GetSiteTextInfo(26);?>','_blank', 'width=750,height=750,toolbar=no,scrollbars=no,menubar=no,status=no,resizable=yes,location=no')"></a></li>
-                    <li class="menu-checkin"><a href="/home/c"></a></li>
-                </ul>
-            </div>
+        <div class="menu-bg-left">
+            <ul>
+                <li class="menu-l-c"><a href="/liveCasino/index"><p>提供真人娱乐、百家乐、骰宝、二八杠、龙虎斗、轮盘、金臂...精彩内容面向全玩家。</p></a></li>
+                <li class="menu-sports"><a href="/sports/index"><p>为您提供最全面赛前及滚球投注服务,眼下最为热门的体育投注类型，总能为您营造最好的赔率，创造最大价值。</p></a></li>
+                <li class="menu-games"><a href="/game/index"><p>30多款老虎机、电动扑克、大型电玩、桌上游戏、以丰富的视觉、声光效果提供您一级的娱乐。</p></a></li>
+                <li class="menu-keno"><a href="/lottery/keno"><p>彩票游戏丰富，提供最高赔率，所有赛果依据官方开奖结果。彩票游戏给您一夜致富的机会及空前的游戏体验！</p></a></li>
+            </ul>
+        </div>
+        <div class="menu-bg-right">
+            <ul>
+                <li class="menu-register"><a href="/home/register"></a></li>
+                <li class="menu-service"><a href="javascript:void(0);" onclick="window.open('<?=Helper::GetSiteTextInfo(26);?>','_blank', 'width=750,height=750,toolbar=no,scrollbars=no,menubar=no,status=no,resizable=yes,location=no')"></a></li>
+                <li class="menu-checkin"><a href="/home/c"></a></li>
+            </ul>
         </div>
     </div>
 </div>

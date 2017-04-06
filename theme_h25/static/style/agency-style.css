@@ -1,5 +1,7 @@
 /* CSS Document */
-.logined-nav{margin-top:12px;}
+.logined-nav{margin-top:17px;}
+.logined-nav .money-operate .message {border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+
 .header{position:relative;}
 .nav ul li{margin:20px 10px;}
 .nav ul li.cur a{color:#D90105; background:none;}
