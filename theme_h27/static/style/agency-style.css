@@ -1,0 +1,26 @@
+/* CSS Document */
+
+/* 代理前端 */
+body{background:#000;}
+.content{background:#202020;}
+.agency-home .slide-wrap {height: 350px}
+.header .logo{margin-top:23px;}
+.agency-platform li{margin:20px 0 30px; background:#161616; padding:1px;}
+.agency-platform .platform-tit{background:#161616; border:1px solid #333; height:116px;}
+.agency-platform .platform-logo{width:250px; margin:20px 0 0; height:70px; border-right:1px solid #666; color:#06b1b9; text-align:center;}
+.agency-platform .platform-logo h2{font:30px/1.2 "Microsoft YaHei";}
+.agency-platform .platform-logo span{font:20px/1.6 "Microsoft YaHei";}
+.agency-platform .platform-text{font-size:14px; width:360px; padding:24px 10px 10px 80px; color:#585858;}
+.agency-platform .platform-text strong{color:#06b1b9;}
+.agency-platform .platform-go{background:url(../images/play_btn_spirit.png) no-repeat 0 -54px; margin:32px 40px 0px 20px; width:220px; height:54px; cursor:pointer;}
+
+.agency-content{padding:20px 0; color:#999;}
+.agency-content .agency-wrap{border:1px solid #333; background:#161616; padding:20px; width:958px;}
+.agency-content h2{font:30px/1.5 "Microsoft YaHei"; margin-bottom:20px; color:#fff;}
+.agency-content p{font-size:14px; line-height:24px; margin:10px 0; text-indent:2em;}
+.agency-content h3{font:18px/1.5 "Microsoft YaHei"; color:#06b1b9; margin-top:30px;}
+.agency-content .child{font-size:12px; text-indent:4em;}
+.agency-content .form-t th{background:#0a5f63; border-color:#1b6c70; color:#fff;}
+.agency-content .form-t td{background:#161616; border-color:#1b6c70; color:#999;}
+
+/* 代理中心 */

@@ -1,0 +1,295 @@
+/* CSS Document */
+.quick-link li em{background:url(../images/common_spirits.png) no-repeat;}
+.slide-news-wrap,.home-menu li a,.home-menu li a span{background:url(../images/home_spirits.png?20151204) no-repeat;}
+.mod-live-casino .items li .btn .play-btn,.keno-wrap .keno-txt a{background:url(../images/play_btn_spirit.png) no-repeat;}
+.mod-home,.mod-live-casino,.mod-lottery,.mod-games{padding-bottom:20px;}
+.content-wrap{background:url(../images/wrap_bg.png) repeat-y center top; padding-top:5px;}
+
+/* hd-menu */
+.mod-games .platform-wrap,.mod-lottery .platform-wrap{border:1px solid #3b3933; width:1000px; background:#000}
+.hd-menu{background:#222;}
+.hd-menu li{display:inline; float:left; border-right:1px solid #3b3933; border-bottom:1px solid #3b3933; cursor:pointer;}
+.hd-menu li h2{color:#999;}
+.hd-menu .current{border-bottom-color:#000; background-color:#000 !important;}
+.hd-menu .current h2{color:#fff;}
+.hd-menu ul li.current,.hd-menu ul li.current:hover{background-color:#b5271d; color:#fff;}
+
+.mod-games .hd-menu li{width:199px; height:82px; padding-top:5px; text-align:center;}
+.mod-games .hd-menu .nt-menu{border-right:0; width:200px;}
+.mod-games .hd-menu li i{background:url(../images/hd_menu_spirits.png) no-repeat; height:46px; display:block; margin:0 auto;}
+.mod-games .hd-menu .mg-menu i{background-position:-228px -8px; width:45px;}
+.mod-games .hd-menu .mg-menu.current i{background-position:-228px -71px;}
+.mod-games .hd-menu .pt-menu i{background-position:-27px -4px; width:56px;}
+.mod-games .hd-menu .pt-menu.current i{background-position:-27px -68px;}
+.mod-games .hd-menu .bb-menu i{background-position:-416px -4px; width:80px;}
+.mod-games .hd-menu .bb-menu.current i{background-position:-416px -68px;}
+.mod-games .hd-menu .ag-menu i{background-position:-619px -4px; width:70px;}
+.mod-games .hd-menu .ag-menu.current i{background-position:-619px -68px;}
+.mod-games .hd-menu .nt-menu i{background-position:-812px -4px; width:84px;}
+.mod-games .hd-menu .nt-menu.current i{background-position:-812px -68px;}
+
+.mod-games .hd-menu h2{font:22px/34px "Microsoft YaHei";}
+
+.mod-lottery .hd-menu li{width:260px; height:60px; padding-left:240px; background:url(../images/hd_menu_spirits.png) no-repeat;}
+.mod-lottery .hd-menu .kg-menu{background-position:22px -128px; border-right:none; width:231px; padding-left:268px;}
+.mod-lottery .hd-menu .kg-menu.current{background-position:22px -192px;}
+.mod-lottery .hd-menu .bb-menu{background-position:-500px -128px;}
+.mod-lottery .hd-menu .bb-menu.current{background-position:-500px -192px;}
+
+.mod-lottery .hd-menu h2{font:20px/64px "Microsoft YaHei";}
+
+/* 首页 */
+.notice{height:42px; width:100%; position:relative; z-index:5; background:url(../images/notice_bg.png) repeat-x; overflow:hidden;}
+.notice .marquee{display:inline; height:42px; line-height:42px; color:#fff; width:880px; overflow:hidden;}
+.notice .notice-tit{display:block; color:#ff0; float:left; width:100px; text-align:center; font-weight:bold; margin-top:11px;}
+
+.mod-home .slide-wrap{height:350px}
+
+.mod-home .quick-entry ul{padding:35px 0 0 0;}
+.mod-home .quick-entry li{width:245px; padding-bottom:20px; float:left; display:inline; position:relative; padding-left:3px;}
+.mod-home .quick-entry li a{display:block; cursor:pointer; background:url(../images/quick_entry_sprite.png) no-repeat; height:62px;}
+.mod-home .quick-entry li a.lh-entry{background-position:0 7px;}
+.mod-home .quick-entry li a.baccarat-entry{background-position:0 -486px;}
+.mod-home .quick-entry li a.dice-entry{background-position:0 -405px;}
+.mod-home .quick-entry li a.roulette-entry{background-position:0 -562px;}
+.mod-home .quick-entry li a.marksix-entry{background-position:0 -74px;}
+.mod-home .quick-entry li a.f-b-entry{background-position:0 -154px;}
+.mod-home .quick-entry li a.finance-entry{background-position:0 -326px;}
+.mod-home .quick-entry li a.b-b-entry{background-position:0 -237px;}
+.mod-home .quick-entry li a span{display:block; line-height:30px; color:#a8a8a8; margin-left:82px;}
+.mod-home .quick-entry li a span.tit{line-height:24px; font-size:18px; font-family:"Microsoft YaHei"; color:#06b1b9; padding-top:5px; font-weight:bold;}
+.mod-home .quick-entry li a:hover span.txt{color:#fff;}
+.mod-home .quick-entry li a em{background-position:right -449px; display:inline-block; width:17px; height:26px; position:absolute; right:20px; top:18px;}
+.mod-home .quick-entry li a:hover em{background-position:right -477px;}
+
+.home-menu li{display:inline; float:left;}
+.home-menu .menu-promotions{margin-top:0; margin-right:20px; margin-left:20px; margin-bottom:0;}
+.home-menu li a{display:block; height:102px; width:320px;}
+.home-menu li a:hover{}
+.home-menu li a span{display:block; height:102px; width:320px;}
+.home-menu .menu-reg a span{}
+.home-menu .menu-reg a span:hover{background-position:0 -102px;}
+.home-menu .menu-welcome a span{background-position:0 -412px;}
+.home-menu .menu-promotions a span{background-position:0 -204px;}
+.home-menu .menu-promotions a span:hover{background-position:0 -306px;}
+.home-menu .menu-online a span{background-position:0 -408px;}
+.home-menu .menu-online a span:hover{background-position:0 -510px;}
+
+/* 体育投注 */
+.mod-sports{background:#0b0b0b url(../images/sports_bg.jpg) no-repeat center top; padding:10px 0;}
+
+.mod-tags,.mod-tags a{background:url(../images/tags_bg.png) repeat-x;}
+.mod-tags{width:672px; height:28px; padding:2px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; overflow:hidden; margin:0 auto 10px; border:1px solid #3c3c3c;}
+.mod-tags a{width:167px; border-right:1px solid #353535; display:inline-block; background-position:0 0; float:left; text-align:center; color:#888; font-size:14px; text-shadow:0 0 1px #000; line-height:28px; overflow:hidden;}
+.mod-tags a:first-child{border-top-left-radius:3px; border-bottom-left-radius:3px;}
+.mod-tags a:last-child{border-top-right-radius:3px; border-bottom-right-radius:3px;}
+.mod-tags a.current{color:#ffce00; overflow:hidden; background-position:0 -32px;}
+
+.mod-sports .bb-sport{height:443px; width:1020px; margin:0 auto; padding-bottom:20px;}
+.mod-sports .bb-wrap,.mod-sports .bb-wrap a{background:url(../images/bb_sports_spirits.png) no-repeat;}
+.mod-sports .bb-wrap{position:relative; width:1020px; margin:0 auto; height:100%; background-position:center top;}
+.mod-sports .bb-wrap a{display:block; background-position:0 -443px; width:220px; height:50px; position:absolute; top:280px; left:484px; text-indent:-9999em;}
+.mod-sports .bb-wrap a:hover{background-position:0 -493px;}
+
+/*真人娱乐*/
+.l-c-platform{position:relative; background:#000; padding:10px 0; width:980px; margin:0 auto; border:10px solid #191919;}
+.l-c-platform ul{margin:0 auto; width:960px;}
+.l-c-platform li{float:left; display:inline; width:308px; height:240px; margin:6px; position:relative; overflow:hidden; background-position:center top;}
+.l-c-platform li.ag-play-btn{background:url(../images/live_casino/l_c_ag.jpg) no-repeat; width:470px;}
+.l-c-platform li.gd-play-btn{background:url(../images/live_casino/l_c_gd.jpg) no-repeat; width:470px; margin-left:2px;}
+.l-c-platform li.bb-play-btn{background:url(../images/live_casino/l_c_bb.jpg) no-repeat;}
+.l-c-platform li.mg-play-btn{background:url(../images/live_casino/l_c_mg.jpg) no-repeat;}
+.l-c-platform li.allbet-play-btn{background:url(../images/live_casino/l_c_allbet.jpg) no-repeat;}
+.l-c-platform li.salon-play-btn{background:url(../images/live_casino/l_c_salon.jpg) no-repeat;}
+.l-c-platform li.pt-play-btn{background:url(../images/live_casino/l_c_pt.jpg) no-repeat;}
+.l-c-platform li.tgp-play-btn{background:url(../images/live_casino/l_c_tgp.jpg) no-repeat;}
+.l-c-platform li.more-play-btn{background:url(../images/live_casino/l_c_more.jpg) no-repeat;}
+
+.l-c-platform li .game-detail{background:url(../images/live_casino/game_bg.png) repeat; width:306px; height:238px; border:solid 1px #06b1b9; position:absolute; left:0; top:0; margin-top:241px; -webkit-transition:all .3s; -moz-transition:all .3s; -o-transition:all .3s; -webkit-transition:all .3s; transition:all .3s;}
+.l-c-platform li.hover .game-detail{margin:0;}
+.l-c-platform li .detail{color:#ccc; font-size:12px; margin:85px 20px 0 20px; line-height:20px;}
+.l-c-platform li .btn{padding-top:10px; width:100%; position:absolute; bottom:20px; left:0px; text-align:center;}
+.l-c-platform li .btn a{display:block; background:#06b1b9; width:116px; height:36px; margin:0 auto; color:#fff; font:14px/36px 'STKaiti TC Regular'; text-align:center; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+.l-c-platform li .btn a:hover{background:#0a5f63;}
+.l-c-platform li.ag-play-btn .game-detail,.l-c-platform li.gd-play-btn .game-detail{width:468px;}
+
+/*彩票投注*/
+.lotto-items{margin:30px auto;}
+.lotto-items li{overflow:hidden; margin:0 9px 40px 5px; float:left; display:inline; cursor:pointer;}
+.sgwin-item li{margin-right:10px;}
+.lotto-items li.last{margin-right:0;}
+.lotto-items .img{overflow:hidden; width:153px; height:160px; background:#edeffa;}
+.lotto-items .img img{width:100%; height:100%;}
+.lotto-items h4{font-size:16px; font-weight:normal; color:#999; margin:14px 0; float:left; display:inline; width:100%; text-align:center;}
+.lotto-items li:hover h4{color:#06b1b9;}
+
+
+.mod-lottery .hd-menu h2{font:24px/64px "Microsoft YaHei";}
+
+.mod-lottery .sgwin-item .img{background:url(../images/lotto/lottery_sgwin_icon.png) no-repeat; overflow:hidden; width:152px; height:140px;}
+.mod-lottery .sgwin-item .sgwin-01{background-position:0 0;}
+.mod-lottery .sgwin-item .sgwin-02{background-position:-173px 0;}
+.mod-lottery .sgwin-item .sgwin-03{background-position:-343px 0;}
+.mod-lottery .sgwin-item .sgwin-04{background-position:-513px 0;}
+.mod-lottery .sgwin-item .sgwin-05{background-position:-682px 0;}
+.mod-lottery .sgwin-item .sgwin-06{background-position:-852px 0;}
+.mod-lottery .sgwin-item .sgwin-07{background-position:-1022px 0;}
+.mod-lottery .sgwin-item .sgwin-08{background-position:0 -303px;}
+.mod-lottery .sgwin-item .sgwin-09{background-position:-173px -303px;}
+.mod-lottery .sgwin-item .sgwin-10{background-position:-343px -303px;}
+.mod-lottery .sgwin-item .sgwin-11{background-position:-513px -303px;}
+.mod-lottery .sgwin-item .sgwin-12{background-position:-682px -303px;}
+.mod-lottery .sgwin-item .sgwin-13{background-position:-852px -303px;}
+.mod-lottery .sgwin-item .sgwin-14{background-position:-1022px -303px;}
+
+.mod-lottery .sgwin-item .sgwin-01:hover{background-position:0 -150px;}
+.mod-lottery .sgwin-item .sgwin-02:hover{background-position:-173px -150px;}
+.mod-lottery .sgwin-item .sgwin-03:hover{background-position:-343px -150px;}
+.mod-lottery .sgwin-item .sgwin-04:hover{background-position:-513px -150px;}
+.mod-lottery .sgwin-item .sgwin-05:hover{background-position:-682px -150px;}
+.mod-lottery .sgwin-item .sgwin-06:hover{background-position:-852px -150px;}
+.mod-lottery .sgwin-item .sgwin-07:hover{background-position:-1022px -150px;}
+.mod-lottery .sgwin-item .sgwin-08:hover{background-position:0 -453px;}
+.mod-lottery .sgwin-item .sgwin-09:hover{background-position:-173px -453px;}
+.mod-lottery .sgwin-item .sgwin-10:hover{background-position:-343px -453px;}
+.mod-lottery .sgwin-item .sgwin-11:hover{background-position:-513px -453px;}
+.mod-lottery .sgwin-item .sgwin-12:hover{background-position:-682px -453px;}
+.mod-lottery .sgwin-item .sgwin-13:hover{background-position:-852px -453px;}
+.mod-lottery .sgwin-item .sgwin-14:hover{background-position:-1022px -453px;}
+
+/*电子游艺*/
+.mod-games{padding-bottom:30px;}
+.mod-games .mod-banner{background:url(../images/games_banner_bg.jpg) no-repeat center top; padding-top:10px}
+
+.games-panes{padding:25px 0 30px; min-height:480px; background:#000;}
+.games-sub-menu{padding-left:10px;}
+.games-sub-menu li{float:left; display:inline; cursor:pointer; font-size:13px; color:#fff; padding-right:14px; height:31px; line-height:31px; margin-right:3px; border-radius:3px;}
+.games-sub-menu li:hover{color:#decaa7;}
+.games-sub-menu li span{padding-left:14px; display:block;}
+.games-sub-menu li.current{background:#04979e; color:#fff;}
+
+/*-- 搜索 --*/
+.search-wrap{width:251px; height:30px; background:url(../images/search_btn.png) no-repeat; position:absolute; top:45px; left:10px;}
+.search-wrap input{background:none; float:left; display:inline; border:none; width:185px; height:20px; line-height:20px; padding:5px 10px; color:#222; font-size:14px;}
+.search-wrap input::-webkit-input-placeholder{font-size:14px; color:#666;}
+.search-wrap input::-moz-placeholder{font-size:14px; color:#666;}
+.search-wrap a{cursor:pointer; width:46px; height:30px; display:inline; float:right;}
+/*-- 搜索 end --*/
+
+.mod-games .games-item{padding-top:40px;}
+.ag-item .games-item{padding-top:0;}
+.mod-games .games-item li{cursor:pointer; display:inline; float:left; margin:25px 5px 0 10px; overflow:hidden; text-align:center; width:184px; background:url(../images/games_item_li_bg.png) no-repeat 0 top; position:relative;}
+.mod-games .games-item li:hover{background-position:-184px 0;}
+.mod-games .games-item li .game-name{color:#999; margin-top:8px; font-family:"Microsoft YaHei"; font-size:14px;}
+.mod-games .games-item li:hover .game-name{color:yellow;}
+.mod-games .games-item li .game-rollover{display:none;}
+.pt-item .games-item .game-progressive{position:absolute; top:100px; left:2px; background:url(../../images/progressive_bg.png) repeat; height:24px; width:180px; font:14px/24px "Microsoft YaHei"; color:#fff; text-align:center; z-index:3;}
+
+.mod-games .ag-item .games-item li{width:450px; margin:30px 10px 30px 30px; background:none;}
+.mod-games .ag-item .games-item li .game-rollover{display:none;}
+.mod-games .ag-item .games-item li .game-name{font:28px/1.5 "Microsoft YaHei";}
+
+.mod-games .mg-item .games-item li{background:none;}
+.mod-games .mg-item .games-item li  em{background-repeat:no-repeat; width:146px; height:120px; background-position:0 -8px; display:block; margin:2px auto;}
+.mod-games .mg-item .games-item li:hover em{background-position:-145px -8px;}
+.mod-games .pt-item .games-item li em{width:180px; height:120px; display:block; margin:2px auto;}
+.mod-games .bb-item .games-item li em{background-repeat:no-repeat; width:180px; height:120px; background-position:0 -170px; display:block; margin:2px auto;}
+.mod-games .bb-item .games-item li:hover em{background-position:0 -20px;}
+.mod-games .ag-item .games-item li em{background-repeat:no-repeat; width:450px; height:230px; display:block; margin:0 auto;}
+.mod-games .nt-item .games-item li em{background-repeat:no-repeat; width:180px; height:120px; display:block; margin:2px auto;}
+
+.pt-pc-download{background:url(../images/pt_pc_download.png) no-repeat; width:198px; height:45px; display:block; position:absolute; top:-6px; right:10px; line-height:200px; overflow:hidden; border-radius:5px;}
+.pt-pc-download:hover{background-position:0 -45px;}
+/* 电子游戏 end */
+
+/*优惠活动*/
+.mod-promotions{background:url(../images/promotions/promotion_bg.gif) repeat-x center bottom fixed; padding-top:30px;}
+.promotions-wrap{background:url(../images/promotions/time_line.png) repeat-y 120px 0; margin:0 auto; padding-bottom:1px; position:relative; z-index:2; width:1000px;}
+.mod-promotions .tags{margin:35px 0 37px 185px; height:85px; position:relative;}
+.mod-promotions .tags div{float:left; display:inline; margin:15px 15px 0 0; width:65px; height:65px; line-height:65px; text-align:center; background:url(../images/promotions/tags_btn.png) no-repeat; color:#fefefe; overflow: hidden;}
+.mod-promotions .tags div:hover {background:url(../images/promotions/tags_btn_hover.png) no-repeat;}
+.mod-promotions .tags a,.mod-promotions .tags a:hover{display:block; color:#fff;}
+.mod-promotions .tags .current,.mod-promotions .tags .current:hover{position:absolute; left:-102px; top:0px; margin:0 20px 0 0; width:82px; height:82px; text-align:center; background:url(../images/promotions/tags_btn_current.png) no-repeat 0 -4px; font:22px/79px "Microsoft YaHei";}
+.mod-promotions .tags .current a,.mod-promotions .tags .current a:hover{color:#fff;}
+.mod-promotions .item{margin-bottom:15px; position:relative; color:#666;}
+.mod-promotions .item .time,.mod-promotions .item .point{position:absolute;}
+.mod-promotions .item .time{top:-8px; left:4px; font-size:40px; color:#c1993d; font-weight:600;}
+.mod-promotions .item .time .y{font-size:20px; display:block; text-align:right; margin-bottom:-18px; padding-right:8px; color:#595959;}
+.mod-promotions .item .time .m{font-size:30px;}
+.mod-promotions .item .time .d{font-size:30px; margin-left:-8px; padding-right:8px;}
+.mod-promotions .item .point{left:116px; top:-3px; width:14px; height:14px; font-size:1px; background:url(../images/promotions/point.png);}
+
+.mod-promotions .item .item-box{margin-left:135px; width:846px; margin-top:-20px; position:relative;}
+.mod-promotions .item .item-box .item-top{height:20px; background:url(../images/promotions/box_top.png) no-repeat; margin-top:5px;}
+.mod-promotions .item .item-box .item-foot{height:30px; background:url(../images/promotions/box_foot.png) no-repeat;}
+.mod-promotions .item .item-box .item-tag{background:url(../images/promotions/item_tag.png) no-repeat; width:140px; height:140px; position:absolute; right:-6px; top:-4px; *top:1px;}
+.mod-promotions .item .item-box .tag-finished{background-position:0 -140px;}
+
+.mod-promotions .item .main{padding:1px 0; background:url(../images/promotions/box_body.png) repeat-y; font-size:14px;}
+.mod-promotions .item .main .inner{padding:0 0 30px 74px; width:700px;}
+.mod-promotions .item .main .inner table{margin:15px 0; width:100%;}
+.mod-promotions .item .main .inner table td,.mod-promotions .item .main .inner table th{border:1px solid #064c4f; text-align:center; padding:5px 0;}
+.mod-promotions .item .main .inner table th{background:#0a5f63; color:#fff;}
+.mod-promotions .item .main h3{margin:15px 0; color:#666; font-size:22px;}
+.mod-promotions .item .main img{margin-bottom:20px; width:700px;}
+.mod-promotions .item .main ol,.mod-promotions .item .main ul{list-style:decimal; margin-left:5px;}
+.mod-promotions .item .main li{list-style-type:inherit; margin-left:16px; padding-left:5px;}
+
+/*客户端*/
+.mod-mobile .section .layout{padding:30px 0; width:980px; overflow:hidden;}
+.mod-mobile .section h3{font:40px/1.5 "Microsoft YaHei"; color:#fff;}
+.mod-mobile .section .f18px{font:18px/1.5 "Microsoft YaHei"; color:#ddd; padding:20px 0;}
+.mod-mobile .section .f14px{font:14px/1.5 "Microsoft YaHei"; color:#888;}
+
+/*客户端 手机APP版*/
+.mod-mobile .section-app,.mod-mobile .section1,.mod-mobile .section2{border-bottom:1px solid #333;}
+.mod-mobile .section-app{height:528px;}
+.mod-mobile .section-app .section-info{width:540px;}
+.mod-mobile .section-app h3{padding-top:50px;}
+.mod-mobile .section-app h3 i{background:url(../../../images/mobile_app_icon.png) no-repeat; width:84px; height:35px; margin:13px 0 0 30px; display:inline;}
+.mod-mobile .section-app .inner{padding-top:35px;}
+.mod-mobile .section-app .inner .fl{display:inline;}
+.mod-mobile .section-app .inner div{margin:10px 0 0 30px;}
+.mod-mobile .section-app .inner p{font:16px/36px "Microsoft YaHei"; color:#c5c0b8;}
+.mod-mobile .section-app .inner p a{font-size:14px; text-decoration:underline; margin-left:12px; color:#d4a006;}
+.mod-mobile .section-app .section-info > p{margin-top:40px; color:#ccc;}
+.mod-mobile .section-app .section-info > p i,.mod-mobile .section-app .inner p a:hover {color: #845F35}
+
+/*客户端 手机WEB版*/
+.mod-mobile .section1 .section-info{width:490px; padding-left:20px;}
+.mod-mobile .section1 .inner{padding-top:30px;}
+.mod-mobile .section1 .inner .fl{display:inline;}
+.mod-mobile .section1 .inner .qr-code{margin:22px 30px 0 0;}
+.mod-mobile .section1 h3{padding-top:40px;}
+.mod-mobile .section1 .link a{font:18px/40px "Microsoft YaHei"; width:180px; height:40px; margin:24px 0; color:#fff; text-align:center; display:block; background:#06b1b9; border-radius:5px;}
+.mod-mobile .section1 .link a:hover{background:#0a5f63;}
+
+/*客户端 PT下载*/
+.mod-mobile .section2{padding:30px 0;}
+.mod-mobile .section2 .section-img{margin-top:30px;}
+.mod-mobile .section2 .section-info{width:410px;}
+.mod-mobile .section2 h3{font-size:35px;}
+.mod-mobile .section2 .pt-user-prefix{font:22px/1.5 "Microsoft YaHei"; color:#ffc600;}
+.mod-mobile .pt-player-name{border:1px solid #353535; height:40px; width:380px; margin-top:15px;}
+.mod-mobile .pt-player-name label{background:#353535; color:#fff; float:left; display:inline; width:100px; height:100%; padding-right:20px; line-height:19px; text-align:right;}
+.mod-mobile .pt-login-notice i,.mod-mobile .pt-login-notice a:hover{color:#845F35;}
+.mod-mobile .pt-player-name span{float:left; display:inline; width:260px; height:100%; font:22px/40px "Microsoft YaHei"; text-align:center; color:#d4a006;}
+.mod-mobile .pt-login-notice{color:#ddd; line-height:24px; margin-top:10px;}
+.mod-mobile .pt-login-notice a{color:#d4a006; text-decoration:underline;}
+.mod-mobile .pt-download{width:382px; margin-top:35px; padding-top:30px; border-top:1px solid #282828;}
+.mod-mobile .pt-download a,.mod-mobile .pt-download .pt-download-qr{background:url(../../../images/mobile_pt_spirits.png) no-repeat;}
+.mod-mobile .pt-download a{display:block; width:222px; height:52px; line-height:500px; overflow:hidden;}
+.mod-mobile .pt-download a.pt-download-pc:hover{background-position:0 -106px;}
+.mod-mobile .pt-download a.pt-download-android{background-position:0 -53px; margin-top:11px;}
+.mod-mobile .pt-download a.pt-download-android:hover{background-position:0 -159px;}
+.mod-mobile .pt-download .pt-download-qr{width:145px; padding-top:120px; font-size:14px; background-position:15px -230px; text-align:center; color:#999;}
+
+/*客户端 AG下载*/
+.mod-mobile .section3 .section-info{margin:40px 0 0 -290px; position:relative; left:50%;}
+.mod-mobile .section3 .ag-download-qr{background:url(../../images/ag_dl_mobile_qr.png) no-repeat center top; display:inline; padding-top:138px; width:133px; text-align:center; font-size:14px; color:#999;}
+.mod-mobile .section3 .section-info-text{display:inline; margin-left:50px;}
+.mod-mobile .section3 .section-info-text h3{line-height:1; margin-bottom:20px;}
+.mod-mobile .section3 .section-info-text p{font:16px/30px "Microsoft YaHei"; color:#c5c0b8;}
+.mod-mobile .section3 .section-info-text p a{text-decoration:underline; color:#d4a006;}
+.mod-mobile .section3 .section-info-text p a:hover{color:#845F35;}
+.mod-mobile .section3 .section-img{text-align:center; margin:30px 0 20px;}
