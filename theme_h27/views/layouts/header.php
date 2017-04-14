@@ -31,15 +31,6 @@
                     <div class="nav-drop games-drop"> 
                     <div class="layout">
                         <dl class="right">
-                            <dd class="games-pt">
-                                <a href="/game/index#pt" onclick="$('.pt-menu').click();">
-                                    <span class="hd">
-                                        <i></i>
-                                        <h4>PT游戏厅</h4>
-                                    </span>
-                                    <span class="bd">欧洲顶级品牌</span>
-                                </a>
-                            </dd>
                             <dd class="games-mg">
                                 <a href="/game/index#mg" onclick="$('.mg-menu').click();">
                                     <span class="hd">
@@ -47,6 +38,15 @@
                                         <h4>MG游戏厅</h4>
                                     </span>
                                     <span class="bd">美洲最佳电游</span>
+                                </a>
+                            </dd>
+                            <dd class="games-pt">
+                                <a href="/game/index#pt" onclick="$('.pt-menu').click();">
+                                    <span class="hd">
+                                        <i></i>
+                                        <h4>PT游戏厅</h4>
+                                    </span>
+                                    <span class="bd">欧洲顶级品牌</span>
                                 </a>
                             </dd>
                             <dd class="games-bb">

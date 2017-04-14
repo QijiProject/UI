@@ -78,12 +78,12 @@
 /* 体育投注 */
 .mod-sports{background:#0b0b0b url(../images/sports_bg.jpg) no-repeat center top; padding:10px 0;}
 
-.mod-tags,.mod-tags a{background:url(../images/tags_bg.png) repeat-x;}
-.mod-tags{width:672px; height:28px; padding:2px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; overflow:hidden; margin:0 auto 10px; border:1px solid #3c3c3c;}
-.mod-tags a{width:167px; border-right:1px solid #353535; display:inline-block; background-position:0 0; float:left; text-align:center; color:#888; font-size:14px; text-shadow:0 0 1px #000; line-height:28px; overflow:hidden;}
+.mod-tags,.mod-tags a{background-color:#000;}
+.mod-tags{width:672px; height:28px; padding:2px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; overflow:hidden; margin:10px auto; border:1px solid #3c3c3c;}
+.mod-tags a{width:167px; border-right:1px solid #353535; display:inline-block; float:left; text-align:center; color:#888; font-size:14px; line-height:28px; overflow:hidden;}
 .mod-tags a:first-child{border-top-left-radius:3px; border-bottom-left-radius:3px;}
-.mod-tags a:last-child{border-top-right-radius:3px; border-bottom-right-radius:3px;}
-.mod-tags a.current{color:#ffce00; overflow:hidden; background-position:0 -32px;}
+.mod-tags a:last-child{border-top-right-radius:3px; border-bottom-right-radius:3px; border-right:none; width:168px;}
+.mod-tags a.current{color:#000; overflow:hidden; background-color:#06b1b9;}
 
 .mod-sports .bb-sport{height:443px; width:1020px; margin:0 auto; padding-bottom:20px;}
 .mod-sports .bb-wrap,.mod-sports .bb-wrap a{background:url(../images/bb_sports_spirits.png) no-repeat;}
@@ -159,7 +159,7 @@
 
 /*电子游艺*/
 .mod-games{padding-bottom:30px;}
-.mod-games .mod-banner{background:url(../images/games_banner_bg.jpg) no-repeat center top; padding-top:10px}
+.mod-games .mod-banner{background:url(../images/games_banner_bg.jpg) no-repeat center top;}
 
 .games-panes{padding:25px 0 30px; min-height:480px; background:#000;}
 .games-sub-menu{padding-left:10px;}
@@ -253,7 +253,7 @@
 .mod-mobile .section-app .inner p{font:16px/36px "Microsoft YaHei"; color:#c5c0b8;}
 .mod-mobile .section-app .inner p a{font-size:14px; text-decoration:underline; margin-left:12px; color:#d4a006;}
 .mod-mobile .section-app .section-info > p{margin-top:40px; color:#ccc;}
-.mod-mobile .section-app .section-info > p i,.mod-mobile .section-app .inner p a:hover {color: #845F35}
+.mod-mobile .section-app .section-info > p i,.mod-mobile .section-app .inner p a:hover {color:#d4a006;}
 
 /*客户端 手机WEB版*/
 .mod-mobile .section1 .section-info{width:490px; padding-left:20px;}
@@ -272,7 +272,7 @@
 .mod-mobile .section2 .pt-user-prefix{font:22px/1.5 "Microsoft YaHei"; color:#ffc600;}
 .mod-mobile .pt-player-name{border:1px solid #353535; height:40px; width:380px; margin-top:15px;}
 .mod-mobile .pt-player-name label{background:#353535; color:#fff; float:left; display:inline; width:100px; height:100%; padding-right:20px; line-height:19px; text-align:right;}
-.mod-mobile .pt-login-notice i,.mod-mobile .pt-login-notice a:hover{color:#845F35;}
+.mod-mobile .pt-login-notice i,.mod-mobile .pt-login-notice a:hover{color:#d4a006;}
 .mod-mobile .pt-player-name span{float:left; display:inline; width:260px; height:100%; font:22px/40px "Microsoft YaHei"; text-align:center; color:#d4a006;}
 .mod-mobile .pt-login-notice{color:#ddd; line-height:24px; margin-top:10px;}
 .mod-mobile .pt-login-notice a{color:#d4a006; text-decoration:underline;}
